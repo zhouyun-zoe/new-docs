@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[75],{191:function(n){n.exports=JSON.parse('{"allTagsPath":"/new-docs/guides/tags","slug":"domain-config","name":"domain: config","count":4,"permalink":"/new-docs/guides/tags/domain-config"}')}}]);
