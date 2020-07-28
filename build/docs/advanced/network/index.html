@@ -19,27 +19,27 @@
 <link rel="stylesheet" href="/new-docs/styles.d4f6aed3.css">
 
 
-<link rel="preload" href="/new-docs/styles.7b7931c1.js" as="script">
+<link rel="preload" href="/new-docs/styles.f26eaf1b.js" as="script">
 
-<link rel="preload" href="/new-docs/runtime~main.fa649d8f.js" as="script">
+<link rel="preload" href="/new-docs/runtime~main.84f369ed.js" as="script">
 
-<link rel="preload" href="/new-docs/main.6bb5c032.js" as="script">
+<link rel="preload" href="/new-docs/main.ebd3ba25.js" as="script">
 
-<link rel="preload" href="/new-docs/1.fe94c923.js" as="script">
+<link rel="preload" href="/new-docs/1.99c3aa56.js" as="script">
 
-<link rel="preload" href="/new-docs/2.569f602f.js" as="script">
+<link rel="preload" href="/new-docs/2.e3453a27.js" as="script">
 
-<link rel="preload" href="/new-docs/3.6306e523.js" as="script">
+<link rel="preload" href="/new-docs/3.2c8acfcd.js" as="script">
 
-<link rel="preload" href="/new-docs/1be78505.5a938005.js" as="script">
+<link rel="preload" href="/new-docs/1be78505.21c680af.js" as="script">
 
 <link rel="preload" href="/new-docs/46ce4c7b.819775c7.js" as="script">
 
-<link rel="preload" href="/new-docs/5.38c12a69.js" as="script">
+<link rel="preload" href="/new-docs/5.a0f7e6a2.js" as="script">
 
-<link rel="preload" href="/new-docs/17896441.5176f682.js" as="script">
+<link rel="preload" href="/new-docs/17896441.cead3e18.js" as="script">
 
-<link rel="preload" href="/new-docs/42f8b3e8.67bb2872.js" as="script">
+<link rel="preload" href="/new-docs/42f8b3e8.b44aa75e.js" as="script">
 
 </head>
 <body>
@@ -58,27 +58,27 @@
 发送。</p><p>注意：<code>UserAddress</code> 目前同 <code>tentacle-secio</code> 提供的 secp256k1 公钥绑定。</p></div></article></div><div class="paginator_3VDt"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/new-docs/docs/advanced/overlord"><h5 class="pagination-nav__link--sublabel">Previous</h5><h4 class="pagination-nav__link--label">« Overlord</h4></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/new-docs/docs/advanced/mempool"><h5 class="pagination-nav__link--sublabel">Next</h5><h4 class="pagination-nav__link--label">Mempool »</h4></a></div></nav></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#当前目标" class="contents__link">当前目标</a></li><li><a href="#消息收发" class="contents__link">消息收发</a><ul><li><a href="#节点消息端-endpoint" class="contents__link">节点消息端 (Endpoint)</a></li><li><a href="#消息序列化" class="contents__link">消息序列化</a></li><li><a href="#消息处理" class="contents__link">消息处理</a></li><li><a href="#消息处理逻辑注册" class="contents__link">消息处理逻辑注册</a></li><li><a href="#消息的发送" class="contents__link">消息的发送</a></li></ul></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"><li><a href="https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/network.md" class="contents__link" target="_blank"><i class="feather icon-edit-1"></i> Edit this page</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col col--5 footer__col"><div class="margin-bottom--md"></div><div class="margin-bottom--md"><div class="mailing-list"><form action="https://dev.us17.list-manage.com/subscribe/post?u=a7b19925733ee6bf88e045485&amp;id=d8c4724e17" method="post" class="mailing-list--form"><button class="button button--primary button--undefined" type="submit">❤ Subscribe us for Muta updates ❤ </button></form></div></div><div><a href="https://twitter.com/nervosnetwork" target="_blank"><i class="feather icon-twitter" alt="Vector&#x27;s Twitter"></i></a>    <a href="https://discord.com/invite/rN35fe8" target="_blank"><i class="feather icon-message-circle" alt="Vector&#x27;s Chat"></i></a>    <a href="https://github.com/nervosnetwork/muta" target="_blank"><i class="feather icon-github" alt="Vector&#x27;s Github Repo"></i></a></div></div><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/new-docs/docs/about/what-is-muta/">What is Muta?</a></li><li class="footer__item"><a class="footer__link-item" href="/new-docs/community/#team">The Team</a></li><li class="footer__item"><a class="footer__link-item" href="/new-docs/contact/">Contact Us</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Development</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/new-docs/docs/setup/getting-started/">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/new-docs/docs/dev/service/">Service Dev</a></li><li class="footer__item"><a class="footer__link-item" href="/new-docs/docs/dev/dapp-dev/">Dapp Dev</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://talk.nervos.org/">Forum</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/rN35fe8">Discord</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/nervosnetwork">Twitter</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/new-docs/blog">Blog</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://github.com/nervosnetwork/muta">GitHub</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://nervos.org/" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Nervos Fundation<br></div></div></footer>
 </div>
 
-<script src="/new-docs/styles.7b7931c1.js"></script>
+<script src="/new-docs/styles.f26eaf1b.js"></script>
 
-<script src="/new-docs/runtime~main.fa649d8f.js"></script>
+<script src="/new-docs/runtime~main.84f369ed.js"></script>
 
-<script src="/new-docs/main.6bb5c032.js"></script>
+<script src="/new-docs/main.ebd3ba25.js"></script>
 
-<script src="/new-docs/1.fe94c923.js"></script>
+<script src="/new-docs/1.99c3aa56.js"></script>
 
-<script src="/new-docs/2.569f602f.js"></script>
+<script src="/new-docs/2.e3453a27.js"></script>
 
-<script src="/new-docs/3.6306e523.js"></script>
+<script src="/new-docs/3.2c8acfcd.js"></script>
 
-<script src="/new-docs/1be78505.5a938005.js"></script>
+<script src="/new-docs/1be78505.21c680af.js"></script>
 
 <script src="/new-docs/46ce4c7b.819775c7.js"></script>
 
-<script src="/new-docs/5.38c12a69.js"></script>
+<script src="/new-docs/5.a0f7e6a2.js"></script>
 
-<script src="/new-docs/17896441.5176f682.js"></script>
+<script src="/new-docs/17896441.cead3e18.js"></script>
 
-<script src="/new-docs/42f8b3e8.67bb2872.js"></script>
+<script src="/new-docs/42f8b3e8.b44aa75e.js"></script>
 
 
 </body>

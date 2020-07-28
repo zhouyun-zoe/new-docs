@@ -12,15 +12,24 @@ proceed and is also cool to brag about amongst friends.
 
 ## Basics
 
+### Blockchain Framework
+
+@yejiayu
+
+什么是区块链框架？
+为什么我们要做要做区块链框架Muta？
+
 ### Account
 
 An account represents a entity that is able to perform specified set of actions. It can be used to identify individual users and each user can have as many accounts as they would like. 
 
 In Muta, an account designates a pair of public key PubKey and private key PrivKey. The PubKey can be derived to generate various Addresses, which are used to identify users in the network. The PrivKey is used to generate digital signatures to prove that an Address associated with the PrivKey approved of a given transaction.
 
-<Jump to="/docs/about/concepts/account/">View more about Account</Jump>
+<Jump to="/docs/advanced/crypto/">Learn about the cryptography used when creating a Account</Jump>
 
 ### Transaction
+
+
 
 ### Block
 
@@ -30,15 +39,23 @@ Secure hashing implies that editing a block without causing a change in the subs
 a) each block requires several independent confirmations, and
 b) solving the mathematical equations for the cryptographic problems is difficult, requiring special miners.
 
+<Jump to="/docs/advanced/block-structure/">View Block structure</Jump>
+
 ### Node
 
 Nodes are distributed computers in the network that all have a copy of the entire blockchain. As new users enter the blockchain network, copies of the blockchain and the access to it is distributed. The data is replicable, synchronized and shared across all the nodes in the across multiple networks. The data is not controlled by a singular node or network.
 
 ### Asset
 
+### Service
+
+@yejiayu
+
 ## Advanced
 
 ### Multisignature
+
+@Eason
 
 
 
