@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[89],{205:function(a){a.exports=JSON.parse('{"allTagsPath":"/new-docs/guides/tags","slug":"transform-lua","name":"transform: lua","count":1,"permalink":"/new-docs/guides/tags/transform-lua"}')}}]);
