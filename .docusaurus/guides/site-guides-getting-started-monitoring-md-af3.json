@@ -7,10 +7,10 @@
       "permalink": "/new-docs/guides/getting-started"
     }
   ],
-  "coverLabel": "Monitoring Vector",
-  "description": "How to monitoring and observe Vector in production",
+  "coverLabel": "Visualizing your node using Prometheus and Grafana",
+  "description": "How to visualizing your node using Prometheus and Grafana",
   "permalink": "/new-docs/guides/getting-started/monitoring",
-  "readingTime": "4 min read",
+  "readingTime": "1 min read",
   "seriesPosition": 4,
   "source": "@site/guides/getting-started/monitoring.md",
   "tags": [
@@ -23,11 +23,11 @@
       "permalink": "/new-docs/guides/tags/domain-observability"
     }
   ],
-  "title": "Monitoring Vector",
+  "title": "Visualizing your node using Prometheus and Grafana",
   "truncated": false,
   "prevItem": {
-    "title": "Deploying Vector",
-    "permalink": "/new-docs/guides/getting-started/deploying"
+    "title": "Benchmark the performance of your chain",
+    "permalink": "/new-docs/guides/getting-started/benchmark"
   },
   "nextItem": {
     "title": "Next Steps",

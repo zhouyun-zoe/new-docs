@@ -9,7 +9,7 @@ import './styles.css';
 function Vic({className, size, style, text}) {
   return <Link to="/vic/" className={classnames('vic', `vic--${size}`, className)}>
     <div className="icon">
-      <img src={`/static/img/muta-logo.svg`} alt="Muli - The Muta Mascot" />
+      <img src={`/new-docs/img/muta-logo.svg`} alt="Muli - The Muta Mascot" />
     </div>
     {text && <div className="text">{text}</div>}
   </Link>;

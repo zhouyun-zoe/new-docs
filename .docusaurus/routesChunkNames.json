@@ -44,10 +44,10 @@
         "content": "content---new-docs-guides-188-42c"
       },
       {
-        "content": "content---new-docs-guides-3-fa-065"
+        "content": "content---new-docs-guidesbe-9-8af"
       },
       {
-        "content": "content---new-docs-guidesbe-9-8af"
+        "content": "content---new-docs-guides-7-ba-330"
       },
       {
         "content": "content---new-docs-guidesf-24-2c6"
@@ -56,22 +56,13 @@
         "content": "content---new-docs-guidesac-7-038"
       },
       {
-        "content": "content---new-docs-guidesf-67-8c4"
+        "content": "content---new-docs-guides-348-2f7"
       },
       {
-        "content": "content---new-docs-guidesd-34-b50"
+        "content": "content---new-docs-guides-09-b-502"
       },
       {
-        "content": "content---new-docs-guides-09-e-f92"
-      },
-      {
-        "content": "content---new-docs-guides-76-a-7f5"
-      },
-      {
-        "content": "content---new-docs-guidesc-1-b-92b"
-      },
-      {
-        "content": "content---new-docs-guidesb-77-24e"
+        "content": "content---new-docs-guidesb-63-055"
       }
     ]
   },
@@ -79,49 +70,28 @@
     "component": "component---theme-guide-category-paged-9-d-097",
     "items": [
       {
-        "content": "content---new-docs-guidesf-67-8c4"
+        "content": "content---new-docs-guides-348-2f7"
       },
       {
-        "content": "content---new-docs-guidesd-34-b50"
+        "content": "content---new-docs-guides-09-b-502"
       },
       {
-        "content": "content---new-docs-guides-09-e-f92"
-      },
-      {
-        "content": "content---new-docs-guides-76-a-7f5"
-      },
-      {
-        "content": "content---new-docs-guidesc-1-b-92b"
-      },
-      {
-        "content": "content---new-docs-guidesb-77-24e"
+        "content": "content---new-docs-guidesb-63-055"
       }
     ],
     "metadata": "metadata---new-docs-guides-advanced-251-f35"
   },
-  "/new-docs/guides/advanced/custom-aggregations-with-lua": {
+  "/new-docs/guides/advanced/dex-chain": {
     "component": "component---theme-guide-page-1-c-1-479",
-    "content": "content---new-docs-guides-advanced-custom-aggregations-with-luac-2-b-119"
+    "content": "content---new-docs-guides-advanced-dex-chainc-83-7f6"
   },
-  "/new-docs/guides/advanced/managing-complex-configs": {
+  "/new-docs/guides/advanced/poe-chain": {
     "component": "component---theme-guide-page-1-c-1-479",
-    "content": "content---new-docs-guides-advanced-managing-complex-configs-964-52c"
+    "content": "content---new-docs-guides-advanced-poe-chain-545-11f"
   },
-  "/new-docs/guides/advanced/merge-multiline-logs-with-lua": {
+  "/new-docs/guides/advanced/service-demo": {
     "component": "component---theme-guide-page-1-c-1-479",
-    "content": "content---new-docs-guides-advanced-merge-multiline-logs-with-luaf-9-a-280"
-  },
-  "/new-docs/guides/advanced/schemas": {
-    "component": "component---theme-guide-page-1-c-1-479",
-    "content": "content---new-docs-guides-advanced-schemas-5-cd-559"
-  },
-  "/new-docs/guides/advanced/troubleshooting": {
-    "component": "component---theme-guide-page-1-c-1-479",
-    "content": "content---new-docs-guides-advanced-troubleshooting-40-b-2e7"
-  },
-  "/new-docs/guides/advanced/unit-testing": {
-    "component": "component---theme-guide-page-1-c-1-479",
-    "content": "content---new-docs-guides-advanced-unit-testingffa-dea"
+    "content": "content---new-docs-guides-advanced-service-demo-5-a-7-c5a"
   },
   "/new-docs/guides/getting-started": {
     "component": "component---theme-guide-category-paged-9-d-097",
@@ -130,10 +100,10 @@
         "content": "content---new-docs-guides-188-42c"
       },
       {
-        "content": "content---new-docs-guides-3-fa-065"
+        "content": "content---new-docs-guidesbe-9-8af"
       },
       {
-        "content": "content---new-docs-guidesbe-9-8af"
+        "content": "content---new-docs-guides-7-ba-330"
       },
       {
         "content": "content---new-docs-guidesf-24-2c6"
@@ -143,6 +113,10 @@
       }
     ],
     "metadata": "metadata---new-docs-guides-getting-started-593-ed8"
+  },
+  "/new-docs/guides/getting-started/benchmark": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-getting-started-benchmark-52-d-262"
   },
   "/new-docs/guides/getting-started/deploying": {
     "component": "component---theme-guide-page-1-c-1-479",
@@ -156,10 +130,6 @@
     "component": "component---theme-guide-page-1-c-1-479",
     "content": "content---new-docs-guides-getting-started-next-stepsbd-0-974"
   },
-  "/new-docs/guides/getting-started/structuring": {
-    "component": "component---theme-guide-page-1-c-1-479",
-    "content": "content---new-docs-guides-getting-started-structuring-20-b-dd6"
-  },
   "/new-docs/guides/getting-started/your-first-pipeline": {
     "component": "component---theme-guide-page-1-c-1-479",
     "content": "content---new-docs-guides-getting-started-your-first-pipeline-69-f-1e9"
@@ -167,15 +137,6 @@
   "/new-docs/guides/tags": {
     "component": "component---theme-guide-tag-list-page-311-6b0",
     "tags": "tags---new-docs-guides-tags-767-d96"
-  },
-  "/new-docs/guides/tags/domain-config": {
-    "component": "component---theme-guide-tag-page-004-d71",
-    "items": [
-      {
-        "content": "content---new-docs-guides-3-fa-065"
-      }
-    ],
-    "metadata": "metadata---new-docs-guides-tags-domain-configd-33-701"
   },
   "/new-docs/guides/tags/domain-observability": {
     "component": "component---theme-guide-tag-page-004-d71",
@@ -185,24 +146,6 @@
       }
     ],
     "metadata": "metadata---new-docs-guides-tags-domain-observability-924-e4c"
-  },
-  "/new-docs/guides/tags/domain-operations": {
-    "component": "component---theme-guide-tag-page-004-d71",
-    "items": [
-      {
-        "content": "content---new-docs-guidesbe-9-8af"
-      }
-    ],
-    "metadata": "metadata---new-docs-guides-tags-domain-operations-70-b-291"
-  },
-  "/new-docs/guides/tags/domain-transforms": {
-    "component": "component---theme-guide-tag-page-004-d71",
-    "items": [
-      {
-        "content": "content---new-docs-guidesd-34-b50"
-      }
-    ],
-    "metadata": "metadata---new-docs-guides-tags-domain-transforms-2-d-2-bee"
   },
   "/new-docs/guides/tags/domain-ux": {
     "component": "component---theme-guide-tag-page-004-d71",
@@ -218,27 +161,36 @@
     "items": [
       {
         "content": "content---new-docs-guides-188-42c"
+      },
+      {
+        "content": "content---new-docs-guidesbe-9-8af"
+      },
+      {
+        "content": "content---new-docs-guides-7-ba-330"
       }
     ],
     "metadata": "metadata---new-docs-guides-tags-level-easy-81-d-a40"
   },
-  "/new-docs/guides/tags/transform-lua": {
+  "/new-docs/guides/tags/level-medium": {
     "component": "component---theme-guide-tag-page-004-d71",
     "items": [
       {
-        "content": "content---new-docs-guidesd-34-b50"
+        "content": "content---new-docs-guides-348-2f7"
+      },
+      {
+        "content": "content---new-docs-guides-09-b-502"
+      },
+      {
+        "content": "content---new-docs-guidesb-63-055"
       }
     ],
-    "metadata": "metadata---new-docs-guides-tags-transform-luaf-83-4c9"
+    "metadata": "metadata---new-docs-guides-tags-level-medium-05-c-fa5"
   },
   "/new-docs/guides/tags/type-guide": {
     "component": "component---theme-guide-tag-page-004-d71",
     "items": [
       {
         "content": "content---new-docs-guidesf-24-2c6"
-      },
-      {
-        "content": "content---new-docs-guidesd-34-b50"
       }
     ],
     "metadata": "metadata---new-docs-guides-tags-type-guide-3-c-1-c1e"
@@ -259,10 +211,19 @@
         "content": "content---new-docs-guides-188-42c"
       },
       {
-        "content": "content---new-docs-guides-3-fa-065"
+        "content": "content---new-docs-guidesbe-9-8af"
       },
       {
-        "content": "content---new-docs-guidesbe-9-8af"
+        "content": "content---new-docs-guides-7-ba-330"
+      },
+      {
+        "content": "content---new-docs-guides-348-2f7"
+      },
+      {
+        "content": "content---new-docs-guides-09-b-502"
+      },
+      {
+        "content": "content---new-docs-guidesb-63-055"
       }
     ],
     "metadata": "metadata---new-docs-guides-tags-type-tutorial-8-e-0-cb9"

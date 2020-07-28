@@ -7,11 +7,11 @@
       "permalink": "/new-docs/guides/getting-started"
     }
   ],
-  "coverLabel": "Structuring Your Log Data",
-  "description": "How to parse log data in Vector",
+  "coverLabel": "Benchmark the performance of your chain",
+  "description": "How to benchmark the performance of your chain using benchmark tool",
   "permalink": "/new-docs/guides/getting-started/structuring",
-  "readingTime": "6 min read",
-  "seriesPosition": 2,
+  "readingTime": "1 min read",
+  "seriesPosition": 3,
   "source": "@site/guides/getting-started/structuring.md",
   "tags": [
     {
@@ -19,18 +19,18 @@
       "permalink": "/new-docs/guides/tags/type-tutorial"
     },
     {
-      "label": "domain: config",
-      "permalink": "/new-docs/guides/tags/domain-config"
+      "label": "level: easy",
+      "permalink": "/new-docs/guides/tags/level-easy"
     }
   ],
-  "title": "Structuring Your Log Data",
+  "title": "Benchmark the performance of your chain",
   "truncated": false,
   "prevItem": {
-    "title": "Hello World. Your First Muta Blockchain.",
-    "permalink": "/new-docs/guides/getting-started/your-first-pipeline"
+    "title": "Deploy a multi-node blockchain network",
+    "permalink": "/new-docs/guides/getting-started/deploying"
   },
   "nextItem": {
-    "title": "Deploying Vector",
-    "permalink": "/new-docs/guides/getting-started/deploying"
+    "title": "Visualizing your node using Prometheus and Grafana",
+    "permalink": "/new-docs/guides/getting-started/monitoring"
   }
 }

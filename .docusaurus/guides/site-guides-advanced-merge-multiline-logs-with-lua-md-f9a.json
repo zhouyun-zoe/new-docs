@@ -16,11 +16,7 @@
   "title": "Merge multi-line logs with Lua",
   "truncated": false,
   "prevItem": {
-    "title": "Managing Schemas in Vector",
-    "permalink": "/new-docs/guides/advanced/schemas"
-  },
-  "nextItem": {
-    "title": "Troubleshooting",
-    "permalink": "/new-docs/guides/advanced/troubleshooting"
+    "title": "Custom Aggregations with Lua",
+    "permalink": "/new-docs/guides/advanced/custom-aggregations-with-lua"
   }
 }

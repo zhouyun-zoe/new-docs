@@ -7,11 +7,11 @@
       "permalink": "/new-docs/guides/getting-started"
     }
   ],
-  "coverLabel": "Deploying Vector",
-  "description": "How to deploy Vector to your target environment",
+  "coverLabel": "Deploy a multi-node blockchain network",
+  "description": "How to deploy a multi-node blockchain network to your target environment",
   "permalink": "/new-docs/guides/getting-started/deploying",
-  "readingTime": "1 min read",
-  "seriesPosition": 3,
+  "readingTime": "9 min read",
+  "seriesPosition": 2,
   "source": "@site/guides/getting-started/deploying.md",
   "tags": [
     {
@@ -19,18 +19,18 @@
       "permalink": "/new-docs/guides/tags/type-tutorial"
     },
     {
-      "label": "domain: operations",
-      "permalink": "/new-docs/guides/tags/domain-operations"
+      "label": "level: easy",
+      "permalink": "/new-docs/guides/tags/level-easy"
     }
   ],
-  "title": "Deploying Vector",
+  "title": "Deploy a multi-node blockchain network",
   "truncated": false,
   "prevItem": {
-    "title": "Structuring Your Log Data",
-    "permalink": "/new-docs/guides/getting-started/structuring"
+    "title": "Hello World. Your First Muta Blockchain.",
+    "permalink": "/new-docs/guides/getting-started/your-first-pipeline"
   },
   "nextItem": {
-    "title": "Monitoring Vector",
-    "permalink": "/new-docs/guides/getting-started/monitoring"
+    "title": "Benchmark the performance of your chain",
+    "permalink": "/new-docs/guides/getting-started/benchmark"
   }
 }

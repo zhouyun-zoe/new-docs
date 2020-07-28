@@ -26,11 +26,11 @@
   "title": "Next Steps",
   "truncated": false,
   "prevItem": {
-    "title": "Monitoring Vector",
+    "title": "Visualizing your node using Prometheus and Grafana",
     "permalink": "/new-docs/guides/getting-started/monitoring"
   },
   "nextItem": {
-    "title": "Building & Managing Complex Configs",
-    "permalink": "/new-docs/guides/advanced/managing-complex-configs"
+    "title": "Service Tutorial",
+    "permalink": "/new-docs/guides/advanced/service-demo"
   }
 }

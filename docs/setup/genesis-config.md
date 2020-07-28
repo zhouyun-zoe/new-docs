@@ -54,7 +54,7 @@ payload = '''
 }
 '''
 ```
-Let’s go line-by-line and understand what every parameter means.
+Let’s go line-by-line and understand what each parameter means.
 
 ## Full list of blockchain parameters
 

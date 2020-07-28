@@ -29,11 +29,7 @@
   "title": "Custom Aggregations with Lua",
   "truncated": false,
   "prevItem": {
-    "title": "Building & Managing Complex Configs",
-    "permalink": "/new-docs/guides/advanced/managing-complex-configs"
-  },
-  "nextItem": {
-    "title": "Managing Schemas in Vector",
-    "permalink": "/new-docs/guides/advanced/schemas"
+    "title": "Build a DEX chain",
+    "permalink": "/new-docs/guides/advanced/dex-chain"
   }
 }

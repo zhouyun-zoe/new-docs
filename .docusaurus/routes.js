@@ -65,44 +65,32 @@ export default [
   
 },
 {
-  path: '/new-docs/guides/advanced/custom-aggregations-with-lua',
-  component: ComponentCreator('/new-docs/guides/advanced/custom-aggregations-with-lua'),
+  path: '/new-docs/guides/advanced/dex-chain',
+  component: ComponentCreator('/new-docs/guides/advanced/dex-chain'),
   exact: true,
   
 },
 {
-  path: '/new-docs/guides/advanced/managing-complex-configs',
-  component: ComponentCreator('/new-docs/guides/advanced/managing-complex-configs'),
+  path: '/new-docs/guides/advanced/poe-chain',
+  component: ComponentCreator('/new-docs/guides/advanced/poe-chain'),
   exact: true,
   
 },
 {
-  path: '/new-docs/guides/advanced/merge-multiline-logs-with-lua',
-  component: ComponentCreator('/new-docs/guides/advanced/merge-multiline-logs-with-lua'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/guides/advanced/schemas',
-  component: ComponentCreator('/new-docs/guides/advanced/schemas'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/guides/advanced/troubleshooting',
-  component: ComponentCreator('/new-docs/guides/advanced/troubleshooting'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/guides/advanced/unit-testing',
-  component: ComponentCreator('/new-docs/guides/advanced/unit-testing'),
+  path: '/new-docs/guides/advanced/service-demo',
+  component: ComponentCreator('/new-docs/guides/advanced/service-demo'),
   exact: true,
   
 },
 {
   path: '/new-docs/guides/getting-started',
   component: ComponentCreator('/new-docs/guides/getting-started'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/guides/getting-started/benchmark',
+  component: ComponentCreator('/new-docs/guides/getting-started/benchmark'),
   exact: true,
   
 },
@@ -125,12 +113,6 @@ export default [
   
 },
 {
-  path: '/new-docs/guides/getting-started/structuring',
-  component: ComponentCreator('/new-docs/guides/getting-started/structuring'),
-  exact: true,
-  
-},
-{
   path: '/new-docs/guides/getting-started/your-first-pipeline',
   component: ComponentCreator('/new-docs/guides/getting-started/your-first-pipeline'),
   exact: true,
@@ -143,26 +125,8 @@ export default [
   
 },
 {
-  path: '/new-docs/guides/tags/domain-config',
-  component: ComponentCreator('/new-docs/guides/tags/domain-config'),
-  exact: true,
-  
-},
-{
   path: '/new-docs/guides/tags/domain-observability',
   component: ComponentCreator('/new-docs/guides/tags/domain-observability'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/guides/tags/domain-operations',
-  component: ComponentCreator('/new-docs/guides/tags/domain-operations'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/guides/tags/domain-transforms',
-  component: ComponentCreator('/new-docs/guides/tags/domain-transforms'),
   exact: true,
   
 },
@@ -179,8 +143,8 @@ export default [
   
 },
 {
-  path: '/new-docs/guides/tags/transform-lua',
-  component: ComponentCreator('/new-docs/guides/tags/transform-lua'),
+  path: '/new-docs/guides/tags/level-medium',
+  component: ComponentCreator('/new-docs/guides/tags/level-medium'),
   exact: true,
   
 },

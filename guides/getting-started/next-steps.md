@@ -12,16 +12,16 @@ hide_pagination: true
 import Jump from '@site/src/components/Jump';
 
 You've completed the getting started series! You should understand the basic
-fundamentals to deploy and use Vector in most production environments. If you
-want to extract the full potential of Vector then proceed to the
+fundamentals to deploy and run Muta in most environments. If you
+want to extract the full potential of Muta then proceed to the
 [advanced guides][guides.advanced]. We recommend the following to get you
 started:
 
-<Jump to="/guides/advanced/managing-complex-configs/" leftIcon="book">
-  Managing Complex Configs
+<Jump to="/guides/advanced/service-demo/" leftIcon="book">
+  How to wirte a service
 </Jump>
-<Jump to="/guides/advanced/unit-testing/" leftIcon="book">
-  Unit Testing Your Configs
+<Jump to="/guides/advanced/poe-chain/" leftIcon="book">
+  Build a POE blockchain
 </Jump>
 
 [guides.advanced]: /guides/advanced/
