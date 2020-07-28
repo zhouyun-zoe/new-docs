@@ -1,0 +1,8 @@
+{
+  "id": "advanced/asset",
+  "title": "Asset",
+  "description": "What is Account in Muta",
+  "source": "@site/docs/advanced/asset.md",
+  "permalink": "/new-docs/docs/advanced/asset",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/asset.md"
+}

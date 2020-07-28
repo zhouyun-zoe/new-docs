@@ -1,0 +1,17 @@
+{
+  "id": "advanced/core/storage",
+  "title": "Storage",
+  "description": "# 存储设计",
+  "source": "@site/docs/advanced/core/storage.md",
+  "permalink": "/new-docs/docs/advanced/core/storage",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/core/storage.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Mempool",
+    "permalink": "/new-docs/docs/advanced/core/mempool"
+  },
+  "next": {
+    "title": "Cryptography",
+    "permalink": "/new-docs/docs/advanced/crypto"
+  }
+}

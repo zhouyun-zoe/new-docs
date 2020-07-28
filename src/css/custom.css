@@ -818,27 +818,27 @@ ul.connected-list.connected-list--hover > li:hover {
  */
 
 .domain-bg {
-  background-image: url(/static/img/nodes-bg-light.svg);
+  background-image: url(/new-docs/img/nodes-bg-light.svg);
 }
 
 .domain-bg.domain-bg--config {
-  background-image: url(/static/cogs-bg-light.svg);
+  background-image: url(/new-docs/cogs-bg-light.svg);
 }
 
 .domain-bg.domain-bg--observability {
-  background-image: url(/static/img/charts-bg-light.svg);
+  background-image: url(/new-docs/img/charts-bg-light.svg);
 }
 
 .domain-bg.domain-bg--operations {
-  background-image: url(/static/img/circuit-bg-light.svg);
+  background-image: url(/new-docs/img/circuit-bg-light.svg);
 }
 
 .domain-bg.domain-bg--testing {
-  background-image: url(/static/img/testing-bg-light.svg);
+  background-image: url(/new-docs/img/testing-bg-light.svg);
 }
 
 .domain-bg.domain-bg--vector {
-  background-image: url(/static/img/vector-bg-light.svg);
+  background-image: url(/new-docs/img/vector-bg-light.svg);
 }
 
 .domain-bg--hover:not(:hover) {
@@ -2598,27 +2598,27 @@ html[data-theme="dark"] {
  */
 
 html[data-theme="dark"] .domain-bg {
-  background-image: url(/static/img/nodes-bg-dark.svg);
+  background-image: url(/new-docs/new-docs/static/img/nodes-bg-dark.svg);
 }
 
 html[data-theme="dark"] .domain-bg.domain-bg--config {
-  background-image: url(/static/img/cogs-bg-dark.svg);
+  background-image: url(/new-docs/static/img/cogs-bg-dark.svg);
 }
 
 html[data-theme="dark"] .domain-bg.domain-bg--observability {
-  background-image: url(/static/img/charts-bg-dark.svg);
+  background-image: url(/new-docs/static/img/charts-bg-dark.svg);
 }
 
 html[data-theme="dark"] .domain-bg.domain-bg--operations {
-  background-image: url(/static/img/circuit-bg-dark.svg);
+  background-image: url(/new-docs/static/img/circuit-bg-dark.svg);
 }
 
 html[data-theme="dark"] .domain-bg.domain-bg--testing {
-  background-image: url(/static/img/testing-bg-dark.svg);
+  background-image: url(/new-docs/static/img/testing-bg-dark.svg);
 }
 
 html[data-theme="dark"] .domain-bg.domain-bg--vector {
-  background-image: url(/static/img/vector-bg-dark.svg);
+  background-image: url(/new-docs/static/img/vector-bg-dark.svg);
 }
 
 .header-github-link:hover {

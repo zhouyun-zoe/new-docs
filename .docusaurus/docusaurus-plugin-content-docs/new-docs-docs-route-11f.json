@@ -11,45 +11,9 @@
             "href": "/new-docs/docs/about/what-is-muta"
           },
           {
-            "type": "category",
-            "label": "Concepts",
-            "items": [
-              {
-                "type": "link",
-                "label": "hidden",
-                "href": "/new-docs/docs/about/concepts"
-              },
-              {
-                "type": "link",
-                "label": "Account",
-                "href": "/new-docs/docs/about/concepts/account"
-              },
-              {
-                "type": "link",
-                "label": "Transaction",
-                "href": "/new-docs/docs/about/concepts/tx"
-              },
-              {
-                "type": "link",
-                "label": "block",
-                "href": "/new-docs/docs/about/concepts/block"
-              },
-              {
-                "type": "link",
-                "label": "Node",
-                "href": "/new-docs/docs/about/concepts/node"
-              },
-              {
-                "type": "link",
-                "label": "Asset",
-                "href": "/new-docs/docs/about/concepts/asset"
-              },
-              {
-                "type": "link",
-                "label": "Multisignature",
-                "href": "/new-docs/docs/about/concepts/multisignature"
-              }
-            ]
+            "type": "link",
+            "label": "hidden",
+            "href": "/new-docs/docs/about/concepts"
           }
         ]
       },
@@ -118,22 +82,22 @@
           {
             "type": "link",
             "label": "Overlord",
-            "href": "/new-docs/docs/advanced/overlord"
+            "href": "/new-docs/docs/advanced/core/overlord"
           },
           {
             "type": "link",
             "label": "Network",
-            "href": "/new-docs/docs/advanced/network"
+            "href": "/new-docs/docs/advanced/core/network"
           },
           {
             "type": "link",
             "label": "Mempool",
-            "href": "/new-docs/docs/advanced/mempool"
+            "href": "/new-docs/docs/advanced/core/mempool"
           },
           {
             "type": "link",
             "label": "Storage",
-            "href": "/new-docs/docs/advanced/storage"
+            "href": "/new-docs/docs/advanced/core/storage"
           },
           {
             "type": "link",
@@ -177,18 +141,12 @@
   },
   "permalinkToSidebar": {
     "/new-docs/docs/about/concepts": "docs",
-    "/new-docs/docs/about/concepts/account": "docs",
-    "/new-docs/docs/about/concepts/asset": "docs",
-    "/new-docs/docs/about/concepts/block": "docs",
-    "/new-docs/docs/about/concepts/multisignature": "docs",
-    "/new-docs/docs/about/concepts/node": "docs",
-    "/new-docs/docs/about/concepts/tx": "docs",
     "/new-docs/docs/about/what-is-muta": "docs",
+    "/new-docs/docs/advanced/core/mempool": "docs",
+    "/new-docs/docs/advanced/core/network": "docs",
+    "/new-docs/docs/advanced/core/overlord": "docs",
+    "/new-docs/docs/advanced/core/storage": "docs",
     "/new-docs/docs/advanced/crypto": "docs",
-    "/new-docs/docs/advanced/mempool": "docs",
-    "/new-docs/docs/advanced/network": "docs",
-    "/new-docs/docs/advanced/overlord": "docs",
-    "/new-docs/docs/advanced/storage": "docs",
     "/new-docs/docs/dev/dev-overview": "docs",
     "/new-docs/docs/dev/service-dev": "docs",
     "/new-docs/docs/dev/service-eg": "docs",

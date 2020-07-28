@@ -226,44 +226,44 @@ export default [
   
 },
 {
-  path: '/new-docs/docs/about/concepts/account',
-  component: ComponentCreator('/new-docs/docs/about/concepts/account'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/about/concepts/asset',
-  component: ComponentCreator('/new-docs/docs/about/concepts/asset'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/about/concepts/block',
-  component: ComponentCreator('/new-docs/docs/about/concepts/block'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/about/concepts/multisignature',
-  component: ComponentCreator('/new-docs/docs/about/concepts/multisignature'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/about/concepts/node',
-  component: ComponentCreator('/new-docs/docs/about/concepts/node'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/about/concepts/tx',
-  component: ComponentCreator('/new-docs/docs/about/concepts/tx'),
-  exact: true,
-  
-},
-{
   path: '/new-docs/docs/about/what-is-muta',
   component: ComponentCreator('/new-docs/docs/about/what-is-muta'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/advanced/arch',
+  component: ComponentCreator('/new-docs/docs/advanced/arch'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/advanced/asset',
+  component: ComponentCreator('/new-docs/docs/advanced/asset'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/advanced/core/mempool',
+  component: ComponentCreator('/new-docs/docs/advanced/core/mempool'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/advanced/core/network',
+  component: ComponentCreator('/new-docs/docs/advanced/core/network'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/advanced/core/overlord',
+  component: ComponentCreator('/new-docs/docs/advanced/core/overlord'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/advanced/core/storage',
+  component: ComponentCreator('/new-docs/docs/advanced/core/storage'),
   exact: true,
   
 },
@@ -274,26 +274,14 @@ export default [
   
 },
 {
-  path: '/new-docs/docs/advanced/mempool',
-  component: ComponentCreator('/new-docs/docs/advanced/mempool'),
+  path: '/new-docs/docs/advanced/data-structure',
+  component: ComponentCreator('/new-docs/docs/advanced/data-structure'),
   exact: true,
   
 },
 {
-  path: '/new-docs/docs/advanced/network',
-  component: ComponentCreator('/new-docs/docs/advanced/network'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/advanced/overlord',
-  component: ComponentCreator('/new-docs/docs/advanced/overlord'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/advanced/storage',
-  component: ComponentCreator('/new-docs/docs/advanced/storage'),
+  path: '/new-docs/docs/advanced/multisignature',
+  component: ComponentCreator('/new-docs/docs/advanced/multisignature'),
   exact: true,
   
 },

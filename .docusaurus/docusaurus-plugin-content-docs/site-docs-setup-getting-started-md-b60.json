@@ -7,8 +7,8 @@
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/setup/getting-started.md",
   "sidebar": "docs",
   "previous": {
-    "title": "Multisignature",
-    "permalink": "/new-docs/docs/about/concepts/multisignature"
+    "title": "Basic Concepts",
+    "permalink": "/new-docs/docs/about/concepts"
   },
   "next": {
     "title": "Configuration",

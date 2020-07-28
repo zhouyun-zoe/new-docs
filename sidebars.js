@@ -5,19 +5,7 @@ module.exports = {
       label: 'About',
       items: [
         "about/what-is-muta",
-        {
-          type: 'category',
-          label: 'Concepts',
-          items: [
-            "about/concepts",
-            "about/concepts/account",
-            "about/concepts/tx",
-            "about/concepts/block",
-            "about/concepts/node",
-            "about/concepts/asset",
-            "about/concepts/multisignature",
-          ]
-        },
+        "about/concepts",
       ],
     },
     {
@@ -50,10 +38,10 @@ module.exports = {
       type: 'category',
       label: 'Advanced',
       items: [
-        "advanced/overlord",
-        "advanced/network",
-        "advanced/mempool",
-        "advanced/storage",
+        "advanced/core/overlord",
+        "advanced/core/network",
+        "advanced/core/mempool",
+        "advanced/core/storage",
         "advanced/crypto",
       ],
     },

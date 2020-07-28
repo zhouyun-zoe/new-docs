@@ -1,0 +1,8 @@
+{
+  "id": "advanced/multisignature",
+  "title": "Multisignature",
+  "description": "What is Account in Muta",
+  "source": "@site/docs/advanced/multisignature.md",
+  "permalink": "/new-docs/docs/advanced/multisignature",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/multisignature.md"
+}

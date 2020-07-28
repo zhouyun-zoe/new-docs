@@ -281,53 +281,45 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-about-concepts-96-b-785"
   },
-  "/new-docs/docs/about/concepts/account": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-about-concepts-account-49-d-6ec"
-  },
-  "/new-docs/docs/about/concepts/asset": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-about-concepts-assetdae-e07"
-  },
-  "/new-docs/docs/about/concepts/block": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-about-concepts-block-444-643"
-  },
-  "/new-docs/docs/about/concepts/multisignature": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-about-concepts-multisignature-1-b-6-11a"
-  },
-  "/new-docs/docs/about/concepts/node": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-about-concepts-nodeef-2-723"
-  },
-  "/new-docs/docs/about/concepts/tx": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-about-concepts-txf-98-775"
-  },
   "/new-docs/docs/about/what-is-muta": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-about-what-is-muta-828-9b2"
+  },
+  "/new-docs/docs/advanced/arch": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-arch-926-8bf"
+  },
+  "/new-docs/docs/advanced/asset": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-asseta-95-cc7"
+  },
+  "/new-docs/docs/advanced/core/mempool": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-core-mempoolfcd-8e9"
+  },
+  "/new-docs/docs/advanced/core/network": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-core-networkc-6-b-717"
+  },
+  "/new-docs/docs/advanced/core/overlord": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-core-overlordd-9-b-0bd"
+  },
+  "/new-docs/docs/advanced/core/storage": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-core-storage-25-a-8af"
   },
   "/new-docs/docs/advanced/crypto": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-advanced-crypto-478-b91"
   },
-  "/new-docs/docs/advanced/mempool": {
+  "/new-docs/docs/advanced/data-structure": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-advanced-mempool-832-ff4"
+    "content": "content---new-docs-docs-advanced-data-structure-0-dd-179"
   },
-  "/new-docs/docs/advanced/network": {
+  "/new-docs/docs/advanced/multisignature": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-advanced-network-42-f-84f"
-  },
-  "/new-docs/docs/advanced/overlord": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-advanced-overlord-773-f92"
-  },
-  "/new-docs/docs/advanced/storage": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-advanced-storagef-8-c-cc0"
+    "content": "content---new-docs-docs-advanced-multisignature-4-f-8-8ea"
   },
   "/new-docs/docs/dev/dev-overview": {
     "component": "component---theme-doc-item-178-a40",

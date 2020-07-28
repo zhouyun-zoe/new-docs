@@ -1,0 +1,17 @@
+{
+  "id": "advanced/core/network",
+  "title": "Network",
+  "description": "## 当前目标",
+  "source": "@site/docs/advanced/core/network.md",
+  "permalink": "/new-docs/docs/advanced/core/network",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/core/network.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Overlord",
+    "permalink": "/new-docs/docs/advanced/core/overlord"
+  },
+  "next": {
+    "title": "Mempool",
+    "permalink": "/new-docs/docs/advanced/core/mempool"
+  }
+}
