@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[49],{162:function(e){e.exports=JSON.parse('{"allTagsPath":"/new-docs/guides/tags","slug":"level-easy","name":"level: easy","count":1,"permalink":"/new-docs/guides/tags/level-easy"}')}}]);
