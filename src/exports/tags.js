@@ -11,7 +11,7 @@ function enrichTag(tag, section) {
   let style = 'primary';
 
   switch(category) {
-    case 'domain':
+    case 'type':
       style = 'blue';
       break;
 

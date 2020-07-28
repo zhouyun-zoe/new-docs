@@ -1,0 +1,17 @@
+{
+  "id": "dev/service-eg",
+  "title": "Service Demo",
+  "description": "## 概述",
+  "source": "@site/docs/dev/service-eg.md",
+  "permalink": "/new-docs/docs/dev/service-eg",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/dev/service-eg.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Service Development Guide",
+    "permalink": "/new-docs/docs/dev/service-dev"
+  },
+  "next": {
+    "title": "Overlord",
+    "permalink": "/new-docs/docs/advanced/overlord"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "name": "getting-started",
+      "title": "Getting Started",
+      "description": "Take Vector from zero to production in under 10 minutes.",
+      "permalink": "/new-docs/guides/getting-started"
+    }
+  ],
+  "coverLabel": "Monitoring Vector",
+  "description": "How to monitoring and observe Vector in production",
+  "permalink": "/new-docs/guides/getting-started/monitoring",
+  "readingTime": "4 min read",
+  "seriesPosition": 4,
+  "source": "@site/guides/getting-started/monitoring.md",
+  "tags": [
+    {
+      "label": "type: guide",
+      "permalink": "/new-docs/guides/tags/type-guide"
+    },
+    {
+      "label": "domain: observability",
+      "permalink": "/new-docs/guides/tags/domain-observability"
+    }
+  ],
+  "title": "Monitoring Vector",
+  "truncated": false,
+  "prevItem": {
+    "title": "Deploying Vector",
+    "permalink": "/new-docs/guides/getting-started/deploying"
+  },
+  "nextItem": {
+    "title": "Next Steps",
+    "permalink": "/new-docs/guides/getting-started/next-steps"
+  }
+}

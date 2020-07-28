@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "name": "getting-started",
+      "title": "Getting Started",
+      "description": "Take Vector from zero to production in under 10 minutes.",
+      "permalink": "/new-docs/guides/getting-started"
+    }
+  ],
+  "coverLabel": "Next Steps",
+  "description": "Where to go after the basics",
+  "permalink": "/new-docs/guides/getting-started/next-steps",
+  "readingTime": "1 min read",
+  "seriesPosition": 5,
+  "source": "@site/guides/getting-started/next-steps.md",
+  "tags": [
+    {
+      "label": "type: post",
+      "permalink": "/new-docs/guides/tags/type-post"
+    },
+    {
+      "label": "domain: ux",
+      "permalink": "/new-docs/guides/tags/domain-ux"
+    }
+  ],
+  "title": "Next Steps",
+  "truncated": false,
+  "prevItem": {
+    "title": "Monitoring Vector",
+    "permalink": "/new-docs/guides/getting-started/monitoring"
+  },
+  "nextItem": {
+    "title": "Building & Managing Complex Configs",
+    "permalink": "/new-docs/guides/advanced/managing-complex-configs"
+  }
+}

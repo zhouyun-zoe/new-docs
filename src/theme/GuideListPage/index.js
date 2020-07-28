@@ -92,9 +92,9 @@ function GuideListPage(props) {
     <Layout title="Guides" description="Guides, tutorials, and education.">
       <header className="hero hero--clean">
         <div className="container">
-          <h1>Vector Guides</h1>
+          <h1>Muta Guides</h1>
           <div className="hero--subtitle">
-            Thoughtful guides to help you get the most out of Vector. Created and curated by the <Link to="/community#team">Vector team</Link>.
+            Thoughtful guides to help you get the most out of Muta. Created and curated by the <Link to="/community#team">Muta team</Link>.
           </div>
           <div className="hero--search">
             <input

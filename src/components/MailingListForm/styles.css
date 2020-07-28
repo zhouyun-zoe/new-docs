@@ -73,7 +73,7 @@
   .mailing-list .button {
     display: block;
     margin-top: var(--ifm-spacing-vertical);
-    max-width: none;
+    max-width: 100;
     width: 100%;
   }
 }

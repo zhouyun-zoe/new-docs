@@ -55,16 +55,13 @@ export async function generateGuides(
 
         switch(name) {
           case 'advanced':
-            description = 'Go the basics, become a Vector pro, and extract the full potential of Vector.';
+            description = 'Go beyond the basics, and extract the full potential of Muta.';
             break;
 
           case 'getting-started':
             description = 'Take Vector from zero to production in under 10 minutes.';
             break;
 
-          case 'advanced':
-            description = 'Simple step-by-step integration guides.'
-            break;
         }
 
         categories.unshift({

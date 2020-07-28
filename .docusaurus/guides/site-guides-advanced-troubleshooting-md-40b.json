@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "name": "advanced",
+      "title": "Advanced",
+      "description": "Go beyond the basics, and extract the full potential of Muta.",
+      "permalink": "/new-docs/guides/advanced"
+    }
+  ],
+  "coverLabel": "Troubleshooting",
+  "description": "A guide on debugging and troubleshooting Vector",
+  "permalink": "/new-docs/guides/advanced/troubleshooting",
+  "readingTime": "1 min read",
+  "source": "@site/guides/advanced/troubleshooting.md",
+  "tags": [],
+  "title": "Troubleshooting",
+  "truncated": false,
+  "prevItem": {
+    "title": "Merge multi-line logs with Lua",
+    "permalink": "/new-docs/guides/advanced/merge-multiline-logs-with-lua"
+  },
+  "nextItem": {
+    "title": "Unit Testing Your Configs",
+    "permalink": "/new-docs/guides/advanced/unit-testing"
+  }
+}

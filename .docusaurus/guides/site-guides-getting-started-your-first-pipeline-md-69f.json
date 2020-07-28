@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "name": "getting-started",
+      "title": "Getting Started",
+      "description": "Take Vector from zero to production in under 10 minutes.",
+      "permalink": "/new-docs/guides/getting-started"
+    }
+  ],
+  "coverLabel": "Hello World. Your First Muta Blockchain.",
+  "description": "Building your own blockchain with Muta, the \"Hello World\" of Muta tutorials.",
+  "permalink": "/new-docs/guides/getting-started/your-first-pipeline",
+  "readingTime": "2 min read",
+  "seriesPosition": 1,
+  "source": "@site/guides/getting-started/your-first-pipeline.md",
+  "tags": [
+    {
+      "label": "type: tutorial",
+      "permalink": "/new-docs/guides/tags/type-tutorial"
+    },
+    {
+      "label": "level: easy",
+      "permalink": "/new-docs/guides/tags/level-easy"
+    }
+  ],
+  "title": "Hello World. Your First Muta Blockchain.",
+  "truncated": false,
+  "nextItem": {
+    "title": "Structuring Your Log Data",
+    "permalink": "/new-docs/guides/getting-started/structuring"
+  }
+}

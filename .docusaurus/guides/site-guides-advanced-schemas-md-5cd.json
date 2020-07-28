@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "name": "advanced",
+      "title": "Advanced",
+      "description": "Go beyond the basics, and extract the full potential of Muta.",
+      "permalink": "/new-docs/guides/advanced"
+    }
+  ],
+  "coverLabel": "Managing Schemas in Vector",
+  "description": "Learn how to manage log schemas with Vector.",
+  "permalink": "/new-docs/guides/advanced/schemas",
+  "readingTime": "1 min read",
+  "source": "@site/guides/advanced/schemas.md",
+  "tags": [],
+  "title": "Managing Schemas in Vector",
+  "truncated": false,
+  "prevItem": {
+    "title": "Custom Aggregations with Lua",
+    "permalink": "/new-docs/guides/advanced/custom-aggregations-with-lua"
+  },
+  "nextItem": {
+    "title": "Merge multi-line logs with Lua",
+    "permalink": "/new-docs/guides/advanced/merge-multiline-logs-with-lua"
+  }
+}

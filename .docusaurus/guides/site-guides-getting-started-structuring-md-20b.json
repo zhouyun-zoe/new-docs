@@ -1,0 +1,36 @@
+{
+  "categories": [
+    {
+      "name": "getting-started",
+      "title": "Getting Started",
+      "description": "Take Vector from zero to production in under 10 minutes.",
+      "permalink": "/new-docs/guides/getting-started"
+    }
+  ],
+  "coverLabel": "Structuring Your Log Data",
+  "description": "How to parse log data in Vector",
+  "permalink": "/new-docs/guides/getting-started/structuring",
+  "readingTime": "6 min read",
+  "seriesPosition": 2,
+  "source": "@site/guides/getting-started/structuring.md",
+  "tags": [
+    {
+      "label": "type: tutorial",
+      "permalink": "/new-docs/guides/tags/type-tutorial"
+    },
+    {
+      "label": "domain: config",
+      "permalink": "/new-docs/guides/tags/domain-config"
+    }
+  ],
+  "title": "Structuring Your Log Data",
+  "truncated": false,
+  "prevItem": {
+    "title": "Hello World. Your First Muta Blockchain.",
+    "permalink": "/new-docs/guides/getting-started/your-first-pipeline"
+  },
+  "nextItem": {
+    "title": "Deploying Vector",
+    "permalink": "/new-docs/guides/getting-started/deploying"
+  }
+}

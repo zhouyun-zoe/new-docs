@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "name": "advanced",
+      "title": "Advanced",
+      "description": "Go beyond the basics, and extract the full potential of Muta.",
+      "permalink": "/new-docs/guides/advanced"
+    }
+  ],
+  "coverLabel": "Merge multi-line logs with Lua",
+  "description": "Combine multi-line CSV rows into single events using Lua transform",
+  "permalink": "/new-docs/guides/advanced/merge-multiline-logs-with-lua",
+  "readingTime": "1 min read",
+  "source": "@site/guides/advanced/merge-multiline-logs-with-lua.md",
+  "tags": [],
+  "title": "Merge multi-line logs with Lua",
+  "truncated": false,
+  "prevItem": {
+    "title": "Managing Schemas in Vector",
+    "permalink": "/new-docs/guides/advanced/schemas"
+  },
+  "nextItem": {
+    "title": "Troubleshooting",
+    "permalink": "/new-docs/guides/advanced/troubleshooting"
+  }
+}

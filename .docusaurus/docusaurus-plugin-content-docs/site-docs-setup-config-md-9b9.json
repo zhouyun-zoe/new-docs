@@ -1,0 +1,18 @@
+{
+  "id": "setup/config",
+  "title": "Configuration",
+  "description": "Configuring a blockchain",
+  "source": "@site/docs/setup/config.md",
+  "permalink": "/new-docs/docs/setup/config",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/setup/config.md",
+  "sidebar_label": "hidden",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/new-docs/docs/setup/getting-started"
+  },
+  "next": {
+    "title": "Genesis Configuration",
+    "permalink": "/new-docs/docs/setup/genesis-config"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "about/concepts",
+  "title": "Basic Concepts",
+  "description": "The fundamental Muta concepts. A great place to start learning about Muta.",
+  "source": "@site/docs/about/concepts.md",
+  "permalink": "/new-docs/docs/about/concepts",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/about/concepts.md",
+  "sidebar_label": "hidden",
+  "sidebar": "docs",
+  "previous": {
+    "title": "What is Muta?",
+    "permalink": "/new-docs/docs/about/what-is-muta"
+  },
+  "next": {
+    "title": "Account",
+    "permalink": "/new-docs/docs/about/concepts/account"
+  }
+}

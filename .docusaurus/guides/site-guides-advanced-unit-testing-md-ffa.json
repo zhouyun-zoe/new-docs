@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {
+      "name": "advanced",
+      "title": "Advanced",
+      "description": "Go beyond the basics, and extract the full potential of Muta.",
+      "permalink": "/new-docs/guides/advanced"
+    }
+  ],
+  "coverLabel": "Unit Testing Your Configs",
+  "description": "Learn how to write and execute unit tests for your Vector configs",
+  "permalink": "/new-docs/guides/advanced/unit-testing",
+  "readingTime": "1 min read",
+  "source": "@site/guides/advanced/unit-testing.md",
+  "tags": [],
+  "title": "Unit Testing Your Configs",
+  "truncated": false,
+  "prevItem": {
+    "title": "Troubleshooting",
+    "permalink": "/new-docs/guides/advanced/troubleshooting"
+  }
+}

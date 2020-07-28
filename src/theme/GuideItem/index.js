@@ -56,7 +56,7 @@ function GuideItem(props) {
   return (
     <Link to={permalink + '/'} className={`guide-item`}>
       <article>
-        <div className={`domain-bg domain-bg--${domainBG} domain-bg--hover`}>
+        <div className={`domain-bg domain-bg--ux`}>
           <header>
             <div className="category">{categories[0].name}</div>
             <h2 title={title}>{seriesPosition && (seriesPosition + '. ')}{coverLabel || title}</h2>

@@ -1,0 +1,17 @@
+{
+  "id": "setup/getting-started",
+  "title": "Getting Started",
+  "description": "Building your own blockchain with Muta, the \"Hello World\" of Muta tutorials.",
+  "source": "@site/docs/setup/getting-started.md",
+  "permalink": "/new-docs/docs/setup/getting-started",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/setup/getting-started.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Multisignature",
+    "permalink": "/new-docs/docs/about/concepts/multisignature"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/new-docs/docs/setup/config"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "dev/dev-overview",
+  "title": "Development Overview",
+  "description": "On the way",
+  "source": "@site/docs/dev/dev-overview.md",
+  "permalink": "/new-docs/docs/dev/dev-overview",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/dev/dev-overview.md",
+  "sidebar_label": "hidden",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Deployment",
+    "permalink": "/new-docs/docs/setup/deploy"
+  },
+  "next": {
+    "title": "Service Development Guide",
+    "permalink": "/new-docs/docs/dev/service-dev"
+  }
+}

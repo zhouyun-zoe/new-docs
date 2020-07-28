@@ -58,19 +58,17 @@ function Footer() {
           <div className="row footer__links">
             <div className="col col--5 footer__col">
               <div className="margin-bottom--md">
-                <SVG className="navbar__logo" src="/img/logo-light.svg" alt="Vector" width="150" height="auto" />
+                <SVG className="navbar__logo" src="/static/img/muta.svg" alt="Muta" width="150" height="auto" />
               </div>
               <div className="margin-bottom--md">
                 <MailingListForm description={false} width="150px" />
               </div>
               <div>
-                <a href="https://twitter.com/vectordotdev" target="_blank"><i className="feather icon-twitter" alt="Vector's Twitter"></i></a>
+                <a href="https://twitter.com/nervosnetwork" target="_blank"><i className="feather icon-twitter" alt="Vector's Twitter"></i></a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://chat.vector.dev" target="_blank"><i className="feather icon-message-circle" alt="Vector's Chat"></i></a>
+                <a href="https://discord.com/invite/rN35fe8" target="_blank"><i className="feather icon-message-circle" alt="Vector's Chat"></i></a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/timberio/vector" target="_blank"><i className="feather icon-github" alt="Vector's Github Repo"></i></a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://vector.dev/blog/atom.xml" target="_blank"><i className="feather icon-rss" alt="Vector's RSS feed"></i></a>
+                <a href="https://github.com/nervosnetwork/muta" target="_blank"><i className="feather icon-github" alt="Vector's Github Repo"></i></a>
               </div>
             </div>
             {links.map((linkItem, i) => (
@@ -121,10 +119,6 @@ function Footer() {
               </div>
             )}
             {copyright}<br />
-            <small>
-              <a href="https://github.com/timberio/vector/security/policy">Security Policy</a>&nbsp;&bull;&nbsp;
-              <a href="https://github.com/timberio/vector/blob/master/PRIVACY.md">Privacy Policy</a>
-            </small>
           </div>
         )}
       </div>

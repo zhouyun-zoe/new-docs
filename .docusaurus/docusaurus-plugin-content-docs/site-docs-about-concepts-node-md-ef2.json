@@ -1,0 +1,17 @@
+{
+  "id": "about/concepts/node",
+  "title": "Node",
+  "description": "What is Account in Muta",
+  "source": "@site/docs/about/concepts/node.md",
+  "permalink": "/new-docs/docs/about/concepts/node",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/about/concepts/node.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "block",
+    "permalink": "/new-docs/docs/about/concepts/block"
+  },
+  "next": {
+    "title": "Asset",
+    "permalink": "/new-docs/docs/about/concepts/asset"
+  }
+}

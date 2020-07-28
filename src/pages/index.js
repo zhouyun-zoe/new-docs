@@ -12,9 +12,6 @@ import TabItem from '@theme/TabItem';
 import Tabs from '@theme/Tabs';
 
 import classnames from 'classnames';
-import {fetchNewHighlight} from '@site/src/exports/newHighlight';
-import {fetchNewPost} from '@site/src/exports/newPost';
-import {fetchNewRelease} from '@site/src/exports/newRelease';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import repoUrl from '@site/src/exports/repoUrl';
@@ -29,57 +26,56 @@ const AnchoredH2 = Heading('h2');
 
 const features = [
   {
-    title: 'Fast. Really.',
+    title: 'High Performance',
     icon: 'zap',
     description: (
       <>
-        Built in <a href="https://www.rust-lang.org/">Rust</a>, Vector is <a href="#performance">blistering fast and
-        memory efficient</a>. It's designed to handle the most demanding environments.
+        With Overlord Consensus built-in, implemented by <a href="https://www.rust-lang.org/">Rust</a>, Muta could achieve thousands of TPS, aiming to handle the most demanding environments.
       </>
     ),
   },
   {
-    title: 'Vendor Neutral',
+    title: 'Easiest to use',
     icon: 'unlock',
     description: (
       <>
-        Vector does not favor any storage and fosters a fair, open ecosystem with your best interest in mind. Lock-in free and future proof.
+        Muta provides you with all the core components needed to build a blockchain so that you can focus on developing your business logic. It's just as easy as writing a smart contract. 
       </>
     ),
   },
   {
-    title: 'One Tool',
+    title: 'Interoperability',
     icon: 'codepen',
     description: (
       <>
-        Vector aims to be the single, and only, tool needed to get data from A to B, <Link to="/docs/setup/deployment/">deploying</Link> as an <Link to="/docs/setup/deployment/strategies/#daemon">daemon</Link>, <Link to="/docs/setup/deployment/strategies/#sidecar">sidecar</Link>, or <Link to="/docs/setup/deployment/strategies/#service">service</Link>.
+       Your can not only get interoperability with other chain built by Muta, but also can connect your chain with <a href="https://github.com/nervosnetwork/ckb">Nervos-CKB</a> to leverage its security.
       </>
     ),
   },
   {
-    title: 'All Data',
+    title: 'Robust Architecture',
     icon: 'shuffle',
     description: (
       <>
-        Vector supports <Link to="/docs/about/data-model/log/">logs</Link>, <Link to="/docs/about/data-model/metric/">metrics</Link>, and <Link to="/docs/about/data-model/#event">events</Link>, making it easy to collect and process <i>all</i> observability data.
+        Muta was used in <a href="https://github.com/HuobiGroup/huobi-chain">Huobichain</a>, one of the leading financial public chain, which have runnning steadily for around half years.
       </>
     ),
   },
   {
-    title: 'Programmable Transforms',
+    title: 'Rich Toolchain',
     icon: 'code',
     description: (
       <>
-        <Link to="/components/?functions[]=program">Programmable transforms</Link> give you the full power of programmable runtimes. Handle complex use cases without limitation.
+        Muta comes with a rich toolchain eocosystem for free, incluing <a href="https://github.com/homura/hermit-purple-ui">Explorer</a>, <a href="https://github.com/nervosnetwork/muta-sdk-js">JS-SDK</a>, <a href="https://github.com/nervosnetwork/muta-sdk-java">JAVA-SDK</a>, <a href="https://github.com/nervosnetwork/muta-benchmark">Benchmark-tool</a> and so on.
       </>
     ),
   },
   {
-    title: 'Clear Guarantees',
+    title: 'Production Ready',
     icon: 'shield',
     description: (
       <>
-        Guarantees matter, and Vector is <Link to="/docs/about/guarantees/">clear on it's guarantees</Link>, helping you to make the appropriate trade offs for your use case.
+        Audited by <a href="https://www.slowmist.com/en/index.html">SlowMist</a>, one of the top international blockchain security company, Muta is ready for production.
       </>
     ),
   },
@@ -104,7 +100,7 @@ function Features({features}) {
   return (
     <section className={styles.features}>
       <div className="container">
-        <AnchoredH2 id="features">Why Vector?</AnchoredH2>
+        <AnchoredH2 id="features">Why Muta?</AnchoredH2>
         {rows}
       </div>
     </section>
@@ -388,23 +384,6 @@ function InstallationSection() {
   );
 }
 
-function Notice() {
-  const newHighlight = fetchNewHighlight();
-  const newPost = fetchNewPost();
-  const newRelease = fetchNewRelease();
-  const items = [newHighlight, newPost, newRelease];
-  const item = _(items).compact().sortBy('date').value()[0];
-
-  if (item) {
-    return <Link to={item.permalink} className={styles.indexAnnouncement}>
-      <span className="badge badge-primary">new</span>
-      {item.title}
-    </Link>
-  } else {
-    return null;
-  }
-}
-
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
@@ -418,13 +397,13 @@ function Home() {
             Muta is a highly customizable and high performance blockchain framework.
           </p>
           <div className="hero--buttons">
-            <Link to="https://github.com/timberio/vector/" className="button button--primary"><i className="feather icon-github"></i> View on Github</Link>
+            <Link to="https://github.com/nervosnetwork/muta/" className="button button--primary"><i className="feather icon-github"></i> View on Github</Link>
             <Link to="/docs/" className="button button--primary">Getting Started</Link>
           </div>
           <img
                 alt="Muta logo"
                 className={styles.heroLogo}
-                src={useBaseUrl('img/muta-logo.png')}
+                src={useBaseUrl('/img/muta-logo.png')}
                 width={360}
                 height={360}
               />

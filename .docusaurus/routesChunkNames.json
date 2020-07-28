@@ -1,0 +1,396 @@
+{
+  "/new-docs/": {
+    "component": "component---site-src-pages-index-jsc-4-f-f99"
+  },
+  "/new-docs/blog": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "items": [
+      {
+        "content": "content---new-docs-bloge-26-de6"
+      }
+    ],
+    "metadata": "metadata---new-docs-blog-4-d-3-88c"
+  },
+  "/new-docs/blog/consensus-cangshu": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---new-docs-blog-consensus-cangshuab-1-0c9"
+  },
+  "/new-docs/blog/tags": {
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "tags": "tags---new-docs-blog-tags-3-af-e97"
+  },
+  "/new-docs/blog/tags/type-post": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "items": [
+      {
+        "content": "content---new-docs-bloge-26-de6"
+      }
+    ],
+    "metadata": "metadata---new-docs-blog-tags-type-post-4-e-5-ede"
+  },
+  "/new-docs/community": {
+    "component": "component---site-src-pages-community-js-672-c47"
+  },
+  "/new-docs/contact": {
+    "component": "component---site-src-pages-contact-js-83-e-320"
+  },
+  "/new-docs/docs": {
+    "component": "component---site-src-pages-docs-js-25-b-a16"
+  },
+  "/new-docs/guides": {
+    "component": "component---theme-guide-list-pagec-6-d-fb9",
+    "items": [
+      {
+        "content": "content---new-docs-guides-188-42c"
+      },
+      {
+        "content": "content---new-docs-guides-3-fa-065"
+      },
+      {
+        "content": "content---new-docs-guidesbe-9-8af"
+      },
+      {
+        "content": "content---new-docs-guidesf-24-2c6"
+      },
+      {
+        "content": "content---new-docs-guidesac-7-038"
+      },
+      {
+        "content": "content---new-docs-guidesf-67-8c4"
+      },
+      {
+        "content": "content---new-docs-guidesd-34-b50"
+      },
+      {
+        "content": "content---new-docs-guides-09-e-f92"
+      },
+      {
+        "content": "content---new-docs-guides-76-a-7f5"
+      },
+      {
+        "content": "content---new-docs-guidesc-1-b-92b"
+      },
+      {
+        "content": "content---new-docs-guidesb-77-24e"
+      }
+    ]
+  },
+  "/new-docs/guides/advanced": {
+    "component": "component---theme-guide-category-paged-9-d-097",
+    "items": [
+      {
+        "content": "content---new-docs-guidesf-67-8c4"
+      },
+      {
+        "content": "content---new-docs-guidesd-34-b50"
+      },
+      {
+        "content": "content---new-docs-guides-09-e-f92"
+      },
+      {
+        "content": "content---new-docs-guides-76-a-7f5"
+      },
+      {
+        "content": "content---new-docs-guidesc-1-b-92b"
+      },
+      {
+        "content": "content---new-docs-guidesb-77-24e"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-advanced-251-f35"
+  },
+  "/new-docs/guides/advanced/custom-aggregations-with-lua": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-advanced-custom-aggregations-with-luac-2-b-119"
+  },
+  "/new-docs/guides/advanced/managing-complex-configs": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-advanced-managing-complex-configs-964-52c"
+  },
+  "/new-docs/guides/advanced/merge-multiline-logs-with-lua": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-advanced-merge-multiline-logs-with-luaf-9-a-280"
+  },
+  "/new-docs/guides/advanced/schemas": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-advanced-schemas-5-cd-559"
+  },
+  "/new-docs/guides/advanced/troubleshooting": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-advanced-troubleshooting-40-b-2e7"
+  },
+  "/new-docs/guides/advanced/unit-testing": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-advanced-unit-testingffa-dea"
+  },
+  "/new-docs/guides/getting-started": {
+    "component": "component---theme-guide-category-paged-9-d-097",
+    "items": [
+      {
+        "content": "content---new-docs-guides-188-42c"
+      },
+      {
+        "content": "content---new-docs-guides-3-fa-065"
+      },
+      {
+        "content": "content---new-docs-guidesbe-9-8af"
+      },
+      {
+        "content": "content---new-docs-guidesf-24-2c6"
+      },
+      {
+        "content": "content---new-docs-guidesac-7-038"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-getting-started-593-ed8"
+  },
+  "/new-docs/guides/getting-started/deploying": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-getting-started-deployingdc-8-dab"
+  },
+  "/new-docs/guides/getting-started/monitoring": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-getting-started-monitoringaf-3-e3a"
+  },
+  "/new-docs/guides/getting-started/next-steps": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-getting-started-next-stepsbd-0-974"
+  },
+  "/new-docs/guides/getting-started/structuring": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-getting-started-structuring-20-b-dd6"
+  },
+  "/new-docs/guides/getting-started/your-first-pipeline": {
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-getting-started-your-first-pipeline-69-f-1e9"
+  },
+  "/new-docs/guides/tags": {
+    "component": "component---theme-guide-tag-list-page-311-6b0",
+    "tags": "tags---new-docs-guides-tags-767-d96"
+  },
+  "/new-docs/guides/tags/domain-config": {
+    "component": "component---theme-guide-tag-page-004-d71",
+    "items": [
+      {
+        "content": "content---new-docs-guides-3-fa-065"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-tags-domain-configd-33-701"
+  },
+  "/new-docs/guides/tags/domain-observability": {
+    "component": "component---theme-guide-tag-page-004-d71",
+    "items": [
+      {
+        "content": "content---new-docs-guidesf-24-2c6"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-tags-domain-observability-924-e4c"
+  },
+  "/new-docs/guides/tags/domain-operations": {
+    "component": "component---theme-guide-tag-page-004-d71",
+    "items": [
+      {
+        "content": "content---new-docs-guidesbe-9-8af"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-tags-domain-operations-70-b-291"
+  },
+  "/new-docs/guides/tags/domain-transforms": {
+    "component": "component---theme-guide-tag-page-004-d71",
+    "items": [
+      {
+        "content": "content---new-docs-guidesd-34-b50"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-tags-domain-transforms-2-d-2-bee"
+  },
+  "/new-docs/guides/tags/domain-ux": {
+    "component": "component---theme-guide-tag-page-004-d71",
+    "items": [
+      {
+        "content": "content---new-docs-guidesac-7-038"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-tags-domain-ux-694-d3e"
+  },
+  "/new-docs/guides/tags/level-easy": {
+    "component": "component---theme-guide-tag-page-004-d71",
+    "items": [
+      {
+        "content": "content---new-docs-guides-188-42c"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-tags-level-easy-81-d-a40"
+  },
+  "/new-docs/guides/tags/transform-lua": {
+    "component": "component---theme-guide-tag-page-004-d71",
+    "items": [
+      {
+        "content": "content---new-docs-guidesd-34-b50"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-tags-transform-luaf-83-4c9"
+  },
+  "/new-docs/guides/tags/type-guide": {
+    "component": "component---theme-guide-tag-page-004-d71",
+    "items": [
+      {
+        "content": "content---new-docs-guidesf-24-2c6"
+      },
+      {
+        "content": "content---new-docs-guidesd-34-b50"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-tags-type-guide-3-c-1-c1e"
+  },
+  "/new-docs/guides/tags/type-post": {
+    "component": "component---theme-guide-tag-page-004-d71",
+    "items": [
+      {
+        "content": "content---new-docs-guidesac-7-038"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-tags-type-post-989-7eb"
+  },
+  "/new-docs/guides/tags/type-tutorial": {
+    "component": "component---theme-guide-tag-page-004-d71",
+    "items": [
+      {
+        "content": "content---new-docs-guides-188-42c"
+      },
+      {
+        "content": "content---new-docs-guides-3-fa-065"
+      },
+      {
+        "content": "content---new-docs-guidesbe-9-8af"
+      }
+    ],
+    "metadata": "metadata---new-docs-guides-tags-type-tutorial-8-e-0-cb9"
+  },
+  "/new-docs/mailing_list": {
+    "component": "component---site-src-pages-mailing-list-js-489-382"
+  },
+  "/new-docs/press": {
+    "component": "component---site-src-pages-press-js-175-707"
+  },
+  "/new-docs/docs/:route": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "docsMetadata": "docsMetadata---new-docs-docs-route-46-c-b59"
+  },
+  "/new-docs/docs/about/concepts": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-about-concepts-96-b-785"
+  },
+  "/new-docs/docs/about/concepts/account": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-about-concepts-account-49-d-6ec"
+  },
+  "/new-docs/docs/about/concepts/asset": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-about-concepts-assetdae-e07"
+  },
+  "/new-docs/docs/about/concepts/block": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-about-concepts-block-444-643"
+  },
+  "/new-docs/docs/about/concepts/multisignature": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-about-concepts-multisignature-1-b-6-11a"
+  },
+  "/new-docs/docs/about/concepts/node": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-about-concepts-nodeef-2-723"
+  },
+  "/new-docs/docs/about/concepts/tx": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-about-concepts-txf-98-775"
+  },
+  "/new-docs/docs/about/what-is-muta": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-about-what-is-muta-828-9b2"
+  },
+  "/new-docs/docs/advanced/crypto": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-crypto-478-b91"
+  },
+  "/new-docs/docs/advanced/mempool": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-mempool-832-ff4"
+  },
+  "/new-docs/docs/advanced/network": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-network-42-f-84f"
+  },
+  "/new-docs/docs/advanced/overlord": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-overlord-773-f92"
+  },
+  "/new-docs/docs/advanced/storage": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-storagef-8-c-cc0"
+  },
+  "/new-docs/docs/dev/dev-overview": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-dev-dev-overview-222-ece"
+  },
+  "/new-docs/docs/dev/dex": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-dev-dexba-8-b4f"
+  },
+  "/new-docs/docs/dev/service-dev": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-dev-service-dev-0-af-b7e"
+  },
+  "/new-docs/docs/dev/service-eg": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-dev-service-eg-689-aa8"
+  },
+  "/new-docs/docs/faq": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-faq-048-713"
+  },
+  "/new-docs/docs/setup/config": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-setup-config-9-b-9-828"
+  },
+  "/new-docs/docs/setup/deploy": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-setup-deploy-03-d-74b"
+  },
+  "/new-docs/docs/setup/genesis-config": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-setup-genesis-config-9-a-1-e62"
+  },
+  "/new-docs/docs/setup/getting-started": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-setup-getting-startedb-60-f0b"
+  },
+  "/new-docs/docs/setup/multi_node_deploy": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-setup-multi-node-deploy-713-75a"
+  },
+  "/new-docs/docs/setup/node-config": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-setup-node-configa-17-2cc"
+  },
+  "/new-docs/docs/toolchain/benchmark-tool": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-toolchain-benchmark-toolc-29-714"
+  },
+  "/new-docs/docs/toolchain/explorer": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-toolchain-explorer-924-ac9"
+  },
+  "/new-docs/docs/toolchain/keypair": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-toolchain-keypair-801-b67"
+  },
+  "/new-docs/docs/toolchain/sdk-java": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-toolchain-sdk-java-3-df-0fb"
+  },
+  "/new-docs/docs/toolchain/sdk-js": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-toolchain-sdk-js-4-c-1-9ee"
+  }
+}

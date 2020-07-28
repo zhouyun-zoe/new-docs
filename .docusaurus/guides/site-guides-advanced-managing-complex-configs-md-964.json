@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "name": "advanced",
+      "title": "Advanced",
+      "description": "Go beyond the basics, and extract the full potential of Muta.",
+      "permalink": "/new-docs/guides/advanced"
+    }
+  ],
+  "coverLabel": "Building & Managing Complex Configs",
+  "description": "Strategies for building and managing complex Vector configs",
+  "permalink": "/new-docs/guides/advanced/managing-complex-configs",
+  "readingTime": "1 min read",
+  "source": "@site/guides/advanced/managing-complex-configs.md",
+  "tags": [],
+  "title": "Building & Managing Complex Configs",
+  "truncated": false,
+  "prevItem": {
+    "title": "Next Steps",
+    "permalink": "/new-docs/guides/getting-started/next-steps"
+  },
+  "nextItem": {
+    "title": "Custom Aggregations with Lua",
+    "permalink": "/new-docs/guides/advanced/custom-aggregations-with-lua"
+  }
+}

@@ -4,32 +4,50 @@ module.exports = {
   title: "Muta",
   tagline:
     "Build your own blochkchain, today!",
-  url: "https://vector.dev",
-  baseUrl: "/",
-  favicon: "img/muta-logo.png",
-  organizationName: "nervosnetwork",
-  projectName: "muta",
+  url: "https://zhouyun-zoe.github.io",
+  baseUrl: "/new-docs/",
+  favicon: "/img/muta-logo.png",
+  organizationName: "zhouyun-zoe",
+  projectName: "new-docs",
   customFields: {
     metadata: require("./metadata"),
   },
   themeConfig: {
     navbar: {
       hideOnScroll: true,
-      title: 'Muta',
       logo: {
         alt: 'muta',
-        src: 'img/muta-logo.png',
+        src: '/img/muta.svg',
       },
       links: [
         { to: "docs/", label: "Docs", position: "left" },
         { to: "guides/", label: "Guides", position: "left" },
         { to: "blog/", label: "Blog", position: "left" },
-        { to: "community/", label: "Community", position: "right" },
         {
-          href: "https://github.com/nervosnetwork/muta",
-          label: "GitHub",
+          to: "community/",
+          label: "community",
           position: "right",
         },
+        {
+          label: 'Translation',
+          position: 'right', // or 'right'
+          items: [
+            {
+              label: '中文',
+              to: 'docs-zh/what-is-muta',
+            },
+            {
+              label: 'English',
+              to: 'docs/about/what-is-muta',
+            },
+            // ... more items
+          ],
+        }, 
+        {
+          href: "https://github.com/nervosnetwork/muta",
+          className: 'header-github-link',
+          position: "right",
+        },     
       ],
     },
     prism: {
@@ -60,15 +78,15 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "docs/reference/sources/",
+              to: "docs/setup/getting-started/",
             },
             {
               label: "Service Dev",
-              to: "docs/reference/transforms/",
+              to: "docs/dev/service/",
             },
             {
               label: "Dapp Dev",
-              to: "docs/reference/sinks/",
+              to: "docs/dev/dapp-dev/",
             },
           ],
         },
@@ -106,13 +124,13 @@ module.exports = {
       logo: {
         alt: "nervosnetwork",
         src: "/img/nervos-logo.svg",
-        href: "https://timber.io/",
+        href: "https://nervos.org/",
       },
-      copyright: `Copyright © ${new Date().getFullYear()} NervosNetwork`,
+      copyright: `Copyright © ${new Date().getFullYear()} Nervos Fundation`,
     },
     algolia: {
-      apiKey: "2356c5cb76b57b43624c6450b0a031cc",
-      indexName: "timberio_vector",
+      apiKey: "**",
+      indexName: "**",
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
   },
