@@ -24,7 +24,7 @@ Muta provides all the core components needed to build a distributed blockchain n
 
 ### Easiest to use
 
-* **仅需专注链的功能开发**。框架已经内置有共识、执行、存储、交易池、网络这些基础模块，开发者仅需要开发 Service 来扩展链的功能。
+* **仅需专注链的功能开发**。框架已经内置有共识、执行、存储、交易池、网络这些基础模块，开发者仅需要开发 Service 来扩展链的功能
 * **Service 的开发门槛很低**。最初在设计 Service 时，我们就希望降低开发者的开发门槛，让更多对区块链不那么熟悉的开发者也可以快速上手，开发自己的区块链。因此，目前 Service 的开发体验上与开发合约的体验是很相似的，所以说如果你已经熟悉如何开发合约，那么恭喜你，你也已经学会了如何开发 Service。
 * **已有的 Service 可以直接拿来复用**。目前 Muta 已经提供了许多常见功能的模块（Service），开发者可以直接使用。例如 Asset Service 可以帮助开发者直接创建原生资产，相比于ERC20 等合约代币更安全，发行也更灵活和便捷。Risc-V Service 可以直接给链添加 Risc-V 虚拟机。更多 Service 可以查看 Service 列表，未来 Muta 框架会提供许多常见功能的 Service。
 
