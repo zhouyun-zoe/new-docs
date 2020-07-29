@@ -3,26 +3,26 @@ title: "What is Muta?"
 description: "What is Muta？"
 ---
 
-Muta 是一个通用的高性能区块链框架，旨在让搭建区块链变得简单和灵活。区块链开发者可以基于 Muta 快速搭建自己的区块链，免去从零构建底层网络、共识机制的繁琐工作，仅需专注于业务功能的开发。
+Muta is a versatile, high-performance blockchain framework designed to make building blockchains simple and flexible. Blockchain developers can quickly build their own blockchain based on Muta, eliminating the tedious work of building the underlying network and consensus mechanism from scratch and focusing on business functionality.
 
-Muta 框架提供了搭建一个分布式区块链网络所需的全部核心组件，包括全新设计的具有高吞吐量和低延迟特性的类 BFT 共识算法「Overlord」、快速稳定的存储、模块化的P2P网络和高性能的交易池等。开发者只需通过开发 Service 来定制链的功能部分，包括治理机制、业务逻辑、甚至是将虚拟机接入区块链。Service 是 Muta 框架中用于扩展的抽象层，每个 Service 完成一个相对独立的功能，单独维护自己的存储和操作接口，类似一个运行在沙盒里的小型状态机，这些 Service 共同组成了链的状态机部分，通过框架接口将状态机接入区块链底层组件，一条专属你的全新链就开发完成了！
+Muta provides all the core components needed to build a distributed blockchain network, including a newly designed BFT-like consensus algorithm "Overlord" with high throughput and low latency, fast and stable storage, a modular P2P network and high-performance transaction pools. Service is an abstraction layer used to extend the Muta framework, where each Service performs a relatively independent function, maintaining its own storage and operational interfaces, similar to a Small state machine. These services together form the state machine part of the chain and after being connected to the underlying components of the blockchain through the framework interface, a brand new chain exclusive to you is developed!
 
-## Muta 的适用场景
+## Where can Muta be used?
 
-* Muta 同时适用于公有链和联盟链，开发者可以基于 Muta 定制开发 PoA、PoS 或者 DPoS 链，并且可以使用不同的经济模型和治理模型进行部署。
-* 开发者也可以基于 Muta 来开发不同的应用链（例如 DEX 链，支付链），以实现某种特定的业务逻辑。
+* Muta can be used for both public and federated chains, and developers can develop custom PoA, PoS or DPoS chains based on Muta, and deploy them using different economic and governance models.
+* Developers can also develop different app chains (e.g. DEX chains, payment chains) based on Muta to implement a specific business logic.
 
-## 为什么选择 Muta
+## Why Muta?
 
-### 可满足生产环境需求的高性能
+### High performance which can meet the demands of the production environment
 
-* **内置 Overlord 共识算法**。作为新一代 BFT 共识算法，Overlord由 muta 团队设计并研发，引入了聚合签名降低了消息复杂度，并且解耦状态定序与交易共识，实现了共识和执行的并行，共识效率相比于 PBFT、Tendermint，Hotstuff 等有了跨越性提升。Overlord 代码已在GitHub 开源，目前实测已经能够支持上百个共识节点，满足数千笔每秒的交易处理能力，而且交易延迟不超过数秒，交易上链即不可回滚，这将区块链技术进一步迈向更真实的业务场景提供了有效支撑，即使是最为复杂的金融场景。
+* **Built-in Overlord Consensus Algorithm**. As a new generation of BFT consensus algorithm, Overlord is designed and developed by muta team. It introduces aggregated signatures to reduce message complexity, and decouples state sequencing and transaction consensus to achieve parallel consensus and execution, which improves consensus efficiency by leaps and bounds compared with PBFT, Tendermint, Hotstuff, etc. In production test, Overlord has been able to support hundreds of consensus nodes, reaching thousands of transactions per second processing capacity, and the transaction latency is less than a few seconds, which provides effective support for blockchain technology to further move towards more realistic business scenarios, even the most complex financial scenarios.
 
-* **编程语言采用了 Rust**。Rust 语言强调并秉持零开销抽象的理念，在提供诸多高级语言特性的同时，没有引入额外的开销，性能可以媲美 C++。
+* Use Rust as the programming language**, which emphasizes and upholds the concept of zero-cost abstraction, providing many high-level language features without introducing additional cost and with performance comparable to C++.
 
-* **同时 Muta 核心组件均采用了异步编程来实现**，性能进一步得到大幅度提升。
+* Asynchronously programming is widely used in Muta**, which brings significant performance improvements.
 
-### 最简单易用的区块链框架
+### Easiest to use
 
 * **仅需专注链的功能开发**。框架已经内置有共识、执行、存储、交易池、网络这些基础模块，开发者仅需要开发 Service 来扩展链的功能。
 * **Service 的开发门槛很低**。最初在设计 Service 时，我们就希望降低开发者的开发门槛，让更多对区块链不那么熟悉的开发者也可以快速上手，开发自己的区块链。因此，目前 Service 的开发体验上与开发合约的体验是很相似的，所以说如果你已经熟悉如何开发合约，那么恭喜你，你也已经学会了如何开发 Service。
