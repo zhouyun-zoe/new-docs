@@ -16,30 +16,30 @@
 <link data-react-helmet="true" rel="shortcut icon" href="/new-docs/img/muta-logo.png">
 
 
-<link rel="stylesheet" href="/new-docs/styles.25cf6864.css">
+<link rel="stylesheet" href="/new-docs/styles.1106e972.css">
 
 
-<link rel="preload" href="/new-docs/styles.7e1c0d3b.js" as="script">
+<link rel="preload" href="/new-docs/styles.f8482b36.js" as="script">
 
-<link rel="preload" href="/new-docs/runtime~main.bc073eed.js" as="script">
+<link rel="preload" href="/new-docs/runtime~main.077845b8.js" as="script">
 
-<link rel="preload" href="/new-docs/main.8d97e720.js" as="script">
+<link rel="preload" href="/new-docs/main.27d6b0af.js" as="script">
 
-<link rel="preload" href="/new-docs/1.8af8f68b.js" as="script">
+<link rel="preload" href="/new-docs/1.53425cfc.js" as="script">
 
-<link rel="preload" href="/new-docs/2.98130d8e.js" as="script">
+<link rel="preload" href="/new-docs/2.c12c49c6.js" as="script">
 
-<link rel="preload" href="/new-docs/3.ca36d227.js" as="script">
+<link rel="preload" href="/new-docs/3.ad3079fb.js" as="script">
 
-<link rel="preload" href="/new-docs/1be78505.31b96739.js" as="script">
+<link rel="preload" href="/new-docs/1be78505.662f20a2.js" as="script">
 
-<link rel="preload" href="/new-docs/46ce4c7b.d6365fcf.js" as="script">
+<link rel="preload" href="/new-docs/46ce4c7b.9863f0c6.js" as="script">
 
-<link rel="preload" href="/new-docs/5.2ef96f6e.js" as="script">
+<link rel="preload" href="/new-docs/5.00fd7ec5.js" as="script">
 
-<link rel="preload" href="/new-docs/17896441.243faaa0.js" as="script">
+<link rel="preload" href="/new-docs/17896441.2b5ee29c.js" as="script">
 
-<link rel="preload" href="/new-docs/25ae79dd.7ec655d3.js" as="script">
+<link rel="preload" href="/new-docs/25ae79dd.4ed3bb4d.js" as="script">
 
 </head>
 <body>
@@ -61,27 +61,27 @@ Codec 序列化接口，完成对数据的存储操作。大体操作可以分�
 </span></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">async</span><span class="token plain"> </span><span class="token keyword" style="color:#00009f">fn</span><span class="token plain"> batch_modify</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">S</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> StorageSchema</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">        </span><span class="token operator" style="color:#393A34">&amp;</span><span class="token keyword" style="color:#00009f">self</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">        keys</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> Vec</span><span class="token operator" style="color:#393A34">&lt;&lt;</span><span class="token plain">S </span><span class="token keyword" style="color:#00009f">as</span><span class="token plain"> StorageSchema</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">::</span><span class="token plain">Key</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">        vals</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> Vec</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">StorageBatchModify</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">S</span><span class="token operator" style="color:#393A34">&gt;&gt;</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">-&gt;</span><span class="token plain"> ProtocolResult</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token punctuation" style="color:#393A34">;</span><span class="token plain"></span></div><div class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span></div></div></pre></div></div><p>Adapter 通过 Schema 和 Protocol Codec， 直接对应表的数据结构进行序列化和反序列化操作。Storage 层无需关心序列化和反序列操作，拿到的直接就是对应的数据结构。</p><p>使用 Stream 实现异步原生的遍历，批量读取操作。</p><p>BatchModify 则将插入和删除进行了整合，接口稍简洁干净一些。</p></div></article></div><div class="paginator_3VDt"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/new-docs/docs/advanced/core/mempool"><h5 class="pagination-nav__link--sublabel">Previous</h5><h4 class="pagination-nav__link--label">« Mempool</h4></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/new-docs/docs/advanced/crypto"><h5 class="pagination-nav__link--sublabel">Next</h5><h4 class="pagination-nav__link--label">Cryptography »</h4></a></div></nav></div></div><div class="rightCol_38kP"><div class="table-of-contents tableOfContents_tVyB"><div class="section"><div class="title">Contents</div><ul class="contents"><li><a href="#目标" class="contents__link">目标</a></li><li><a href="#设计" class="contents__link">设计</a></li><li><a href="#接口" class="contents__link">接口</a><ul><li><a href="#storage" class="contents__link">Storage</a></li><li><a href="#adapter" class="contents__link">Adapter</a></li></ul></li></ul></div><div class="section"><div class="title">Resources</div><ul class="contents"><li><a href="https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/core/storage.md" class="contents__link" target="_blank"><i class="feather icon-edit-1"></i> Edit this page</a></li></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col col--5 footer__col"><div class="margin-bottom--md"></div><div class="margin-bottom--md"><div class="mailing-list"><form action="https://dev.us17.list-manage.com/subscribe/post?u=a7b19925733ee6bf88e045485&amp;id=d8c4724e17" method="post" class="mailing-list--form"><button class="button button--primary button--undefined" type="submit">❤ Subscribe us for Muta updates ❤ </button></form></div></div><div><a href="https://twitter.com/nervosnetwork" target="_blank"><i class="feather icon-twitter" alt="Vector&#x27;s Twitter"></i></a>    <a href="https://discord.com/invite/rN35fe8" target="_blank"><i class="feather icon-message-circle" alt="Vector&#x27;s Chat"></i></a>    <a href="https://github.com/nervosnetwork/muta" target="_blank"><i class="feather icon-github" alt="Vector&#x27;s Github Repo"></i></a></div></div><div class="col footer__col"><h4 class="footer__title">About</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/new-docs/docs/about/what-is-muta/">What is Muta?</a></li><li class="footer__item"><a class="footer__link-item" href="/new-docs/community/#team">The Team</a></li><li class="footer__item"><a class="footer__link-item" href="/new-docs/contact/">Contact Us</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Development</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/new-docs/docs/setup/getting-started/">Getting Started</a></li><li class="footer__item"><a class="footer__link-item" href="/new-docs/docs/dev/service/">Service Dev</a></li><li class="footer__item"><a class="footer__link-item" href="/new-docs/docs/dev/dapp-dev/">Dapp Dev</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://talk.nervos.org/">Forum</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://discord.com/invite/rN35fe8">Discord</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://twitter.com/nervosnetwork">Twitter</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/new-docs/blog">Blog</a></li><li class="footer__item"><a class="footer__link-item" target="_blank" rel="noopener noreferrer" href="https://github.com/nervosnetwork/muta">GitHub</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><a href="https://nervos.org/" target="_blank" rel="noopener noreferrer" class="footerLogoLink_3L_r"></a></div>Copyright © 2020 Nervos Fundation<br></div></div></footer>
 </div>
 
-<script src="/new-docs/styles.7e1c0d3b.js"></script>
+<script src="/new-docs/styles.f8482b36.js"></script>
 
-<script src="/new-docs/runtime~main.bc073eed.js"></script>
+<script src="/new-docs/runtime~main.077845b8.js"></script>
 
-<script src="/new-docs/main.8d97e720.js"></script>
+<script src="/new-docs/main.27d6b0af.js"></script>
 
-<script src="/new-docs/1.8af8f68b.js"></script>
+<script src="/new-docs/1.53425cfc.js"></script>
 
-<script src="/new-docs/2.98130d8e.js"></script>
+<script src="/new-docs/2.c12c49c6.js"></script>
 
-<script src="/new-docs/3.ca36d227.js"></script>
+<script src="/new-docs/3.ad3079fb.js"></script>
 
-<script src="/new-docs/1be78505.31b96739.js"></script>
+<script src="/new-docs/1be78505.662f20a2.js"></script>
 
-<script src="/new-docs/46ce4c7b.d6365fcf.js"></script>
+<script src="/new-docs/46ce4c7b.9863f0c6.js"></script>
 
-<script src="/new-docs/5.2ef96f6e.js"></script>
+<script src="/new-docs/5.00fd7ec5.js"></script>
 
-<script src="/new-docs/17896441.243faaa0.js"></script>
+<script src="/new-docs/17896441.2b5ee29c.js"></script>
 
-<script src="/new-docs/25ae79dd.7ec655d3.js"></script>
+<script src="/new-docs/25ae79dd.4ed3bb4d.js"></script>
 
 
 </body>
