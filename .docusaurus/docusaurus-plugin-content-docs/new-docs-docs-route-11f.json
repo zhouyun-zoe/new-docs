@@ -60,7 +60,7 @@
         "items": [
           {
             "type": "link",
-            "label": "hidden",
+            "label": "Development Overview",
             "href": "/new-docs/docs/dev/dev-overview"
           },
           {
@@ -70,8 +70,192 @@
           },
           {
             "type": "link",
-            "label": "Service Demo",
-            "href": "/new-docs/docs/dev/service-eg"
+            "label": "Develop a Service",
+            "href": "/new-docs/docs/dev/poe-chain"
+          },
+          {
+            "type": "link",
+            "label": "Develop a Dapp Chain",
+            "href": "/new-docs/docs/dev/dex"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Service  List",
+        "items": [
+          {
+            "type": "link",
+            "label": "metadata-service",
+            "href": "/new-docs/docs/service-list/metadata-service"
+          },
+          {
+            "type": "link",
+            "label": "Asset Service",
+            "href": "/new-docs/docs/service-list/asset-service"
+          },
+          {
+            "type": "link",
+            "label": "Authorization Service",
+            "href": "/new-docs/docs/service-list/auth-service"
+          },
+          {
+            "type": "link",
+            "label": "multi-sig-service",
+            "href": "/new-docs/docs/service-list/multi-sig-service"
+          },
+          {
+            "type": "link",
+            "label": "Governance Service",
+            "href": "/new-docs/docs/service-list/gov-service"
+          },
+          {
+            "type": "link",
+            "label": "riscv-service",
+            "href": "/new-docs/docs/service-list/riscv-service"
+          },
+          {
+            "type": "link",
+            "label": "Admission Control Service",
+            "href": "/new-docs/docs/service-list/admission-service"
+          },
+          {
+            "type": "link",
+            "label": "kyc-service",
+            "href": "/new-docs/docs/service-list/kyc-service"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Advanced",
+        "items": [
+          {
+            "type": "link",
+            "label": "Overlord",
+            "href": "/new-docs/docs/advanced/core/overlord"
+          },
+          {
+            "type": "link",
+            "label": "Network",
+            "href": "/new-docs/docs/advanced/core/network"
+          },
+          {
+            "type": "link",
+            "label": "Mempool",
+            "href": "/new-docs/docs/advanced/core/mempool"
+          },
+          {
+            "type": "link",
+            "label": "Storage",
+            "href": "/new-docs/docs/advanced/core/storage"
+          },
+          {
+            "type": "link",
+            "label": "Cryptography",
+            "href": "/new-docs/docs/advanced/crypto"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Toolchain",
+        "items": [
+          {
+            "type": "link",
+            "label": "JS SDK",
+            "href": "/new-docs/docs/toolchain/sdk-js"
+          },
+          {
+            "type": "link",
+            "label": "JAVA SDK",
+            "href": "/new-docs/docs/toolchain/sdk-java"
+          },
+          {
+            "type": "link",
+            "label": "Muta Explorer",
+            "href": "/new-docs/docs/toolchain/explorer"
+          },
+          {
+            "type": "link",
+            "label": "Muta Benchmark Tool",
+            "href": "/new-docs/docs/toolchain/benchmark-tool"
+          },
+          {
+            "type": "link",
+            "label": "Keypair",
+            "href": "/new-docs/docs/toolchain/keypair"
+          }
+        ]
+      }
+    ],
+    "docs_zh": [
+      {
+        "type": "category",
+        "label": "About",
+        "items": [
+          {
+            "type": "link",
+            "label": "What is Muta?",
+            "href": "/new-docs/docs/docs_zh/about/what-is-muta"
+          },
+          {
+            "type": "link",
+            "label": "hidden",
+            "href": "/new-docs/docs/about/concepts"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Setup",
+        "items": [
+          {
+            "type": "link",
+            "label": "Getting Started",
+            "href": "/new-docs/docs/setup/getting-started"
+          },
+          {
+            "type": "category",
+            "label": "configuration",
+            "items": [
+              {
+                "type": "link",
+                "label": "hidden",
+                "href": "/new-docs/docs/setup/config"
+              },
+              {
+                "type": "link",
+                "label": "Genesis Configuration",
+                "href": "/new-docs/docs/setup/genesis-config"
+              },
+              {
+                "type": "link",
+                "label": "Node Configuration",
+                "href": "/new-docs/docs/setup/node-config"
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "label": "Deployment",
+            "href": "/new-docs/docs/setup/deploy"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Development",
+        "items": [
+          {
+            "type": "link",
+            "label": "Development Overview",
+            "href": "/new-docs/docs/dev/dev-overview"
+          },
+          {
+            "type": "link",
+            "label": "Service Development Guide",
+            "href": "/new-docs/docs/dev/service-dev"
           }
         ]
       },
@@ -140,25 +324,35 @@
     ]
   },
   "permalinkToSidebar": {
-    "/new-docs/docs/about/concepts": "docs",
+    "/new-docs/docs/about/concepts": "docs_zh",
     "/new-docs/docs/about/what-is-muta": "docs",
-    "/new-docs/docs/advanced/core/mempool": "docs",
-    "/new-docs/docs/advanced/core/network": "docs",
-    "/new-docs/docs/advanced/core/overlord": "docs",
-    "/new-docs/docs/advanced/core/storage": "docs",
-    "/new-docs/docs/advanced/crypto": "docs",
-    "/new-docs/docs/dev/dev-overview": "docs",
-    "/new-docs/docs/dev/service-dev": "docs",
-    "/new-docs/docs/dev/service-eg": "docs",
-    "/new-docs/docs/setup/config": "docs",
-    "/new-docs/docs/setup/deploy": "docs",
-    "/new-docs/docs/setup/genesis-config": "docs",
-    "/new-docs/docs/setup/getting-started": "docs",
-    "/new-docs/docs/setup/node-config": "docs",
-    "/new-docs/docs/toolchain/benchmark-tool": "docs",
-    "/new-docs/docs/toolchain/explorer": "docs",
-    "/new-docs/docs/toolchain/keypair": "docs",
-    "/new-docs/docs/toolchain/sdk-java": "docs",
-    "/new-docs/docs/toolchain/sdk-js": "docs"
+    "/new-docs/docs/advanced/core/mempool": "docs_zh",
+    "/new-docs/docs/advanced/core/network": "docs_zh",
+    "/new-docs/docs/advanced/core/overlord": "docs_zh",
+    "/new-docs/docs/advanced/core/storage": "docs_zh",
+    "/new-docs/docs/advanced/crypto": "docs_zh",
+    "/new-docs/docs/dev/dev-overview": "docs_zh",
+    "/new-docs/docs/dev/dex": "docs",
+    "/new-docs/docs/dev/poe-chain": "docs",
+    "/new-docs/docs/dev/service-dev": "docs_zh",
+    "/new-docs/docs/docs_zh/about/what-is-muta": "docs_zh",
+    "/new-docs/docs/service-list/admission-service": "docs",
+    "/new-docs/docs/service-list/asset-service": "docs",
+    "/new-docs/docs/service-list/auth-service": "docs",
+    "/new-docs/docs/service-list/gov-service": "docs",
+    "/new-docs/docs/service-list/kyc-service": "docs",
+    "/new-docs/docs/service-list/metadata-service": "docs",
+    "/new-docs/docs/service-list/multi-sig-service": "docs",
+    "/new-docs/docs/service-list/riscv-service": "docs",
+    "/new-docs/docs/setup/config": "docs_zh",
+    "/new-docs/docs/setup/deploy": "docs_zh",
+    "/new-docs/docs/setup/genesis-config": "docs_zh",
+    "/new-docs/docs/setup/getting-started": "docs_zh",
+    "/new-docs/docs/setup/node-config": "docs_zh",
+    "/new-docs/docs/toolchain/benchmark-tool": "docs_zh",
+    "/new-docs/docs/toolchain/explorer": "docs_zh",
+    "/new-docs/docs/toolchain/keypair": "docs_zh",
+    "/new-docs/docs/toolchain/sdk-java": "docs_zh",
+    "/new-docs/docs/toolchain/sdk-js": "docs_zh"
   }
 }

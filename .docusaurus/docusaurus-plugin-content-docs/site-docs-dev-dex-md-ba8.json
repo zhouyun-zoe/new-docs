@@ -5,5 +5,14 @@
   "source": "@site/docs/dev/dex.md",
   "permalink": "/new-docs/docs/dev/dex",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/dev/dex.md",
-  "sidebar_label": "Dapp Development"
+  "sidebar_label": "Develop a Dapp Chain",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Develop a POE Chain",
+    "permalink": "/new-docs/docs/dev/poe-chain"
+  },
+  "next": {
+    "title": "metadata-service",
+    "permalink": "/new-docs/docs/service-list/metadata-service"
+  }
 }

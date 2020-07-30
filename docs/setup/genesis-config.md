@@ -68,32 +68,32 @@ Let’s go line-by-line and understand what each parameter means.
 ### Asset service parameters
 
 | Parameter     | Description                                                                                                   |Default   ||
-|:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
-| `id`          | 资产的唯一 id，建议设置成 hash ，以免在之后和链上其他资产重复                                                          |0         ||
-| `name`        | 资产名字                                                                                                        |0x        ||
-| `symbol`      | 资产简称                                                                                                        |          ||
-| `supply`      | 资产发行总量                                                                                                     |          ||
-| `issuer`      | 发行方地址                                                                                                       |          ||
+|:--------------|:-------------------------------------------------------------------------------|:---      |:--   |
+| `id`          | unique identifier of an asset, it's recommended to set it as a hash value avoid duplication with other assets on the chain in the future                    |0         ||
+| `name`        | asset name                                                                                                       |0x        ||
+| `symbol`      | asset short name                                                                                                       |          ||
+| `supply`      | total supply of the asset                                                                                              |          ||
+| `issuer`      | issuer address                                                                                                       |          ||
 
 ### Metadata service parameters
 
 | Parameter     | Description                                                                                                   |Default   |  |
 |:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--- |
-| `chain_id`    | 链唯一 id，建议设置为任意 hash                                                                                    |          |  |
-| `common_ref`  | BLS 签名需要                                                                                                    |          |  |
-| `timeout_gap` | 交易池能接受的最大超时块范围。用户在发送交易的时候，需要填写 `timeout` 字段，表示块高度超过这个值后，如果该交易还没有被打包，则以后都不会被打包，这样可以确保之前的某笔交易超时后一定会失败，避免用户的交易很长时间未被打包后换 `nonce` 重发交易，结果两笔交易都上链的情况。当用户填写的 `timeout` > `chain_current_height` + `timeout_gap` 时，交易池会拒绝这笔交易。考虑到一些特殊情况（比如一些冷钱包对交易签名后较长时间才发出），该值可以适当调大                                                                                     |  20  |  |
-| `cycles_limit`| 10进制，链级别对单个交易可以消耗的最大 `cycle` 的限制                                                                 |  1000000 |  |
-| `cycles_price`| 最小 cycle 价格，目前没有使用                                                                                      |   1      |  |
-| `interval`    | 出块间隔，单位为 ms。当设置为 3s 的时候，出块间隔并不是严格的 3s，而是在 3s 附近波动，这是因为 Overlord 共识在响应性上的优化。当网络状况较好的时候，会小于 3s，网络情况较差，则会略大于 3s。 |  3000  |
-| **verifier_list**   |                                                                                                           |         |  |
-| `bls_pub_key` | 节点的 BLS 公钥                                                                                                   |        |   |
-| `address`     | 节点的地址                                                                                                        |                |  |
-| `propose_weight` | 节点的出块权重。如果有四个共识节点，出块权重分别为 1, 2, 3, 4，则第一个节点的出块概率为 1 / (1 + 2 + 3 + 4)。投票权重的逻辑类似。  |1        |  |
-| `vote_weight` | 节点的投票权重                                                                                                     |1         |  |
-| `propose_ratio` | propose 阶段的超时时间与出块时间的比例。例如 propose_ratio 为 5, interval 为 3000，则 propose 阶段的超时时间为 15 / 10 * 3000 = 4500，单位均为毫秒。                                                                                |15       |  |
-| `prevote_ratio` | prevote 阶段的超时时间与出块时间的比例                                                                               |10       |  |
-| `precommit_ratio`| precommit 阶段的超时时间与出块时间的比例                                                                            |10       |  |
-| `brake_ratio`    | brake 阶段的超时时间与出块时间的比例                                                                                |7      |  |
-| `tx_num_limit`   | 每一个块里最多可以打包的交易数                                                                                      |20000      |  |
-| `max_tx_size`    | 单个交易最大的字节数                                                                                              |1024      |  |
+| `chain_id`    | unique identifier of the chain, it's recommended to set it as a random hash value.                            |          |  |
+| `common_ref`  | needed for BLS signature                                                                                        |   20      |  |
+| `timeout_gap` | max timeout an exchange pool can wait on a block. Users need to fill in `timeout` when starting a transaction to indicate this transaction will not be included in the chain after block height exceeds this value. This will make sure the failure of the timeout transaction and avoid user starting a new transaction with new `nonce` after waiting for a long time which produces 2 transactions on the chain eventually. If user entered `timeout` > `chain_current_height` + `timeout_gap`, exchange pool will reject this transaction. For some special cases (Ex: cold wallet sends the transaction after signing for a long time), `transaction_gap` can be set to a bigger value accordingly                     |    |  |
+| `cycles_limit`| base 10 number, max `cycle` can be run for a single transaction on the chain level                              |  1000000 |  |
+| `cycles_price`| minimum price for a cycle, currently not in use                                                           |   1      |  |
+| `interval`    | interval between generating blocks, measured in millisecond. When it's set to 3s, it's not strictly 3s but it's about 3s due to optimization of `Overload` consensus on latency. It will be less than 3s in a good network condition, and more than 3s in a bad network condition |  3000  | |
+| **verifier_list**   |     Validator List                                                                                                      |         |  |
+| `bls_pub_key` | BLS public key of the node                                                                                        |        |   |
+| `address`     | node address                                                                                       |                |  |
+| `propose_weight` | weight of node when producing blocks. For example: 4 nodes, weights are `1, 2, 3, 4`, first node's chance of producing a block is `1 / (1 + 2 + 3 + 4)`  |1        |  |
+| `vote_weight` | weight of node when voting, similar calculation process as `propose_weight`                                           |1        |  |
+| `propose_ratio` | ratio between timeout and block producing time in propose stage. For example: if `propose_ratio` is 5, `interval` is 3000ms, then timeout at propose stage is `15 / 10 * 3000 = 4500`, all measured in millisecond                   |15       |  |
+| `prevote_ratio` | ratio between timeout and block producing time in prevote stage                        |10       |  |
+| `precommit_ratio`| ratio between timeout and block producing time in precommit stage                                 |10       |  |
+| `brake_ratio`    | ratio between timeout and block producing time in brake stage                          |7      |  |
+| `tx_num_limit`   | max number of transaction in a single block                                                       |20000      |  |
+| `max_tx_size`    | max number of byte in a single transaction                                                |1024      |  |
 

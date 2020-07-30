@@ -1,0 +1,17 @@
+{
+  "id": "service-list/kyc-service",
+  "title": "kyc-service",
+  "description": "on the way",
+  "source": "@site/docs/service-list/kyc-service.md",
+  "permalink": "/new-docs/docs/service-list/kyc-service",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/service-list/kyc-service.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Admission Control Service",
+    "permalink": "/new-docs/docs/service-list/admission-service"
+  },
+  "next": {
+    "title": "Overlord",
+    "permalink": "/new-docs/docs/advanced/core/overlord"
+  }
+}

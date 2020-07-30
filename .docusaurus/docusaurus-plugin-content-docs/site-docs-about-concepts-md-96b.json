@@ -6,10 +6,10 @@
   "permalink": "/new-docs/docs/about/concepts",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/about/concepts.md",
   "sidebar_label": "hidden",
-  "sidebar": "docs",
+  "sidebar": "docs_zh",
   "previous": {
     "title": "What is Muta?",
-    "permalink": "/new-docs/docs/about/what-is-muta"
+    "permalink": "/new-docs/docs/docs_zh/about/what-is-muta"
   },
   "next": {
     "title": "Getting Started",

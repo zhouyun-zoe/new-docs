@@ -5,7 +5,7 @@
   "source": "@site/docs/advanced/crypto.md",
   "permalink": "/new-docs/docs/advanced/crypto",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/crypto.md",
-  "sidebar": "docs",
+  "sidebar": "docs_zh",
   "previous": {
     "title": "Storage",
     "permalink": "/new-docs/docs/advanced/core/storage"

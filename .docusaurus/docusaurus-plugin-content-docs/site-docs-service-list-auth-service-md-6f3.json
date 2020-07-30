@@ -1,0 +1,17 @@
+{
+  "id": "service-list/auth-service",
+  "title": "Authorization Service",
+  "description": "on the way",
+  "source": "@site/docs/service-list/auth-service.md",
+  "permalink": "/new-docs/docs/service-list/auth-service",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/service-list/auth-service.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Asset Service",
+    "permalink": "/new-docs/docs/service-list/asset-service"
+  },
+  "next": {
+    "title": "multi-sig-service",
+    "permalink": "/new-docs/docs/service-list/multi-sig-service"
+  }
+}

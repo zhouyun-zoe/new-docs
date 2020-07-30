@@ -1,8 +1,0 @@
-{
-  "id": "setup/multi_node_deploy",
-  "title": "多节点部署指南",
-  "description": "## 生成公私钥",
-  "source": "@site/docs/setup/multi_node_deploy.md",
-  "permalink": "/new-docs/docs/setup/multi_node_deploy",
-  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/setup/multi_node_deploy.md"
-}

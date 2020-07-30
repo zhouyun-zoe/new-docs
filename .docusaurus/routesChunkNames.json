@@ -1,349 +1,401 @@
 {
   "/new-docs/": {
-    "component": "c4f5d8e4"
+    "component": "component---site-src-pages-index-jsc-4-f-f99"
   },
   "/new-docs/blog": {
-    "component": "a6aa9e1f",
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
     "items": [
       {
-        "content": "e262e154"
+        "content": "content---new-docs-bloge-26-de6"
       }
     ],
-    "metadata": "4d3aaf1a"
+    "metadata": "metadata---new-docs-blog-4-d-3-88c"
   },
   "/new-docs/blog/consensus-cangshu": {
-    "component": "ccc49370",
-    "content": "ab17efe9"
+    "component": "component---theme-blog-post-pageccc-cab",
+    "content": "content---new-docs-blog-consensus-cangshuab-1-0c9"
   },
   "/new-docs/blog/tags": {
-    "component": "01a85c17",
-    "tags": "3afa8fea"
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "tags": "tags---new-docs-blog-tags-3-af-e97"
   },
   "/new-docs/blog/tags/type-post": {
-    "component": "6875c492",
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
     "items": [
       {
-        "content": "e262e154"
+        "content": "content---new-docs-bloge-26-de6"
       }
     ],
-    "metadata": "4e58f862"
+    "metadata": "metadata---new-docs-blog-tags-type-post-4-e-5-ede"
   },
   "/new-docs/community": {
-    "component": "672ba3d6"
+    "component": "component---site-src-pages-community-js-672-c47"
   },
   "/new-docs/contact": {
-    "component": "83e9e333"
+    "component": "component---site-src-pages-contact-js-83-e-320"
   },
   "/new-docs/docs": {
-    "component": "25b7c3f2"
+    "component": "component---site-src-pages-docs-js-25-b-a16"
   },
   "/new-docs/guides": {
-    "component": "c6d06197",
+    "component": "component---theme-guide-list-pagec-6-d-fb9",
     "items": [
       {
-        "content": "188e86b7"
+        "content": "content---new-docs-guides-188-42c"
       },
       {
-        "content": "be95d7df"
+        "content": "content---new-docs-guidesbe-9-8af"
       },
       {
-        "content": "7ba614a7"
+        "content": "content---new-docs-guides-7-ba-330"
       },
       {
-        "content": "f24ae208"
+        "content": "content---new-docs-guidesf-24-2c6"
       },
       {
-        "content": "ac743589"
+        "content": "content---new-docs-guidesac-7-038"
       },
       {
-        "content": "34841b91"
+        "content": "content---new-docs-guides-348-2f7"
       },
       {
-        "content": "09b87528"
+        "content": "content---new-docs-guides-09-b-502"
       },
       {
-        "content": "b63ea379"
+        "content": "content---new-docs-guidesb-63-055"
       }
     ]
   },
   "/new-docs/guides/advanced": {
-    "component": "d9deea5f",
+    "component": "component---theme-guide-category-paged-9-d-097",
     "items": [
       {
-        "content": "34841b91"
+        "content": "content---new-docs-guides-348-2f7"
       },
       {
-        "content": "09b87528"
+        "content": "content---new-docs-guides-09-b-502"
       },
       {
-        "content": "b63ea379"
+        "content": "content---new-docs-guidesb-63-055"
       }
     ],
-    "metadata": "25141445"
+    "metadata": "metadata---new-docs-guides-advanced-251-f35"
   },
   "/new-docs/guides/advanced/dex-chain": {
-    "component": "1c13b173",
-    "content": "c8393f0e"
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-advanced-dex-chainc-83-7f6"
   },
   "/new-docs/guides/advanced/poe-chain": {
-    "component": "1c13b173",
-    "content": "545655bd"
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-advanced-poe-chain-545-11f"
   },
   "/new-docs/guides/advanced/service-demo": {
-    "component": "1c13b173",
-    "content": "5a7c3fe8"
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-advanced-service-demo-5-a-7-c5a"
   },
   "/new-docs/guides/getting-started": {
-    "component": "d9deea5f",
+    "component": "component---theme-guide-category-paged-9-d-097",
     "items": [
       {
-        "content": "188e86b7"
+        "content": "content---new-docs-guides-188-42c"
       },
       {
-        "content": "be95d7df"
+        "content": "content---new-docs-guidesbe-9-8af"
       },
       {
-        "content": "7ba614a7"
+        "content": "content---new-docs-guides-7-ba-330"
       },
       {
-        "content": "f24ae208"
+        "content": "content---new-docs-guidesf-24-2c6"
       },
       {
-        "content": "ac743589"
+        "content": "content---new-docs-guidesac-7-038"
       }
     ],
-    "metadata": "5937d0aa"
+    "metadata": "metadata---new-docs-guides-getting-started-593-ed8"
   },
   "/new-docs/guides/getting-started/benchmark": {
-    "component": "1c13b173",
-    "content": "52d602db"
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-getting-started-benchmark-52-d-262"
   },
   "/new-docs/guides/getting-started/deploying": {
-    "component": "1c13b173",
-    "content": "dc88b1c7"
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-getting-started-deployingdc-8-dab"
   },
   "/new-docs/guides/getting-started/monitoring": {
-    "component": "1c13b173",
-    "content": "af39a8f4"
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-getting-started-monitoringaf-3-e3a"
   },
   "/new-docs/guides/getting-started/next-steps": {
-    "component": "1c13b173",
-    "content": "bd044c17"
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-getting-started-next-stepsbd-0-974"
   },
   "/new-docs/guides/getting-started/your-first-pipeline": {
-    "component": "1c13b173",
-    "content": "69f5a225"
+    "component": "component---theme-guide-page-1-c-1-479",
+    "content": "content---new-docs-guides-getting-started-your-first-pipeline-69-f-1e9"
   },
   "/new-docs/guides/tags": {
-    "component": "3116c1fa",
-    "tags": "76708cf2"
+    "component": "component---theme-guide-tag-list-page-311-6b0",
+    "tags": "tags---new-docs-guides-tags-767-d96"
   },
   "/new-docs/guides/tags/domain-observability": {
-    "component": "004ec9e5",
+    "component": "component---theme-guide-tag-page-004-d71",
     "items": [
       {
-        "content": "f24ae208"
+        "content": "content---new-docs-guidesf-24-2c6"
       }
     ],
-    "metadata": "9246641b"
+    "metadata": "metadata---new-docs-guides-tags-domain-observability-924-e4c"
   },
   "/new-docs/guides/tags/domain-ux": {
-    "component": "004ec9e5",
+    "component": "component---theme-guide-tag-page-004-d71",
     "items": [
       {
-        "content": "ac743589"
+        "content": "content---new-docs-guidesac-7-038"
       }
     ],
-    "metadata": "69454a1d"
+    "metadata": "metadata---new-docs-guides-tags-domain-ux-694-d3e"
   },
   "/new-docs/guides/tags/level-easy": {
-    "component": "004ec9e5",
+    "component": "component---theme-guide-tag-page-004-d71",
     "items": [
       {
-        "content": "188e86b7"
+        "content": "content---new-docs-guides-188-42c"
       },
       {
-        "content": "be95d7df"
+        "content": "content---new-docs-guidesbe-9-8af"
       },
       {
-        "content": "7ba614a7"
+        "content": "content---new-docs-guides-7-ba-330"
       }
     ],
-    "metadata": "81dda081"
+    "metadata": "metadata---new-docs-guides-tags-level-easy-81-d-a40"
   },
   "/new-docs/guides/tags/level-medium": {
-    "component": "004ec9e5",
+    "component": "component---theme-guide-tag-page-004-d71",
     "items": [
       {
-        "content": "34841b91"
+        "content": "content---new-docs-guides-348-2f7"
       },
       {
-        "content": "09b87528"
+        "content": "content---new-docs-guides-09-b-502"
       },
       {
-        "content": "b63ea379"
+        "content": "content---new-docs-guidesb-63-055"
       }
     ],
-    "metadata": "05c7a58d"
+    "metadata": "metadata---new-docs-guides-tags-level-medium-05-c-fa5"
   },
   "/new-docs/guides/tags/type-guide": {
-    "component": "004ec9e5",
+    "component": "component---theme-guide-tag-page-004-d71",
     "items": [
       {
-        "content": "f24ae208"
+        "content": "content---new-docs-guidesf-24-2c6"
       }
     ],
-    "metadata": "3c13b7db"
+    "metadata": "metadata---new-docs-guides-tags-type-guide-3-c-1-c1e"
   },
   "/new-docs/guides/tags/type-post": {
-    "component": "004ec9e5",
+    "component": "component---theme-guide-tag-page-004-d71",
     "items": [
       {
-        "content": "ac743589"
+        "content": "content---new-docs-guidesac-7-038"
       }
     ],
-    "metadata": "989184a1"
+    "metadata": "metadata---new-docs-guides-tags-type-post-989-7eb"
   },
   "/new-docs/guides/tags/type-tutorial": {
-    "component": "004ec9e5",
+    "component": "component---theme-guide-tag-page-004-d71",
     "items": [
       {
-        "content": "188e86b7"
+        "content": "content---new-docs-guides-188-42c"
       },
       {
-        "content": "be95d7df"
+        "content": "content---new-docs-guidesbe-9-8af"
       },
       {
-        "content": "7ba614a7"
+        "content": "content---new-docs-guides-7-ba-330"
       },
       {
-        "content": "34841b91"
+        "content": "content---new-docs-guides-348-2f7"
       },
       {
-        "content": "09b87528"
+        "content": "content---new-docs-guides-09-b-502"
       },
       {
-        "content": "b63ea379"
+        "content": "content---new-docs-guidesb-63-055"
       }
     ],
-    "metadata": "8e0127e7"
+    "metadata": "metadata---new-docs-guides-tags-type-tutorial-8-e-0-cb9"
   },
   "/new-docs/mailing_list": {
-    "component": "48912b2c"
+    "component": "component---site-src-pages-mailing-list-js-489-382"
   },
   "/new-docs/press": {
-    "component": "175b8392"
+    "component": "component---site-src-pages-press-js-175-707"
   },
   "/new-docs/docs/:route": {
-    "component": "1be78505",
-    "docsMetadata": "46ce4c7b"
+    "component": "component---theme-doc-page-1-be-9be",
+    "docsMetadata": "docsMetadata---new-docs-docs-route-46-c-b59"
   },
   "/new-docs/docs/about/concepts": {
-    "component": "17896441",
-    "content": "96b590e1"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-about-concepts-96-b-785"
   },
   "/new-docs/docs/about/what-is-muta": {
-    "component": "17896441",
-    "content": "828d34fa"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-about-what-is-muta-828-9b2"
   },
   "/new-docs/docs/advanced/arch": {
-    "component": "17896441",
-    "content": "926f754a"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-arch-926-8bf"
   },
   "/new-docs/docs/advanced/asset": {
-    "component": "17896441",
-    "content": "a959267a"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-asseta-95-cc7"
   },
   "/new-docs/docs/advanced/core/mempool": {
-    "component": "17896441",
-    "content": "fcd61e54"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-core-mempoolfcd-8e9"
   },
   "/new-docs/docs/advanced/core/network": {
-    "component": "17896441",
-    "content": "c6bcbb48"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-core-networkc-6-b-717"
   },
   "/new-docs/docs/advanced/core/overlord": {
-    "component": "17896441",
-    "content": "d9b1b66c"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-core-overlordd-9-b-0bd"
   },
   "/new-docs/docs/advanced/core/storage": {
-    "component": "17896441",
-    "content": "25ae79dd"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-core-storage-25-a-8af"
   },
   "/new-docs/docs/advanced/crypto": {
-    "component": "17896441",
-    "content": "478880cd"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-crypto-478-b91"
   },
   "/new-docs/docs/advanced/data-structure": {
-    "component": "17896441",
-    "content": "0dd26423"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-data-structure-0-dd-179"
   },
   "/new-docs/docs/advanced/multisignature": {
-    "component": "17896441",
-    "content": "4f8dc149"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-multisignature-4-f-8-8ea"
   },
   "/new-docs/docs/dev/dev-overview": {
-    "component": "17896441",
-    "content": "22239916"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-dev-dev-overview-222-ece"
   },
   "/new-docs/docs/dev/dex": {
-    "component": "17896441",
-    "content": "ba83fbf8"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-dev-dexba-8-b4f"
+  },
+  "/new-docs/docs/dev/poe-chain": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-dev-poe-chain-8-a-2-7e4"
   },
   "/new-docs/docs/dev/service-dev": {
-    "component": "17896441",
-    "content": "0af51b09"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-dev-service-dev-0-af-b7e"
   },
   "/new-docs/docs/dev/service-eg": {
-    "component": "17896441",
-    "content": "6893e19b"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-dev-service-eg-689-aa8"
+  },
+  "/new-docs/docs/docs_zh/about/what-is-muta": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-about-what-is-muta-62-c-7ce"
+  },
+  "/new-docs/docs/docs_zh/genesis-config": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-genesis-configa-52-b3a"
+  },
+  "/new-docs/docs/docs_zh/multi_node_deploy": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-multi-node-deploy-621-698"
+  },
+  "/new-docs/docs/docs_zh/node-config": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-node-config-291-904"
   },
   "/new-docs/docs/faq": {
-    "component": "17896441",
-    "content": "0480b142"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-faq-048-713"
+  },
+  "/new-docs/docs/ref-list": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-ref-listdd-0-1a8"
+  },
+  "/new-docs/docs/service-list/admission-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-service-list-admission-service-232-888"
+  },
+  "/new-docs/docs/service-list/asset-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-service-list-asset-servicec-42-fb7"
+  },
+  "/new-docs/docs/service-list/auth-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-service-list-auth-service-6-f-3-56d"
+  },
+  "/new-docs/docs/service-list/gov-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-service-list-gov-servicea-42-aa3"
+  },
+  "/new-docs/docs/service-list/kyc-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-service-list-kyc-servicedeb-f71"
+  },
+  "/new-docs/docs/service-list/metadata-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-service-list-metadata-service-3-f-1-15a"
+  },
+  "/new-docs/docs/service-list/multi-sig-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-service-list-multi-sig-service-9-cf-1ff"
+  },
+  "/new-docs/docs/service-list/riscv-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-service-list-riscv-service-9-a-4-1f5"
   },
   "/new-docs/docs/setup/config": {
-    "component": "17896441",
-    "content": "9b913a86"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-setup-config-9-b-9-828"
   },
   "/new-docs/docs/setup/deploy": {
-    "component": "17896441",
-    "content": "03df0c6e"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-setup-deploy-03-d-74b"
   },
   "/new-docs/docs/setup/genesis-config": {
-    "component": "17896441",
-    "content": "9a1f5678"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-setup-genesis-config-9-a-1-e62"
   },
   "/new-docs/docs/setup/getting-started": {
-    "component": "17896441",
-    "content": "b603c9c2"
-  },
-  "/new-docs/docs/setup/multi_node_deploy": {
-    "component": "17896441",
-    "content": "713ff030"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-setup-getting-startedb-60-f0b"
   },
   "/new-docs/docs/setup/node-config": {
-    "component": "17896441",
-    "content": "a1786251"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-setup-node-configa-17-2cc"
   },
   "/new-docs/docs/toolchain/benchmark-tool": {
-    "component": "17896441",
-    "content": "c29ac45a"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-toolchain-benchmark-toolc-29-714"
   },
   "/new-docs/docs/toolchain/explorer": {
-    "component": "17896441",
-    "content": "924e657f"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-toolchain-explorer-924-ac9"
   },
   "/new-docs/docs/toolchain/keypair": {
-    "component": "17896441",
-    "content": "801fd098"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-toolchain-keypair-801-b67"
   },
   "/new-docs/docs/toolchain/sdk-java": {
-    "component": "17896441",
-    "content": "3df87f35"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-toolchain-sdk-java-3-df-0fb"
   },
   "/new-docs/docs/toolchain/sdk-js": {
-    "component": "17896441",
-    "content": "4c101b09"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-toolchain-sdk-js-4-c-1-9ee"
   }
 }

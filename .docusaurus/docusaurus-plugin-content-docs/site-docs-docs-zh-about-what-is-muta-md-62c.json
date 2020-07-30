@@ -1,0 +1,13 @@
+{
+  "id": "docs_zh/about/what-is-muta",
+  "title": "What is Muta?",
+  "description": "What is Muta？",
+  "source": "@site/docs/docs_zh/about/what-is-muta.md",
+  "permalink": "/new-docs/docs/docs_zh/about/what-is-muta",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/about/what-is-muta.md",
+  "sidebar": "docs_zh",
+  "next": {
+    "title": "Basic Concepts",
+    "permalink": "/new-docs/docs/about/concepts"
+  }
+}

@@ -1,5 +1,5 @@
 ---
-sidebar_label: Dapp Development
+sidebar_label: Develop a Dapp Chain
 title: Tutorial：使用 Muta 框架从零开发一条 Dex 专有链
 ---
 

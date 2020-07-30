@@ -262,6 +262,12 @@ export default [
   
 },
 {
+  path: '/new-docs/docs/dev/poe-chain',
+  component: ComponentCreator('/new-docs/docs/dev/poe-chain'),
+  exact: true,
+  
+},
+{
   path: '/new-docs/docs/dev/service-dev',
   component: ComponentCreator('/new-docs/docs/dev/service-dev'),
   exact: true,
@@ -274,8 +280,86 @@ export default [
   
 },
 {
+  path: '/new-docs/docs/docs_zh/about/what-is-muta',
+  component: ComponentCreator('/new-docs/docs/docs_zh/about/what-is-muta'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/genesis-config',
+  component: ComponentCreator('/new-docs/docs/docs_zh/genesis-config'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/multi_node_deploy',
+  component: ComponentCreator('/new-docs/docs/docs_zh/multi_node_deploy'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/node-config',
+  component: ComponentCreator('/new-docs/docs/docs_zh/node-config'),
+  exact: true,
+  
+},
+{
   path: '/new-docs/docs/faq',
   component: ComponentCreator('/new-docs/docs/faq'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/ref-list',
+  component: ComponentCreator('/new-docs/docs/ref-list'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/service-list/admission-service',
+  component: ComponentCreator('/new-docs/docs/service-list/admission-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/service-list/asset-service',
+  component: ComponentCreator('/new-docs/docs/service-list/asset-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/service-list/auth-service',
+  component: ComponentCreator('/new-docs/docs/service-list/auth-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/service-list/gov-service',
+  component: ComponentCreator('/new-docs/docs/service-list/gov-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/service-list/kyc-service',
+  component: ComponentCreator('/new-docs/docs/service-list/kyc-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/service-list/metadata-service',
+  component: ComponentCreator('/new-docs/docs/service-list/metadata-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/service-list/multi-sig-service',
+  component: ComponentCreator('/new-docs/docs/service-list/multi-sig-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/service-list/riscv-service',
+  component: ComponentCreator('/new-docs/docs/service-list/riscv-service'),
   exact: true,
   
 },
@@ -300,12 +384,6 @@ export default [
 {
   path: '/new-docs/docs/setup/getting-started',
   component: ComponentCreator('/new-docs/docs/setup/getting-started'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/setup/multi_node_deploy',
-  component: ComponentCreator('/new-docs/docs/setup/multi_node_deploy'),
   exact: true,
   
 },

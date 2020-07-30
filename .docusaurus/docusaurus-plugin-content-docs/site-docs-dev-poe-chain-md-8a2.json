@@ -1,0 +1,18 @@
+{
+  "id": "dev/poe-chain",
+  "title": "Develop a POE Chain",
+  "description": "on the way",
+  "source": "@site/docs/dev/poe-chain.md",
+  "permalink": "/new-docs/docs/dev/poe-chain",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/dev/poe-chain.md",
+  "sidebar_label": "Develop a Service",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Service Development Guide",
+    "permalink": "/new-docs/docs/dev/service-dev"
+  },
+  "next": {
+    "title": "Tutorial：使用 Muta 框架从零开发一条 Dex 专有链",
+    "permalink": "/new-docs/docs/dev/dex"
+  }
+}

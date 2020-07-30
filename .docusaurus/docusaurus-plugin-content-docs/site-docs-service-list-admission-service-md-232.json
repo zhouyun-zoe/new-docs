@@ -1,0 +1,17 @@
+{
+  "id": "service-list/admission-service",
+  "title": "Admission Control Service",
+  "description": "",
+  "source": "@site/docs/service-list/admission-service.md",
+  "permalink": "/new-docs/docs/service-list/admission-service",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/service-list/admission-service.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "riscv-service",
+    "permalink": "/new-docs/docs/service-list/riscv-service"
+  },
+  "next": {
+    "title": "kyc-service",
+    "permalink": "/new-docs/docs/service-list/kyc-service"
+  }
+}

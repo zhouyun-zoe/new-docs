@@ -11,7 +11,7 @@ Let's take a look at `devtools/chain/config.toml`.
 
 ```
 # crypto
-privkey = "0x4a33067c449635c434cc758ed5f595e1f5653debc45233997c93814c31f710d5"
+privkey = "0x5ec982173d54d830b6789cbbbe43eaa2853a5ff752d1ebc1b266cf9790314f8a"
 
 # db config
 data_path = "./devtools/chain/data"
@@ -32,7 +32,7 @@ rpc_timeout = 10
 sync_txs_chunk_size = 5000
 
 [[network.bootstraps]]
-peer_id = "QmeG2AjWkLbK5ThySV7TrX5KuFryPsaM8GBgDs6Ch1Z5xJ"
+peer_id = "QmTEJkB5QKWsEq37huryZZfVvqBKb54sHnKn9TQcA6j3n9"
 address = "0.0.0.0:1888"
 
 [mempool]
@@ -70,56 +70,80 @@ Let’s go line-by-line and understand what each parameter means.
 
 | Parameter     | Description                                                                                                   |Default   |   |
 |:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--|
-| `privkey`   | 节点私钥，节点的唯一标识，在作为 bootstraps 节点时，需要给出地址和该私钥对应的公钥让其他节点连接；如果是出块节点，该私钥对应的地址需要在 consensus verifier_list 中 |         |   |
-| `data_path`    | 链数据所在目录                                                                                |        |   |
+| `privkey`   | Private key of the node, also the only identifier of the node, used when bootstraps the node. In order for other nodes to connect, it needs to expose address and corresponding public key. If it's a block producing node, its address needs to be included in consensus `verifier_list` |         |   |
+| `data_path`    | where chain data is stored                                                                                |        |   |
 
 ### GraphQL parameters
 
 | Parameter     | Description                                                                                                   |Default   ||
 |:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
-| `listening_address`| GraphQL 监听地址                                                          |         ||
-| `graphql_uri`        | GraphQL 服务访问路径                                                                                   |        ||
-| `graphiql_uri`      | GraphiQL 访问路径                                                                                           |          ||
-| `workers`      | 处理 http 的线程数量，填 0 的话，会默认按 CPU 的核数                                                               |          ||
-| `maxconn`      | 最大连接数                                                                                                       |          ||
+| `listening_address`| listening address of GraphQL                                                          |         ||
+| `graphql_uri`        | URL to access GraphQL service                                                                                   |        ||
+| `graphiql_uri`      | URL to access GraphiQL                                                                                           |          ||
+| `workers`      | number of thread to handle http request. If 0 is entered, will default use number of CPU core                 |     0     ||
+| `maxconn`      | max number of connection                                                                              |   25000       ||
+| `max_payload_size`      |     Size of transaction after serialization, maximum limit in bytes                                  |   1048576      ||
 
-## Network parameters
-
-| Parameter     | Description                                                                                                   |Default   ||
-|:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
-| `listening_address`| GraphQL 监听地址                                                          |         ||
-| `graphql_uri`        | GraphQL 服务访问路径                                                                                   |        ||
-
-## Network bootstraps node parameters
+### Network parameters
 
 | Parameter     | Description                                                                                                   |Default   ||
 |:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
-| `pubkey`| 公钥                                                          |         ||
-| `address`        | 网络地址                                                                                  |        ||
+| `listening_address`| listening address of the chain                                                          |         ||
+| `rpc_timeout`        | timeout of RPC call (Ex: pull transaction from other nodes), measured in second                                                                                  |    10    ||
 
-## Mempool parameters
-
-| Parameter     | Description                                                                                                   |Default   ||
-|:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
-| `pool_size`| 交易池大小                                                        |         ||
-| `broadcast_txs_size` | 一次批量广播的交易数量                                                                                  |        ||
-| `broadcast_txs_interval`      | 每次广播交易的时间间隔，单位 ms                                                                        |          ||
-
-## Executor parameters
+### Consensus parameters
 
 | Parameter     | Description                                                                                                   |Default   ||
 |:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
-| `light`| 设为 true 时，节点将只保存最新高度的 state                                                         |         ||
+| `sync_txs_chunk_size`| Get transactions from the remote end in batches during synchronization, number of transactions per batch       |         ||
 
-## Logger parameters
+
+### Network bootstraps node parameters
 
 | Parameter     | Description                                                                                                   |Default   ||
 |:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
-| `filter`| 全局日志级别                                                         |         ||
-| `log_to_console`        | 是否输出日志到 console，生产环境建议设为 false                                                                       |        ||
-| `console_show_file_and_line`      | 当 `log_to_console` 和本配置都置为 true 时，console 输出的日志里会包含日志打印处的文件和行数。本地通过日志调试时有用，一般可以设为 false。                                                                  |          ||
-| `log_to_file`      | 是否输出日志到文件                                                              |          ||
-| `metrics`      | 是否输出 metrics。logger 模块中有专门的 metrics 输出函数，如有需要，可以用来输出 metrics 日志，不受全局日志级别的影响，且对应的日志会输出到专门的文件。      |          ||
-| `log_path`| 会在该路径生成两个日志文件：muta.log 和 metrics.log。metrics.log中包含了专门的 metrics 日志，muta.log 中包含了其它所有 log 输出。      |         ||
+| `peer_id`|    node id, calculated from the public key                                                      |         ||
+| `address`        | network address                                                                                |        ||
+
+### Mempool parameters
+
+| Parameter     | Description                                                                                                   |Default   ||
+|:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
+| `pool_size`| size of mempool                                                        |      2000   ||
+| `broadcast_txs_size` | number of transaction in one broadcast                                                              |    200    ||
+| `broadcast_txs_interval`      | interval between each broadcast, measured in millisecond                              |    200     ||
+
+### Executor parameters
+
+| Parameter     | Description                                                                                                   |Default   ||
+|:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
+| `light`| when set to true, node will only keep the state of latest block hight                                             |   false      ||
+
+### Logger parameters
+
+| Parameter     | Description                                                                                                   |Default   ||
+|:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
+| `filter`| log level globally                                                       |   "info"      ||
+| `log_to_console`        | whether output the log to console, it's recommended to set to false in production                    |   true     ||
+| `console_show_file_and_line`      | when `log_to_console` and `console_show_file_and_line` are both true, log will include file and number of lines                  |   false       ||
+| `log_to_file`      | whether output log to file                                                            |    true      ||
+| `metrics`      | whether output metrics. There are metric functions which is independent from global log level in logger module, and if it's needed, it can be used to output metrics to specific files.   |    true      ||
+
+### Rocksdb parameters
+
+| Parameter     | Description                                                                                                   |Default   ||
+|:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
+| `max_open_files `|     The maximum value of file descriptors (FD) allowed to be opened by rocksdb.                       |   64      ||
 
 
+## Log sample
+
+All logs are in json format, each message is a nested json structure.
+
+```
+$ tail logs/muta.log -n 1
+{"time":"2020-02-12T17:11:04.187149+08:00","message":"update_after_exec cache: height 2, exec height 0, prev_hash 0x039d2f399864dba72c5b0f26ec989cba9bdcb9fca23ce48c8bc8c4398cb2ad0b,latest_state_root 0xde37f62c1121e283ad52fe5b3e260c899f03d42da29fdfe08e82655185d9b772 state root [0xde37f62c1121e283ad52fe5b3e260c899f03d42da29fdfe08e82655185d9b772], receipt root [], confirm root [], cycle used []","module_path":"core_consensus::status","file":"/Users/huwenchao/.cargo/git/checkouts/muta-cad92efdb84944c1/34d052a/core/consensus/src/status.rs","line":114,"level":"INFO","target":"core_consensus::status","thread":"main","thread_id":4576796096,"mdc":{}}
+
+$ tail logs/metrics.log -n 1
+{"time":"2020-02-12T17:11:04.187240+08:00","message":"{\"timestamp\":1581498664187,\"event_name\":\"update_exec_info\",\"event_type\":\"custom\",\"tag\":{\"confirm_root\":\"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421\",\"exec_height\":1,\"receipt_root\":\"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421\",\"state_root\":\"0xde37f62c1121e283ad52fe5b3e260c899f03d42da29fdfe08e82655185d9b772\"},\"metadata\":{\"address\":\"0xf8389d774afdad8755ef8e629e5a154fddc6325a\",\"v\":\"0.3.0\"}}","module_path":"core_consensus::trace","file":"/Users/huwenchao/.cargo/git/checkouts/muta-cad92efdb84944c1/34d052a/core/consensus/src/trace.rs","line":24,"level":"TRACE","target":"metrics","thread":"main","thread_id":4576796096,"mdc":{}}
+```

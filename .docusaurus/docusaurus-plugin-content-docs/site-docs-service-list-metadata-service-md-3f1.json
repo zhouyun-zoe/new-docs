@@ -1,0 +1,17 @@
+{
+  "id": "service-list/metadata-service",
+  "title": "metadata-service",
+  "description": "on the way",
+  "source": "@site/docs/service-list/metadata-service.md",
+  "permalink": "/new-docs/docs/service-list/metadata-service",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/service-list/metadata-service.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Tutorial：使用 Muta 框架从零开发一条 Dex 专有链",
+    "permalink": "/new-docs/docs/dev/dex"
+  },
+  "next": {
+    "title": "Asset Service",
+    "permalink": "/new-docs/docs/service-list/asset-service"
+  }
+}

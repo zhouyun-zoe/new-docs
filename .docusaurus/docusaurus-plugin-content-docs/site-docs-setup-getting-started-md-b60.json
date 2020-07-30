@@ -5,7 +5,7 @@
   "source": "@site/docs/setup/getting-started.md",
   "permalink": "/new-docs/docs/setup/getting-started",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/setup/getting-started.md",
-  "sidebar": "docs",
+  "sidebar": "docs_zh",
   "previous": {
     "title": "Basic Concepts",
     "permalink": "/new-docs/docs/about/concepts"
