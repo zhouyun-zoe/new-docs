@@ -1,8 +1,0 @@
-{
-  "id": "docs_zh/genesis-config",
-  "title": "Genesis Configuration",
-  "description": "The fundamental Muta concepts. A great place to start learning about Muta.",
-  "source": "@site/docs/docs_zh/genesis-config.md",
-  "permalink": "/new-docs/docs/docs_zh/genesis-config",
-  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/genesis-config.md"
-}

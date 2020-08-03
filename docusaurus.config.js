@@ -29,19 +29,31 @@ module.exports = {
         { to: "blog/", label: "Blog", position: "left" },
         {
           to: "community/",
-          className: 'header-community-link',
+          /* className: 'header-community-link',*/
+          label: "Communtiy",
           position: "right",
+        }, 
+        {
+          /* className: 'header-translate-link', */
+          label: "translate",
+          position: 'right', 
+          items: [
+            {
+              label: '中文',
+              to: 'docs-zh/what-is-muta',
+            },
+            {
+              label: 'English',
+              to: 'docs/about/what-is-muta',
+            },
+            // ... more items
+          ],
         }, 
         {
           href: "https://github.com/nervosnetwork/muta",
           className: 'header-github-link',
           position: "right",
-        },  
-        {
-          className: 'header-translate-link',
-          position: 'right', // or 'right'
-          to: 'docs/docs_zh/about/what-is-muta',
-        },   
+        },    
       ],
     },
     prism: {

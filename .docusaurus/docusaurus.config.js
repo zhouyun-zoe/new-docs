@@ -147,18 +147,27 @@ export default {
         },
         {
           "to": "community/",
-          "className": "header-community-link",
+          "label": "Communtiy",
           "position": "right"
+        },
+        {
+          "label": "translate",
+          "position": "right",
+          "items": [
+            {
+              "label": "中文",
+              "to": "docs-zh/what-is-muta"
+            },
+            {
+              "label": "English",
+              "to": "docs/about/what-is-muta"
+            }
+          ]
         },
         {
           "href": "https://github.com/nervosnetwork/muta",
           "className": "header-github-link",
           "position": "right"
-        },
-        {
-          "className": "header-translate-link",
-          "position": "right",
-          "to": "docs/docs_zh/about/what-is-muta"
         }
       ]
     },

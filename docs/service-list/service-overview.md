@@ -14,7 +14,7 @@ sidebar_label: Overview
 
 ### Huobichain 特有的四个 Service
 
-Huobichain Service 也都已在 GitHub 开源，使用时请遵循 Huobichain 的开源协议 - GPL 协议
+Huobichain Service 也都已在 GitHub 开源，参考时请遵循 Huobichain 的开源协议 - GPL 协议
 
 * [Admission Control Service][admission-service]
 * [Governance Service][gov-service]
