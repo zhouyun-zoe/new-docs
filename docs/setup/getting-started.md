@@ -120,7 +120,7 @@ Hey, bro, this final compilation can take up to 30 minutes depending on your har
 
 After compiling Muta succeed, before runnning the node, you can custome the blockchain parameters (`genesis.toml` and `config.toml`) which effect the entire chain and network. More information can be found in Configuration guide.
 
-<Jump to="/docs/setup/config/">View Configuration Guide</Jump>
+<Jump to="../config/">View Configuration Guide</Jump>
 
 In this case, we’ll leave these parameters on their default settings.
 
@@ -128,7 +128,7 @@ In this case, we’ll leave these parameters on their default settings.
 
 How to deploy your chain really depends on your production need. We provide a guide to show you how to deploy multi-node network.
 
-<Jump to="/docs/setup/deploy/">View Deployment Guide</Jump>
+<Jump to="../deploy/">View Deployment Guide</Jump>
 
 In here, we will show you how to run a single node on localhost.
 
@@ -188,7 +188,7 @@ You can use GraphiQL or Muta-cli to interact with your chain.
 
 By default, the chain exposes the GraphQL interface on port 8000 for users to interact with the chain. Open http://127.0.0.1:8000/graphiql, and you will see:
 
-![](./static/graphiql.png)
+![](/static/docs-img/graphiql.png)
 
 Enter the GraphQL statement on the left and click the execute button in the middle to see the execution result on the right. Click Docs on the right to view the interface documentation. For more GraphQL usage, please refer to [Official Document](https://graphql.org/).
 
@@ -346,11 +346,11 @@ Your next step may be:
 
 * Decentralize your network with more nodes in the Start a Private Network tutorial.
 
-<Jump to="/docs/setup/config/">View Deploy a Multi-node Tutorial</Jump>
+<Jump to="../config/">View Deploy a Multi-node Tutorial</Jump>
 
 * Add custom functionality in the Build a dApp tutorial.
 
-<Jump to="/docs/setup/config/">View Service Guide</Jump>
+<Jump to="../config/">View Service Guide</Jump>
 
 If you experienced any issues with this tutorial or want to provide feedback, feel free to open a GitHub issue or reach out on Discord.
     

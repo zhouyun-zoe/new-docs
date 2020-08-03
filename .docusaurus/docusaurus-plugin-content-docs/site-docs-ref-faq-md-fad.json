@@ -1,0 +1,13 @@
+{
+  "id": "ref/faq",
+  "title": "FAQ",
+  "description": "#### Overlord 共识算法与 Tendermint 等共识算法相比有哪些改进？",
+  "source": "@site/docs/ref/faq.md",
+  "permalink": "/new-docs/docs/ref/faq",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/ref/faq.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Keypair",
+    "permalink": "/new-docs/docs/toolchain/keypair"
+  }
+}

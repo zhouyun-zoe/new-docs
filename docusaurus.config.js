@@ -1,9 +1,13 @@
 const path = require("path");
 
+const allDocHomesPaths = [
+  'new-docs/docs/',
+];
+
 module.exports = {
   title: "Muta",
   tagline:
-    "Build your own blochkchain, today!",
+    "Build your own blockchain, today!",
   url: "https://zhouyun-zoe.github.io",
   baseUrl: "/new-docs/",
   favicon: "/img/muta-logo.png",
@@ -25,29 +29,19 @@ module.exports = {
         { to: "blog/", label: "Blog", position: "left" },
         {
           to: "community/",
-          label: "community",
+          className: 'header-community-link',
           position: "right",
-        },
-        {
-          label: 'Translation',
-          position: 'right', // or 'right'
-          items: [
-            {
-              label: '中文',
-              to: 'docs/docs_zh/about/what-is-muta',
-            },
-            {
-              label: 'English',
-              to: 'docs/about/what-is-muta',
-            },
-            // ... more items
-          ],
         }, 
         {
           href: "https://github.com/nervosnetwork/muta",
           className: 'header-github-link',
           position: "right",
-        },     
+        },  
+        {
+          className: 'header-translate-link',
+          position: 'right', // or 'right'
+          to: 'docs/docs_zh/about/what-is-muta',
+        },   
       ],
     },
     prism: {

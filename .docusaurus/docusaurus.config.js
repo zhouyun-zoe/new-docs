@@ -147,27 +147,18 @@ export default {
         },
         {
           "to": "community/",
-          "label": "community",
+          "className": "header-community-link",
           "position": "right"
-        },
-        {
-          "label": "Translation",
-          "position": "right",
-          "items": [
-            {
-              "label": "中文",
-              "to": "docs/docs_zh/about/what-is-muta"
-            },
-            {
-              "label": "English",
-              "to": "docs/about/what-is-muta"
-            }
-          ]
         },
         {
           "href": "https://github.com/nervosnetwork/muta",
           "className": "header-github-link",
           "position": "right"
+        },
+        {
+          "className": "header-translate-link",
+          "position": "right",
+          "to": "docs/docs_zh/about/what-is-muta"
         }
       ]
     },
@@ -445,7 +436,7 @@ export default {
     }
   },
   "title": "Muta",
-  "tagline": "Build your own blochkchain, today!",
+  "tagline": "Build your own blockchain, today!",
   "url": "https://zhouyun-zoe.github.io",
   "baseUrl": "/new-docs/",
   "favicon": "/img/muta-logo.png",

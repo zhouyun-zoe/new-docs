@@ -11,7 +11,7 @@ function Steps({children, headingDepth}) {
     title: `Tutorial on ${location} failed`,
     body: `The tutorial on:\n\n${location}\n\nHere's what went wrong:\n\n<!-- Insert command output and details. Thank you for reporting! :) -->`
   };
-  let issueURL = `https://github.com/nervosnetwork/muta/issues/new?${queryString.stringify(issueQueryString)}`;
+  let issueURL = `https://github.com/nervosnetwork/muta-docs/issues/new?${queryString.stringify(issueQueryString)}`;
 
   const [feedbackAnswer, setFeedbackAnswer] = useState(null);
 

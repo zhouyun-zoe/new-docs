@@ -1,4 +1,5 @@
 ---
+sidebar_label: Overview
 title: Development Overview
 ---
 
@@ -17,7 +18,7 @@ import Jump from '@site/src/components/Jump';
    
 该文档主要介绍了 Service 的组成和开发指南
 
-<Jump to="/docs/setup/config/">View Service Dev Guide</Jump>
+<Jump to="../service-dev/">View Service Dev Guide</Jump>
 
 </li>
 <li>
@@ -26,7 +27,7 @@ import Jump from '@site/src/components/Jump';
 
 我们提供了许多通用的 Service 可供参考和使用，涉及治理，资产，多签等等。
 
-<Jump to="/docs/setup/config/">View Service List</Jump>
+<Jump to="../../service-list/service-overview">View Service List</Jump>
 
 </li>
 <li>
@@ -35,14 +36,14 @@ import Jump from '@site/src/components/Jump';
 
 在该教程中，我们将带你从头开发一个简单的存证 Service，并且接入 Muta，进而搭建一条存证链。
 
-<Jump to="/docs/setup/config/">View Service List</Jump>
+<Jump to="../poe-chain/">Develop A attestation Service</Jump>
 
 </li>
 <li>
 
 ### 学习开发更为复杂的应用 - 去中心化交易所
 
-<Jump to="/docs/setup/config/">View Service List</Jump>
+<Jump to="../dex/">Build a DEX</Jump>
 
 </li>
 </ol>
@@ -50,7 +51,17 @@ import Jump from '@site/src/components/Jump';
 
 ## 内置 Service 说明
 
-目前 Muta 框架源代码目前内置了四个 built-in Service：Metadata Service、Asset Service、authorization service 和 multi-signature service。编译完成，起链之前，对链进行配置的时候。Metadata Service 相关的配置项为起链所必须的配置项。 其他 Service 为可选配置，开发者可以根据实际需求决定是否要在创世块中进行配置。
+目前 Muta 框架源代码目前内置了四个 built-in Service：Metadata Service、Asset Service、Authorization service 和 Multi-signature service。编译完成，起链之前，对链进行配置的时候。Metadata Service 相关的配置项为起链所必须的配置项。 其他 Service 为可选配置，开发者可以根据实际需求决定是否要在创世块中进行配置。
+
+<Jump to="../../service-list/metadata-service/">Metadata Service</Jump>
+
+<Jump to="../../service-list/asset-service/">Asset Service</Jump>
+
+<Jump to="../../service-list/auth-service/">Authorization Service</Jump>
+
+<Jump to="../../service-list/multi-sig-service/">Multi-signature Service</Jump>
+
+
 
 
 

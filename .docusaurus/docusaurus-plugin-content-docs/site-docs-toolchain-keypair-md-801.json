@@ -5,9 +5,13 @@
   "source": "@site/docs/toolchain/keypair.md",
   "permalink": "/new-docs/docs/toolchain/keypair",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/toolchain/keypair.md",
-  "sidebar": "docs_zh",
+  "sidebar": "docs",
   "previous": {
     "title": "Muta Benchmark Tool",
     "permalink": "/new-docs/docs/toolchain/benchmark-tool"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/new-docs/docs/ref/faq"
   }
 }

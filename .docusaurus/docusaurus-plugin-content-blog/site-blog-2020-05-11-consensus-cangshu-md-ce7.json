@@ -1,0 +1,15 @@
+{
+  "permalink": "/new-docs/blog/consensus-cangshu",
+  "source": "@site/blog/2020-05-11-consensus-cangshu.md",
+  "description": "Let's talk about Consensus",
+  "date": "2020-05-11T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "type: post",
+      "permalink": "/new-docs/blog/tags/type-post"
+    }
+  ],
+  "title": "共识算法发展历程（从 Paxos 聊起...)",
+  "readingTime": 0.06,
+  "truncated": false
+}

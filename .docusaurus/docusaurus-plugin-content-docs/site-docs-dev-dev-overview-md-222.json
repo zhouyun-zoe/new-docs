@@ -5,7 +5,8 @@
   "source": "@site/docs/dev/dev-overview.md",
   "permalink": "/new-docs/docs/dev/dev-overview",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/dev/dev-overview.md",
-  "sidebar": "docs_zh",
+  "sidebar_label": "Overview",
+  "sidebar": "docs",
   "previous": {
     "title": "Deployment",
     "permalink": "/new-docs/docs/setup/deploy"

@@ -6,14 +6,14 @@
     "component": "component---theme-blog-list-pagea-6-a-7ba",
     "items": [
       {
-        "content": "content---new-docs-bloge-26-de6"
+        "content": "content---new-docs-blog-151-314"
       }
     ],
     "metadata": "metadata---new-docs-blog-4-d-3-88c"
   },
   "/new-docs/blog/consensus-cangshu": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "content": "content---new-docs-blog-consensus-cangshuab-1-0c9"
+    "content": "content---new-docs-blog-consensus-cangshuce-7-60b"
   },
   "/new-docs/blog/tags": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
@@ -23,7 +23,7 @@
     "component": "component---theme-blog-tags-posts-page-687-b6c",
     "items": [
       {
-        "content": "content---new-docs-bloge-26-de6"
+        "content": "content---new-docs-blog-151-314"
       }
     ],
     "metadata": "metadata---new-docs-blog-tags-type-post-4-e-5-ede"
@@ -298,10 +298,6 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-dev-service-dev-0-af-b7e"
   },
-  "/new-docs/docs/dev/service-eg": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-dev-service-eg-689-aa8"
-  },
   "/new-docs/docs/docs_zh/about/what-is-muta": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-docs-zh-about-what-is-muta-62-c-7ce"
@@ -318,13 +314,9 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-docs-zh-node-config-291-904"
   },
-  "/new-docs/docs/faq": {
+  "/new-docs/docs/ref/faq": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-faq-048-713"
-  },
-  "/new-docs/docs/ref-list": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-ref-listdd-0-1a8"
+    "content": "content---new-docs-docs-ref-faqfad-5ba"
   },
   "/new-docs/docs/service-list/admission-service": {
     "component": "component---theme-doc-item-178-a40",
@@ -357,6 +349,10 @@
   "/new-docs/docs/service-list/riscv-service": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-service-list-riscv-service-9-a-4-1f5"
+  },
+  "/new-docs/docs/service-list/service-overview": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-service-list-service-overviewd-44-107"
   },
   "/new-docs/docs/setup/config": {
     "component": "component---theme-doc-item-178-a40",

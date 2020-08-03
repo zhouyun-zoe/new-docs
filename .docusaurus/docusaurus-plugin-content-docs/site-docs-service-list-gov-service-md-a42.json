@@ -7,11 +7,11 @@
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/service-list/gov-service.md",
   "sidebar": "docs",
   "previous": {
-    "title": "multi-sig-service",
+    "title": "Multi-signature Service",
     "permalink": "/new-docs/docs/service-list/multi-sig-service"
   },
   "next": {
-    "title": "riscv-service",
+    "title": "RISC-V Service",
     "permalink": "/new-docs/docs/service-list/riscv-service"
   }
 }

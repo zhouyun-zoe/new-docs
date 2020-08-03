@@ -5,7 +5,7 @@
   "source": "@site/docs/setup/genesis-config.md",
   "permalink": "/new-docs/docs/setup/genesis-config",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/setup/genesis-config.md",
-  "sidebar": "docs_zh",
+  "sidebar": "docs",
   "previous": {
     "title": "Configuration",
     "permalink": "/new-docs/docs/setup/config"

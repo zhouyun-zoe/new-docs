@@ -274,12 +274,6 @@ export default [
   
 },
 {
-  path: '/new-docs/docs/dev/service-eg',
-  component: ComponentCreator('/new-docs/docs/dev/service-eg'),
-  exact: true,
-  
-},
-{
   path: '/new-docs/docs/docs_zh/about/what-is-muta',
   component: ComponentCreator('/new-docs/docs/docs_zh/about/what-is-muta'),
   exact: true,
@@ -304,14 +298,8 @@ export default [
   
 },
 {
-  path: '/new-docs/docs/faq',
-  component: ComponentCreator('/new-docs/docs/faq'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/ref-list',
-  component: ComponentCreator('/new-docs/docs/ref-list'),
+  path: '/new-docs/docs/ref/faq',
+  component: ComponentCreator('/new-docs/docs/ref/faq'),
   exact: true,
   
 },
@@ -360,6 +348,12 @@ export default [
 {
   path: '/new-docs/docs/service-list/riscv-service',
   component: ComponentCreator('/new-docs/docs/service-list/riscv-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/service-list/service-overview',
+  component: ComponentCreator('/new-docs/docs/service-list/service-overview'),
   exact: true,
   
 },

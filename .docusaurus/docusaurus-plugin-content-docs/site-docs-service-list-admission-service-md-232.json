@@ -7,11 +7,11 @@
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/service-list/admission-service.md",
   "sidebar": "docs",
   "previous": {
-    "title": "riscv-service",
+    "title": "RISC-V Service",
     "permalink": "/new-docs/docs/service-list/riscv-service"
   },
   "next": {
-    "title": "kyc-service",
+    "title": "KYC Service",
     "permalink": "/new-docs/docs/service-list/kyc-service"
   }
 }

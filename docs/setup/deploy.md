@@ -9,7 +9,7 @@ In this tutorial we will learn and practice how to start a blockchain network wi
 
 ## Overview
 
-**This tutorial assumes that you already have Muta compiled on your computer from when you completed the [Create Your First Muta Chain Tutorial](./before-create).** If you do not, please install and compile Muta framework first.
+**This tutorial assumes that you already have Muta compiled on your computer from when you completed the [Create Your First Muta Chain Tutorial][getting-started].** If you do not, please install and compile Muta framework first.
 
 In this case, we will build a blockchain network with four validators (Alice, Bob, Bill and Ben). And Alice will be the bootstrap node. The tutorial is divided into several sections:
 
@@ -129,9 +129,11 @@ Pay attention to following three fields:
 * Since Overlord consensus protocol supports weghted votes, in here, we can also set `propose_weight` and `propose_weight`. 
 * And don't forget to modify `common_ref`.
 
-:::note
-More info of the other parameters in `genesis.toml` can be explored in [configuration guide](./config.md). 
-:::
+<Alert type="info">
+
+More info of the other parameters in `genesis.toml` can be explored in [configuration guide][config]. 
+
+</Alert>
 
 After knowing that, Alice adds the other nodes' info into `verifier_list` , give each validator a weight of 1, modify `common_ref` and keep the other fields unchanged. Then the `genesis.toml` looks like this:
 
@@ -445,7 +447,7 @@ CONFIG=./devtools/chain/config-bill.toml GENESIS=./devtools/chain/genesis.toml c
 
 You should see the console outputs something as follows:
 
-![](/static/img/private-network.png)
+![](/static/docs-img/private-network.png)
 
 Congratulations! You've started your own blockchain!
 
@@ -458,3 +460,6 @@ Congratulations! You've started your own blockchain!
 In this tutorial you've learned to generate your own keypairs, create a genesis block, config your node, and start a multi-node network based on your custom configuration.
 
 Your next step may be:
+
+
+[getting-started]: ../getting-started.md

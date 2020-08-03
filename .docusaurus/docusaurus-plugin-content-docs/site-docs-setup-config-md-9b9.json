@@ -6,7 +6,7 @@
   "permalink": "/new-docs/docs/setup/config",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/setup/config.md",
   "sidebar_label": "hidden",
-  "sidebar": "docs_zh",
+  "sidebar": "docs",
   "previous": {
     "title": "Getting Started",
     "permalink": "/new-docs/docs/setup/getting-started"

@@ -5,13 +5,13 @@
   "source": "@site/docs/dev/service-dev.md",
   "permalink": "/new-docs/docs/dev/service-dev",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/dev/service-dev.md",
-  "sidebar": "docs_zh",
+  "sidebar": "docs",
   "previous": {
     "title": "Development Overview",
     "permalink": "/new-docs/docs/dev/dev-overview"
   },
   "next": {
-    "title": "Overlord",
-    "permalink": "/new-docs/docs/advanced/core/overlord"
+    "title": "Service List",
+    "permalink": "/new-docs/docs/service-list/service-overview"
   }
 }

@@ -8,8 +8,8 @@
   "sidebar_label": "Develop a Service",
   "sidebar": "docs",
   "previous": {
-    "title": "Service Development Guide",
-    "permalink": "/new-docs/docs/dev/service-dev"
+    "title": "KYC Service",
+    "permalink": "/new-docs/docs/service-list/kyc-service"
   },
   "next": {
     "title": "Tutorial：使用 Muta 框架从零开发一条 Dex 专有链",

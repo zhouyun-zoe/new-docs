@@ -4,5 +4,14 @@
   "description": "",
   "source": "@site/docs/advanced/arch.md",
   "permalink": "/new-docs/docs/advanced/arch",
-  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/arch.md"
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/arch.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Tutorial：使用 Muta 框架从零开发一条 Dex 专有链",
+    "permalink": "/new-docs/docs/dev/dex"
+  },
+  "next": {
+    "title": "Overlord",
+    "permalink": "/new-docs/docs/advanced/core/overlord"
+  }
 }

@@ -5,7 +5,7 @@
   "source": "@site/docs/setup/deploy.md",
   "permalink": "/new-docs/docs/setup/deploy",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/setup/deploy.md",
-  "sidebar": "docs_zh",
+  "sidebar": "docs",
   "previous": {
     "title": "Node Configuration",
     "permalink": "/new-docs/docs/setup/node-config"

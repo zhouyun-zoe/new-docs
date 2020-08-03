@@ -5,7 +5,7 @@
   "source": "@site/docs/toolchain/explorer.md",
   "permalink": "/new-docs/docs/toolchain/explorer",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/toolchain/explorer.md",
-  "sidebar": "docs_zh",
+  "sidebar": "docs",
   "previous": {
     "title": "JAVA SDK",
     "permalink": "/new-docs/docs/toolchain/sdk-java"

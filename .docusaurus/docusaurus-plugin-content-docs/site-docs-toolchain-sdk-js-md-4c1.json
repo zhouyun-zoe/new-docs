@@ -5,7 +5,7 @@
   "source": "@site/docs/toolchain/sdk-js.md",
   "permalink": "/new-docs/docs/toolchain/sdk-js",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/toolchain/sdk-js.md",
-  "sidebar": "docs_zh",
+  "sidebar": "docs",
   "previous": {
     "title": "Cryptography",
     "permalink": "/new-docs/docs/advanced/crypto"

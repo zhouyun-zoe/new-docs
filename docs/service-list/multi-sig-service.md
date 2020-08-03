@@ -1,5 +1,5 @@
 ---
-Multi-signature Service
+title: Multi-signature Service
 ---
 
 on the way

@@ -3,11 +3,11 @@ title: Node Configuration
 description: The fundamental Muta concepts. A great place to start learning about Muta.
 ---
 
-In this section we will understand how to customize node running parameters in `devtools/chain/genesis.toml` which only affect individual nodes in a network. Different nodes can set their own parameters depending on their operation environment.
+In this section we will understand how to customize node running parameters in [`devtools/chain/config.toml`][config.toml] which only affect individual nodes in a network. Different nodes can set their own parameters depending on their operation environment.
 
 ## Overview
 
-Let's take a look at `devtools/chain/config.toml`.
+Let's take a look at [`devtools/chain/config.toml`][config.toml].
 
 ```
 # crypto
@@ -147,3 +147,5 @@ $ tail logs/muta.log -n 1
 $ tail logs/metrics.log -n 1
 {"time":"2020-02-12T17:11:04.187240+08:00","message":"{\"timestamp\":1581498664187,\"event_name\":\"update_exec_info\",\"event_type\":\"custom\",\"tag\":{\"confirm_root\":\"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421\",\"exec_height\":1,\"receipt_root\":\"0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421\",\"state_root\":\"0xde37f62c1121e283ad52fe5b3e260c899f03d42da29fdfe08e82655185d9b772\"},\"metadata\":{\"address\":\"0xf8389d774afdad8755ef8e629e5a154fddc6325a\",\"v\":\"0.3.0\"}}","module_path":"core_consensus::trace","file":"/Users/huwenchao/.cargo/git/checkouts/muta-cad92efdb84944c1/34d052a/core/consensus/src/trace.rs","line":24,"level":"TRACE","target":"metrics","thread":"main","thread_id":4576796096,"mdc":{}}
 ```
+
+[config.toml]: https://github.com/nervosnetwork/muta/blob/master/devtools/chain/config.toml

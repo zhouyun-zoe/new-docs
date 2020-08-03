@@ -5,7 +5,7 @@
   "source": "@site/docs/toolchain/sdk-java.md",
   "permalink": "/new-docs/docs/toolchain/sdk-java",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/toolchain/sdk-java.md",
-  "sidebar": "docs_zh",
+  "sidebar": "docs",
   "previous": {
     "title": "JS SDK",
     "permalink": "/new-docs/docs/toolchain/sdk-js"
