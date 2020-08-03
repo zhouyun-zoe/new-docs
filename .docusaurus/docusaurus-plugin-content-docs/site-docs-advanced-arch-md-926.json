@@ -11,7 +11,7 @@
     "permalink": "/new-docs/docs/dev/dex"
   },
   "next": {
-    "title": "Overlord",
-    "permalink": "/new-docs/docs/advanced/core/overlord"
+    "title": "Transaction, Block and State",
+    "permalink": "/new-docs/docs/advanced/transaction-block"
   }
 }

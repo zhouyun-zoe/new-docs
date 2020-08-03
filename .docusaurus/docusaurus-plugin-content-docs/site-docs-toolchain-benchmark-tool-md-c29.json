@@ -7,11 +7,11 @@
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/toolchain/benchmark-tool.md",
   "sidebar": "docs",
   "previous": {
-    "title": "Muta Explorer",
-    "permalink": "/new-docs/docs/toolchain/explorer"
+    "title": "Muta CLI",
+    "permalink": "/new-docs/docs/toolchain/muta-cli"
   },
   "next": {
-    "title": "Keypair",
+    "title": "Muta Keypair Tool",
     "permalink": "/new-docs/docs/toolchain/keypair"
   }
 }

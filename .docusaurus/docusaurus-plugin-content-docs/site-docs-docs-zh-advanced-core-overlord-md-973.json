@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/advanced/core/overlord",
+  "title": "Overlord",
+  "description": "- [目标](#目标)",
+  "source": "@site/docs/docs_zh/advanced/core/overlord.md",
+  "permalink": "/new-docs/docs/docs_zh/advanced/core/overlord",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/advanced/core/overlord.md",
+  "sidebar": "docs_zh",
+  "previous": {
+    "title": "Architecture",
+    "permalink": "/new-docs/docs/docs_zh/advanced/arch"
+  },
+  "next": {
+    "title": "Network",
+    "permalink": "/new-docs/docs/docs_zh/advanced/core/network"
+  }
+}

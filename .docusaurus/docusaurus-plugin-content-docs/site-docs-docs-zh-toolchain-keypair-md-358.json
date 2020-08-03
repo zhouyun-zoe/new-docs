@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/toolchain/keypair",
+  "title": "Keypair",
+  "description": "What is Muta？",
+  "source": "@site/docs/docs_zh/toolchain/keypair.md",
+  "permalink": "/new-docs/docs/docs_zh/toolchain/keypair",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/toolchain/keypair.md",
+  "sidebar": "docs_zh",
+  "previous": {
+    "title": "Muta Benchmark Tool",
+    "permalink": "/new-docs/docs/docs_zh/toolchain/benchmark-tool"
+  },
+  "next": {
+    "title": "FAQ",
+    "permalink": "/new-docs/docs/docs_zh/ref/faq"
+  }
+}

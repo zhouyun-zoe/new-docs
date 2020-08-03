@@ -238,14 +238,14 @@ export default [
   
 },
 {
-  path: '/new-docs/docs/advanced/data-structure',
-  component: ComponentCreator('/new-docs/docs/advanced/data-structure'),
+  path: '/new-docs/docs/advanced/multisignature',
+  component: ComponentCreator('/new-docs/docs/advanced/multisignature'),
   exact: true,
   
 },
 {
-  path: '/new-docs/docs/advanced/multisignature',
-  component: ComponentCreator('/new-docs/docs/advanced/multisignature'),
+  path: '/new-docs/docs/advanced/transaction-block',
+  component: ComponentCreator('/new-docs/docs/advanced/transaction-block'),
   exact: true,
   
 },
@@ -274,26 +274,224 @@ export default [
   
 },
 {
+  path: '/new-docs/docs/docs_zh/about/concepts',
+  component: ComponentCreator('/new-docs/docs/docs_zh/about/concepts'),
+  exact: true,
+  
+},
+{
   path: '/new-docs/docs/docs_zh/about/what-is-muta',
   component: ComponentCreator('/new-docs/docs/docs_zh/about/what-is-muta'),
   exact: true,
   
 },
 {
-  path: '/new-docs/docs/docs_zh/genesis-config',
-  component: ComponentCreator('/new-docs/docs/docs_zh/genesis-config'),
+  path: '/new-docs/docs/docs_zh/advanced/arch',
+  component: ComponentCreator('/new-docs/docs/docs_zh/advanced/arch'),
   exact: true,
   
 },
 {
-  path: '/new-docs/docs/docs_zh/multi_node_deploy',
-  component: ComponentCreator('/new-docs/docs/docs_zh/multi_node_deploy'),
+  path: '/new-docs/docs/docs_zh/advanced/asset',
+  component: ComponentCreator('/new-docs/docs/docs_zh/advanced/asset'),
   exact: true,
   
 },
 {
-  path: '/new-docs/docs/docs_zh/node-config',
-  component: ComponentCreator('/new-docs/docs/docs_zh/node-config'),
+  path: '/new-docs/docs/docs_zh/advanced/core/mempool',
+  component: ComponentCreator('/new-docs/docs/docs_zh/advanced/core/mempool'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/advanced/core/network',
+  component: ComponentCreator('/new-docs/docs/docs_zh/advanced/core/network'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/advanced/core/overlord',
+  component: ComponentCreator('/new-docs/docs/docs_zh/advanced/core/overlord'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/advanced/core/storage',
+  component: ComponentCreator('/new-docs/docs/docs_zh/advanced/core/storage'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/advanced/crypto',
+  component: ComponentCreator('/new-docs/docs/docs_zh/advanced/crypto'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/advanced/data-structure',
+  component: ComponentCreator('/new-docs/docs/docs_zh/advanced/data-structure'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/advanced/multisignature',
+  component: ComponentCreator('/new-docs/docs/docs_zh/advanced/multisignature'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/config/multi_node_deploy',
+  component: ComponentCreator('/new-docs/docs/docs_zh/config/multi_node_deploy'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/dev/dev-overview',
+  component: ComponentCreator('/new-docs/docs/docs_zh/dev/dev-overview'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/dev/dex',
+  component: ComponentCreator('/new-docs/docs/docs_zh/dev/dex'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/dev/poe-chain',
+  component: ComponentCreator('/new-docs/docs/docs_zh/dev/poe-chain'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/dev/service-dev',
+  component: ComponentCreator('/new-docs/docs/docs_zh/dev/service-dev'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/ref/faq',
+  component: ComponentCreator('/new-docs/docs/docs_zh/ref/faq'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/service-list/admission-service',
+  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/admission-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/service-list/asset-service',
+  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/asset-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/service-list/auth-service',
+  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/auth-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/service-list/gov-service',
+  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/gov-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/service-list/kyc-service',
+  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/kyc-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/service-list/metadata-service',
+  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/metadata-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/service-list/multi-sig-service',
+  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/multi-sig-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/service-list/riscv-service',
+  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/riscv-service'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/service-list/service-overview',
+  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/service-overview'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/setup/config',
+  component: ComponentCreator('/new-docs/docs/docs_zh/setup/config'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/setup/deploy',
+  component: ComponentCreator('/new-docs/docs/docs_zh/setup/deploy'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/setup/genesis-config',
+  component: ComponentCreator('/new-docs/docs/docs_zh/setup/genesis-config'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/setup/getting-started',
+  component: ComponentCreator('/new-docs/docs/docs_zh/setup/getting-started'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/setup/node-config',
+  component: ComponentCreator('/new-docs/docs/docs_zh/setup/node-config'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/toolchain/benchmark-tool',
+  component: ComponentCreator('/new-docs/docs/docs_zh/toolchain/benchmark-tool'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/toolchain/explorer',
+  component: ComponentCreator('/new-docs/docs/docs_zh/toolchain/explorer'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/toolchain/keypair',
+  component: ComponentCreator('/new-docs/docs/docs_zh/toolchain/keypair'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/toolchain/muta-cli',
+  component: ComponentCreator('/new-docs/docs/docs_zh/toolchain/muta-cli'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/toolchain/sdk-java',
+  component: ComponentCreator('/new-docs/docs/docs_zh/toolchain/sdk-java'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/docs_zh/toolchain/sdk-js',
+  component: ComponentCreator('/new-docs/docs/docs_zh/toolchain/sdk-js'),
   exact: true,
   
 },
@@ -402,6 +600,12 @@ export default [
 {
   path: '/new-docs/docs/toolchain/keypair',
   component: ComponentCreator('/new-docs/docs/toolchain/keypair'),
+  exact: true,
+  
+},
+{
+  path: '/new-docs/docs/toolchain/muta-cli',
+  component: ComponentCreator('/new-docs/docs/toolchain/muta-cli'),
   exact: true,
   
 },

@@ -1,0 +1,18 @@
+{
+  "id": "docs_zh/dev/dex",
+  "title": "Tutorial：使用 Muta 框架从零开发一条 Dex 专有链",
+  "description": "我们的目标是开发一条链上挂单、链上撮合、链上成交的简易 dex 专有链，旨在通过 step by step 的流程，帮助开发者熟悉 Muta 框架，学会如何使用框架开发自己的区块链。",
+  "source": "@site/docs/docs_zh/dev/dex.md",
+  "permalink": "/new-docs/docs/docs_zh/dev/dex",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/dev/dex.md",
+  "sidebar_label": "Develop a Dapp Chain",
+  "sidebar": "docs_zh",
+  "previous": {
+    "title": "Develop a POE Chain",
+    "permalink": "/new-docs/docs/docs_zh/dev/poe-chain"
+  },
+  "next": {
+    "title": "Architecture",
+    "permalink": "/new-docs/docs/docs_zh/advanced/arch"
+  }
+}

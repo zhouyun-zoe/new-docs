@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/toolchain/benchmark-tool",
+  "title": "Muta Benchmark Tool",
+  "description": "What is Muta？",
+  "source": "@site/docs/docs_zh/toolchain/benchmark-tool.md",
+  "permalink": "/new-docs/docs/docs_zh/toolchain/benchmark-tool",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/toolchain/benchmark-tool.md",
+  "sidebar": "docs_zh",
+  "previous": {
+    "title": "Muta Explorer",
+    "permalink": "/new-docs/docs/docs_zh/toolchain/explorer"
+  },
+  "next": {
+    "title": "Keypair",
+    "permalink": "/new-docs/docs/docs_zh/toolchain/keypair"
+  }
+}

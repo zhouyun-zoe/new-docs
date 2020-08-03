@@ -3,8 +3,6 @@ title: Service List
 sidebar_label: Overview
 ---
 
-## 概述
-
 本章节将列举目前已有 Service。包括：
 
 ### Muta 官方提供的四个 Built-in Service
@@ -23,7 +21,7 @@ Huobichain Service 也都已在 GitHub 开源，使用时请遵循 Huobichain �
 * [riscv-service][riscv-service]
 * [KYC Service][kyc-service]
 
-## 在该列表添加你的 Service 
+### 在该列表添加你的 Service 
 
 更多的 Service 还在继续开发中，您基于 Muta 搭建的区块链开发了哪些 Service？
 

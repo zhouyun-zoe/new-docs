@@ -1,0 +1,18 @@
+{
+  "id": "docs_zh/dev/dev-overview",
+  "title": "Development Overview",
+  "description": "在该章节，我们将为你详细介绍如何通过开发 Service 对链的功能进行定制。Service 是 Muta 框架中用于扩展的抽象层，每个 Service 完成一个相对独立的功能，单独维护自己的存储和操作接口，类似一个运行在沙盒里的小型状态机，这些 Service 共同组成了链的状态机部分，通过框架接口将状态机接入区块链底层组件，一条专属你的全新链就开发完成了！",
+  "source": "@site/docs/docs_zh/dev/dev-overview.md",
+  "permalink": "/new-docs/docs/docs_zh/dev/dev-overview",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/dev/dev-overview.md",
+  "sidebar_label": "Overview",
+  "sidebar": "docs_zh",
+  "previous": {
+    "title": "Deployment",
+    "permalink": "/new-docs/docs/docs_zh/setup/deploy"
+  },
+  "next": {
+    "title": "Service Development Guide",
+    "permalink": "/new-docs/docs/docs_zh/dev/service-dev"
+  }
+}

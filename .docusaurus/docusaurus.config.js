@@ -383,11 +383,11 @@ export default {
             },
             {
               "label": "Service Dev",
-              "to": "docs/dev/service/"
+              "to": "docs/dev/dev-overview/"
             },
             {
               "label": "Dapp Dev",
-              "to": "docs/dev/dapp-dev/"
+              "to": "docs/dev/dex/"
             }
           ]
         },

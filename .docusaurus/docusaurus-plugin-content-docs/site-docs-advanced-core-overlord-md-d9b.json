@@ -7,8 +7,8 @@
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/core/overlord.md",
   "sidebar": "docs",
   "previous": {
-    "title": "Architecture",
-    "permalink": "/new-docs/docs/advanced/arch"
+    "title": "Transaction, Block and State",
+    "permalink": "/new-docs/docs/advanced/transaction-block"
   },
   "next": {
     "title": "Network",

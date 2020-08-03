@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/service-list/asset-service",
+  "title": "Asset Service",
+  "description": "",
+  "source": "@site/docs/docs_zh/service-list/asset-service.md",
+  "permalink": "/new-docs/docs/docs_zh/service-list/asset-service",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/service-list/asset-service.md",
+  "sidebar": "docs_zh",
+  "previous": {
+    "title": "Metadata Service",
+    "permalink": "/new-docs/docs/docs_zh/service-list/metadata-service"
+  },
+  "next": {
+    "title": "Authorization Service",
+    "permalink": "/new-docs/docs/docs_zh/service-list/auth-service"
+  }
+}

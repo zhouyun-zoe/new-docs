@@ -38,11 +38,11 @@ Developers can simply customize the functional parts of the chain by developing 
 
 ### Easiest to use
 
-* **Focus only on developing the functionality of the chain**. [Consensus][consensus], [storage][storage], [mempool][mempool] and [network](network) are already built into the framework as foundational modules, so developers only need to develop services to extend the functionality of the chain.
+* **Focus only on developing the functionality of the chain**. [Consensus][overlord], [storage][storage], [mempool][mempool] and [network](network) are already built into the framework as foundational modules, so developers only need to develop services to extend the functionality of the chain.
 
-* **Developing a Service is quite easy**. When we originally designed Service, we wanted to lower the development barrier for developers so that more developers who are not as familiar with blockchain can get up to speed quickly and develop their own blockchain. As a result, Service is now very similar to developing contracts in terms of experience, so if you're already familiar with how to develop contracts, congratulations, you've also learned how to develop Service.
+* **Developing a Service is quite easy**. When we originally designed Service, we wanted to lower the development barrier for developers so that more developers who are not as familiar with blockchain can get up to speed quickly and develop their own blockchain. As a result, [developing services][service-dev] is now very similar to develop contracts in terms of experience, so if you're already familiar with how to develop contracts, congratulations, you've also learned how to develop Service.
 
-* **Existing Services can be reused directly**. Muta already provides a number of [services][service-overview] with common functionality that can be used directly by developers. For example, the Asset Service allows developers to create native assets that are safer and more flexible and easier to issue than contract tokens such as ERC20, and the Risc-V Service allows developers to add Risc-V virtual machines directly to the chain. More services can be found in the list of services, and the Muta framework will provide many more services with common features in the future.
+* **Existing Services can be reused directly**. Muta already provides a number of [services][service-list] with common functionality that can be used directly by developers. For example, the [Asset Service][asset-service] allows developers to create native assets that are safer and more flexible and easier to issue than contract tokens such as ERC20, and the [Risc-V Service][riscv-service] allows developers to add Risc-V virtual machines directly to the chain. More services can be found in the list of services, and the Muta framework will provide many more services with common features in the future.
 
 
 ### Interoperability
@@ -59,8 +59,8 @@ Developers can simply customize the functional parts of the chain by developing 
 * [Getting Started][getting-started]
 * [Configuration][config]
 * [Tutorial: Build a multi-node blockchain network][deploy]
-* [Tutorial: Benchmark the performance of your chain][]
-* [Tutorial: Visualizing your node using Prometheus and Grafana][]
+* [Tutorial: Benchmark the performance of your chain][benchmark-muta]
+* [Tutorial: Visualizing your node using Prometheus and Grafana][monitor]
 
 </li>
 <li>
@@ -137,7 +137,8 @@ As an entrepreneurial team, we are still recruiting excellent developers :heart:
 [poe-chain]: ../dev/poe-chain.md
 [dex]: ../dev/dex.md
 
-[service-overview]: ../service-list/service-overview.md
+
+[service-list]: ../service-list/service-overview.md
 [metadata-service]: ../service-list/metadata-service.md
 [asset-service]: ../service-list/asset-service.md
 [auth-service]: ../service-list/auth-service.md
@@ -157,5 +158,9 @@ As an entrepreneurial team, we are still recruiting excellent developers :heart:
 [sdk-js]: ../toolchain/sdk-js.md
 [benchmark-tool]: ../toolchain/benchmark-tool
 [keypair]: ../toolchain/keypair.md
+
+[benchmark-muta]: ../../../guides/getting-started/benchmark
+[monitor]: ../../../guides/getting-started/monitor
+[muta-cli]: ../../../guides/getting-started/muta-cli
 
 

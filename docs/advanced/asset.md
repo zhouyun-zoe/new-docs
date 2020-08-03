@@ -1,6 +1,6 @@
 ---
 title: Asset
-description: What is Account in Muta
+description: Native Asset in Muta
 ---
 
 on the way

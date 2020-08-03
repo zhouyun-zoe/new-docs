@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/toolchain/sdk-js",
+  "title": "JS SDK",
+  "description": "What is Muta？",
+  "source": "@site/docs/docs_zh/toolchain/sdk-js.md",
+  "permalink": "/new-docs/docs/docs_zh/toolchain/sdk-js",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/toolchain/sdk-js.md",
+  "sidebar": "docs_zh",
+  "previous": {
+    "title": "Cryptography",
+    "permalink": "/new-docs/docs/docs_zh/advanced/crypto"
+  },
+  "next": {
+    "title": "JAVA SDK",
+    "permalink": "/new-docs/docs/docs_zh/toolchain/sdk-java"
+  }
+}

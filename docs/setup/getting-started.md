@@ -108,7 +108,7 @@ Firstly, you need to compile the source code.
 
 <Alert type="info">
 
-Hey, bro, this final compilation can take up to 30 minutes depending on your hardware. Why don't use this time to glance through the [key concept in Muta]().
+Hey, bro, this final compilation can take up to 30 minutes depending on your hardware. Why don't use this time to glance through the [key concept in Muta][concepts].
 
 </Alert>
 
@@ -194,7 +194,7 @@ Enter the GraphQL statement on the left and click the execute button in the midd
 
 ### Using muta-cli
 
-Muta-cli is an command line tool used to interacting with Muta.
+[Muta-cli][muta-cli] is an command line tool used to interacting with Muta.
 
 <Steps headingDepth={3}>
 <ol>
@@ -346,15 +346,16 @@ Your next step may be:
 
 * Decentralize your network with more nodes in the Start a Private Network tutorial.
 
-<Jump to="../config/">View Deploy a Multi-node Tutorial</Jump>
+<Jump to="../deploy/">View Deploy a Multi-node Tutorial</Jump>
 
 * Add custom functionality in the Build a dApp tutorial.
 
-<Jump to="../config/">View Service Guide</Jump>
+<Jump to="../../dev/dev-overview">View Service Guide</Jump>
 
 If you experienced any issues with this tutorial or want to provide feedback, feel free to open a GitHub issue or reach out on Discord.
     
-
+[concepts]: ../../about/concepts
+[muta-cli]: ../../toolchain/muta-cli
 
 
 

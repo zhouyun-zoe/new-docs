@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/dev/service-dev",
+  "title": "Service Development Guide",
+  "description": "## 概念",
+  "source": "@site/docs/docs_zh/dev/service-dev.md",
+  "permalink": "/new-docs/docs/docs_zh/dev/service-dev",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/dev/service-dev.md",
+  "sidebar": "docs_zh",
+  "previous": {
+    "title": "Development Overview",
+    "permalink": "/new-docs/docs/docs_zh/dev/dev-overview"
+  },
+  "next": {
+    "title": "Service List",
+    "permalink": "/new-docs/docs/docs_zh/service-list/service-overview"
+  }
+}

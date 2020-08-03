@@ -274,13 +274,13 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-advanced-crypto-478-b91"
   },
-  "/new-docs/docs/advanced/data-structure": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-advanced-data-structure-0-dd-179"
-  },
   "/new-docs/docs/advanced/multisignature": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-advanced-multisignature-4-f-8-8ea"
+  },
+  "/new-docs/docs/advanced/transaction-block": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-advanced-transaction-block-8-fc-ebd"
   },
   "/new-docs/docs/dev/dev-overview": {
     "component": "component---theme-doc-item-178-a40",
@@ -298,21 +298,153 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-dev-service-dev-0-af-b7e"
   },
+  "/new-docs/docs/docs_zh/about/concepts": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-about-concepts-97-c-b74"
+  },
   "/new-docs/docs/docs_zh/about/what-is-muta": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-docs-zh-about-what-is-muta-62-c-7ce"
   },
-  "/new-docs/docs/docs_zh/genesis-config": {
+  "/new-docs/docs/docs_zh/advanced/arch": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-docs-zh-genesis-configa-52-b3a"
+    "content": "content---new-docs-docs-docs-zh-advanced-arch-755-a9d"
   },
-  "/new-docs/docs/docs_zh/multi_node_deploy": {
+  "/new-docs/docs/docs_zh/advanced/asset": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-docs-zh-multi-node-deploy-621-698"
+    "content": "content---new-docs-docs-docs-zh-advanced-asset-2-bb-db6"
   },
-  "/new-docs/docs/docs_zh/node-config": {
+  "/new-docs/docs/docs_zh/advanced/core/mempool": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---new-docs-docs-docs-zh-node-config-291-904"
+    "content": "content---new-docs-docs-docs-zh-advanced-core-mempoold-8-b-37e"
+  },
+  "/new-docs/docs/docs_zh/advanced/core/network": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-advanced-core-network-28-d-f95"
+  },
+  "/new-docs/docs/docs_zh/advanced/core/overlord": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-advanced-core-overlord-973-e40"
+  },
+  "/new-docs/docs/docs_zh/advanced/core/storage": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-advanced-core-storage-2-b-9-c9f"
+  },
+  "/new-docs/docs/docs_zh/advanced/crypto": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-advanced-crypto-16-b-bba"
+  },
+  "/new-docs/docs/docs_zh/advanced/data-structure": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-advanced-data-structure-5-be-d02"
+  },
+  "/new-docs/docs/docs_zh/advanced/multisignature": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-advanced-multisignaturea-4-a-c11"
+  },
+  "/new-docs/docs/docs_zh/config/multi_node_deploy": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-config-multi-node-deploye-62-e21"
+  },
+  "/new-docs/docs/docs_zh/dev/dev-overview": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-dev-dev-overviewd-89-6ab"
+  },
+  "/new-docs/docs/docs_zh/dev/dex": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-dev-dexb-1-f-0b7"
+  },
+  "/new-docs/docs/docs_zh/dev/poe-chain": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-dev-poe-chainf-08-de9"
+  },
+  "/new-docs/docs/docs_zh/dev/service-dev": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-dev-service-dev-661-cc0"
+  },
+  "/new-docs/docs/docs_zh/ref/faq": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-ref-faqc-14-e0d"
+  },
+  "/new-docs/docs/docs_zh/service-list/admission-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-service-list-admission-servicea-63-bb0"
+  },
+  "/new-docs/docs/docs_zh/service-list/asset-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-service-list-asset-servicece-1-f4c"
+  },
+  "/new-docs/docs/docs_zh/service-list/auth-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-service-list-auth-servicee-25-08f"
+  },
+  "/new-docs/docs/docs_zh/service-list/gov-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-service-list-gov-service-7-e-7-255"
+  },
+  "/new-docs/docs/docs_zh/service-list/kyc-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-service-list-kyc-service-7-b-1-75c"
+  },
+  "/new-docs/docs/docs_zh/service-list/metadata-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-service-list-metadata-serviceb-43-082"
+  },
+  "/new-docs/docs/docs_zh/service-list/multi-sig-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-service-list-multi-sig-serviced-36-7d6"
+  },
+  "/new-docs/docs/docs_zh/service-list/riscv-service": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-service-list-riscv-service-931-cae"
+  },
+  "/new-docs/docs/docs_zh/service-list/service-overview": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-service-list-service-overview-11-e-eb4"
+  },
+  "/new-docs/docs/docs_zh/setup/config": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-setup-config-927-c34"
+  },
+  "/new-docs/docs/docs_zh/setup/deploy": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-setup-deployd-62-484"
+  },
+  "/new-docs/docs/docs_zh/setup/genesis-config": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-setup-genesis-configb-0-d-17b"
+  },
+  "/new-docs/docs/docs_zh/setup/getting-started": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-setup-getting-startedc-3-a-609"
+  },
+  "/new-docs/docs/docs_zh/setup/node-config": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-setup-node-config-23-b-06e"
+  },
+  "/new-docs/docs/docs_zh/toolchain/benchmark-tool": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-toolchain-benchmark-toole-6-c-aec"
+  },
+  "/new-docs/docs/docs_zh/toolchain/explorer": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-toolchain-explorer-80-e-dd2"
+  },
+  "/new-docs/docs/docs_zh/toolchain/keypair": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-toolchain-keypair-358-488"
+  },
+  "/new-docs/docs/docs_zh/toolchain/muta-cli": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-toolchain-muta-clia-8-a-178"
+  },
+  "/new-docs/docs/docs_zh/toolchain/sdk-java": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-toolchain-sdk-java-198-cf4"
+  },
+  "/new-docs/docs/docs_zh/toolchain/sdk-js": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-docs-zh-toolchain-sdk-jsf-32-e06"
   },
   "/new-docs/docs/ref/faq": {
     "component": "component---theme-doc-item-178-a40",
@@ -385,6 +517,10 @@
   "/new-docs/docs/toolchain/keypair": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---new-docs-docs-toolchain-keypair-801-b67"
+  },
+  "/new-docs/docs/toolchain/muta-cli": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---new-docs-docs-toolchain-muta-cli-982-3c6"
   },
   "/new-docs/docs/toolchain/sdk-java": {
     "component": "component---theme-doc-item-178-a40",

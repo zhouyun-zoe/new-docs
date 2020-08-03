@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/service-list/gov-service",
+  "title": "Governance Service",
+  "description": "",
+  "source": "@site/docs/docs_zh/service-list/gov-service.md",
+  "permalink": "/new-docs/docs/docs_zh/service-list/gov-service",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/service-list/gov-service.md",
+  "sidebar": "docs_zh",
+  "previous": {
+    "title": "Multi-signature Service",
+    "permalink": "/new-docs/docs/docs_zh/service-list/multi-sig-service"
+  },
+  "next": {
+    "title": "RISC-V Service",
+    "permalink": "/new-docs/docs/docs_zh/service-list/riscv-service"
+  }
+}

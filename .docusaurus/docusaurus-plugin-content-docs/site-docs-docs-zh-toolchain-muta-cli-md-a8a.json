@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/toolchain/muta-cli",
+  "title": "Muta CLI",
+  "description": "on the way",
+  "source": "@site/docs/docs_zh/toolchain/muta-cli.md",
+  "permalink": "/new-docs/docs/docs_zh/toolchain/muta-cli",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/toolchain/muta-cli.md",
+  "sidebar": "docs_zh",
+  "previous": {
+    "title": "JAVA SDK",
+    "permalink": "/new-docs/docs/docs_zh/toolchain/sdk-java"
+  },
+  "next": {
+    "title": "Muta Explorer",
+    "permalink": "/new-docs/docs/docs_zh/toolchain/explorer"
+  }
+}

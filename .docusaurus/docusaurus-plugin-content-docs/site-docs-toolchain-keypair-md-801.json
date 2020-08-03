@@ -1,6 +1,6 @@
 {
   "id": "toolchain/keypair",
-  "title": "Keypair",
+  "title": "Muta Keypair Tool",
   "description": "What is Muta？",
   "source": "@site/docs/toolchain/keypair.md",
   "permalink": "/new-docs/docs/toolchain/keypair",
