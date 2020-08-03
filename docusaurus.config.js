@@ -29,12 +29,10 @@ module.exports = {
         { to: "blog/", label: "Blog", position: "left" },
         {
           to: "community/",
-          /* className: 'header-community-link',*/
           label: "Communtiy",
           position: "right",
         }, 
         {
-          /* className: 'header-translate-link', */
           label: "translate",
           position: 'right', 
           items: [
