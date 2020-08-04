@@ -1,6 +1,6 @@
 {
   "id": "docs_zh/dev/poe-chain",
-  "title": "Develop a POE Chain",
+  "title": "Develop an attestation service and build a POE chain",
   "description": "on the way",
   "source": "@site/docs/docs_zh/dev/poe-chain.md",
   "permalink": "/new-docs/docs/docs_zh/dev/poe-chain",
@@ -8,8 +8,8 @@
   "sidebar_label": "Develop a Service",
   "sidebar": "docs_zh",
   "previous": {
-    "title": "KYC Service",
-    "permalink": "/new-docs/docs/docs_zh/service-list/kyc-service"
+    "title": "Service List",
+    "permalink": "/new-docs/docs/docs_zh/dev/service-list"
   },
   "next": {
     "title": "Tutorial：使用 Muta 框架从零开发一条 Dex 专有链",

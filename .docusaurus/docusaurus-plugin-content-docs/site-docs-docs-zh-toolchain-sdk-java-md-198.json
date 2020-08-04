@@ -1,7 +1,7 @@
 {
   "id": "docs_zh/toolchain/sdk-java",
   "title": "JAVA SDK",
-  "description": "What is Muta？",
+  "description": "JAVA-SDK 是官方推出的基于 Java 的 SDK。",
   "source": "@site/docs/docs_zh/toolchain/sdk-java.md",
   "permalink": "/new-docs/docs/docs_zh/toolchain/sdk-java",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/toolchain/sdk-java.md",

@@ -3,13 +3,13 @@ title: Genesis Configuration
 description: The fundamental Muta concepts. A great place to start learning about Muta.
 ---
 
-In this section we will understand how to customize genesis parameters in `devtools/chain/genesis.toml` which affect the entire chain and network. 
+本文档将详细介绍如何配置创世块，配置文件为 `devtools/chain/genesis.toml` 。
 
-## Overview
+## 概览
 
-Genesis parameters are global to a blockchain, and most of them are critical to that blockchain’s consensus. Once the blockchain is initialized, most of these parameters cannot be changed. However, a small number can be updated using the metadata service and are marked as Upgradable below. All the nodes in a blockchain network should share the same `genesis.toml`.
+一条链的不同节点的创世块文件必须是相同的。链一启动，创世块的许多配置就不能改变了，在下面的参数解释里，我们会将可以改变的参数标注为”可升级“。
 
-Let's take a look at `devtools/chain/genesis.toml`.
+让我们先来看下 `devtools/chain/genesis.toml`：
 
 ```
 timestamp = 0
@@ -54,20 +54,19 @@ payload = '''
 }
 '''
 ```
-Let’s go line-by-line and understand what each parameter means.
 
-## Full list of blockchain parameters
+## 参数解释
 
-### Initialization parameters
+### 初始化参数
 
-| Parameter     | Description                                                                                                   |Default   |   |
+| 参数名称   | 参数解释                                                                                                  |默认值  |   |
 |:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--|
-| `timestamp`   | timestamp of genesis block, can be set to arbitrary timestamp. For example, it can be 0 or 00:00 on some day. |0         |   |
-| `prevhash`    | can be set to arbitrary value.                                                                                |0x        |   |
+| `timestamp`   | 创世块的时间戳，可以随意设置，配置成 0，或者当天 0 点的时间都可以。 |0         |   |
+| `prevhash`    | 可以随意设置，只会影响查询创世块时的字段显示。                                                                              |0x        |   |
 
-### Asset service parameters
+### Asset service 参数
 
-| Parameter     | Description                                                                                                   |Default   ||
+| 参数名称     | 参数解释                                                                                                   |默认值  ||
 |:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--   |
 | `id`          | 资产的唯一 id，建议设置成 hash ，以免在之后和链上其他资产重复                                                          |0         ||
 | `name`        | 资产名字                                                                                                        |0x        ||
@@ -75,9 +74,9 @@ Let’s go line-by-line and understand what each parameter means.
 | `supply`      | 资产发行总量                                                                                                     |          ||
 | `issuer`      | 发行方地址                                                                                                       |          ||
 
-### Metadata service parameters
+### Metadata service 参数
 
-| Parameter     | Description                                                                                                   |Default   |  |
+| 参数名称    | 参数解释                                                                                                   |默认值   |  |
 |:--------------|:--------------------------------------------------------------------------------------------------------------|:---      |:--- |
 | `chain_id`    | 链唯一 id，建议设置为任意 hash                                                                                    |          |  |
 | `common_ref`  | BLS 签名需要                                                                                                    |          |  |

@@ -1,0 +1,17 @@
+{
+  "id": "docs_zh/dev/service-list",
+  "title": "Service List",
+  "description": "在本文档里，将列举一些已实现的 Service 示例。包括：",
+  "source": "@site/docs/docs_zh/dev/service-list.md",
+  "permalink": "/new-docs/docs/docs_zh/dev/service-list",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/dev/service-list.md",
+  "sidebar": "docs_zh",
+  "previous": {
+    "title": "Service Dev Guide",
+    "permalink": "/new-docs/docs/docs_zh/dev/service-dev"
+  },
+  "next": {
+    "title": "Develop an attestation service and build a POE chain",
+    "permalink": "/new-docs/docs/docs_zh/dev/poe-chain"
+  }
+}

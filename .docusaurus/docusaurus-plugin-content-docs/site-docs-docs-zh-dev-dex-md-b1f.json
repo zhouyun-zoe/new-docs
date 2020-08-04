@@ -8,7 +8,7 @@
   "sidebar_label": "Develop a Dapp Chain",
   "sidebar": "docs_zh",
   "previous": {
-    "title": "Develop a POE Chain",
+    "title": "Develop an attestation service and build a POE chain",
     "permalink": "/new-docs/docs/docs_zh/dev/poe-chain"
   },
   "next": {

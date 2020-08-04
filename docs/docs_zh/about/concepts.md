@@ -5,48 +5,39 @@ description: The fundamental Muta concepts. A great place to start learning abou
 
 import Jump from '@site/src/components/Jump';
 
-It's worth getting familiar with the basic concepts that comprise Muta as they
-are used throughout the documentation. This knowledge will be helpful as you
-proceed and is also cool to brag about amongst friends.
+这个文档将带你熟悉一下 Muta 里的一些基本概念，这将有助于你后续的使用和探索。
 
-## Basics
+## 基本概念
 
-### Blockchain Framework
+### 区块链框架
 
 @yejiayu
 
-什么是区块链框架？
-为什么我们要做要做区块链框架Muta？
+### 账户
 
-### Account
+帐户标识了一个能够执行一系列操作的个体。每个用户可以拥有多个帐户。在 Muta 中，账户指定了一对公钥 PubKey 和私钥 PrivKey，PubKey 可以衍生出各种地址，用来标识网络中不同的个体。PrivKey 用于生成数字签名，以证明与 PrivKey 相关联的地址认可某项交易。
 
-An account represents a entity that is able to perform specified set of actions. It can be used to identify individual users and each user can have as many accounts as they would like. 
+<Jump to="/docs/advanced/crypto/">Muta 中使用到的密码学算法</Jump>
 
-In Muta, an account designates a pair of public key PubKey and private key PrivKey. The PubKey can be derived to generate various Addresses, which are used to identify users in the network. The PrivKey is used to generate digital signatures to prove that an Address associated with the PrivKey approved of a given transaction.
+### 交易
 
-<Jump to="/docs/advanced/crypto/">Learn about the cryptography used when creating a Account</Jump>
+交易是一组有序的命令，可以是关于资产的发行、转移，或者合约的部署。交易打包被执行后，链的世界状态将被改变。
 
-### Transaction
+<Jump to="/docs/advanced/key-concept/tx">Muta 中的交易</Jump>
 
-Transaction is ordered set of commands that makes the state change from the current state to the next state. It can be a funds transfer, a message call or a contract deployment. Transactions are bundled together into a block as a series to be executed as each is defined in the Framework.
+### 区块
 
-<Jump to="/docs/advanced/key-concept/tx">Learn more about Transaction in Muta</Jump>
+区块里存储了交易数据的相关信息，包括交易的内容和账户余额的变化。交易会在 Muta 的共识模块中被打包成块，并进行共识，共识后的区块将在执行模块中被执行。
 
-### Block
+<Jump to="/docs/advanced/block-structure/"> Muta 中的区块结构</Jump>
 
-A block in Muta is composed of a header and an array of transactions. Each block contains a hash of the previous block in header, all the way to the first block in the chain. This is how all the data is protected against modifications. 
+### 节点
 
-Blocks are proposed and produced during consensus by Validators, and then excuted in the Framework. 
+区块链网络一般是由多个节点构成，每个节点都运行了 Muta 客户端。它们都拥有整个区块链数据的副本，并通过点对点网络与其他节点进行通信。
 
-<Jump to="/docs/advanced/block-structure/">Learn more about Blocks</Jump>
+由于客户端配置的不同，节点可以分两种：共识节点和同步节点。他们都同步区块链的所有数据，不同之处在于共识节点会参与共识，而同步节点仅负责从监听的共识节点那里同步数据。
 
-### Node
-
-The Ethereum network is made up of many nodes, each of which runs Muta client software. They all have a copy of the entire blockchain data and communicate over the peer-to-peer network with other nodes. 
-
-There are two types of nodes: Validator and sync node. They all do the full synchronization of the blockchain, from the genesis block to the latest best block. The difference between them is that validator participats in consensus while sync node only synchronizes data from listening validator nodes。
-
-### Asset
+### 资产
 
 @Eason
 
@@ -54,9 +45,9 @@ There are two types of nodes: Validator and sync node. They all do the full sync
 
 @yejiayu
 
-## Advanced
+## 高级概念
 
-### Multisignature
+### 多重签名
 
 @Eason
 

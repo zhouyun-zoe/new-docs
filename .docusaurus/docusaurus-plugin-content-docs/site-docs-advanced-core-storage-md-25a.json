@@ -1,7 +1,7 @@
 {
   "id": "advanced/core/storage",
   "title": "Storage",
-  "description": "# 存储设计",
+  "description": "## 概述",
   "source": "@site/docs/advanced/core/storage.md",
   "permalink": "/new-docs/docs/advanced/core/storage",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/core/storage.md",

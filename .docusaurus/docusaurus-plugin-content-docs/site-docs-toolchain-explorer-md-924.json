@@ -1,7 +1,7 @@
 {
   "id": "toolchain/explorer",
   "title": "Muta Explorer",
-  "description": "What is Muta？",
+  "description": "",
   "source": "@site/docs/toolchain/explorer.md",
   "permalink": "/new-docs/docs/toolchain/explorer",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/toolchain/explorer.md"

@@ -65,59 +65,13 @@
           },
           {
             "type": "link",
-            "label": "Service Development Guide",
+            "label": "Service Dev Guide",
             "href": "/new-docs/docs/dev/service-dev"
           },
           {
-            "type": "category",
-            "label": "Service  List",
-            "items": [
-              {
-                "type": "link",
-                "label": "Overview",
-                "href": "/new-docs/docs/service-list/service-overview"
-              },
-              {
-                "type": "link",
-                "label": "Metadata Service",
-                "href": "/new-docs/docs/service-list/metadata-service"
-              },
-              {
-                "type": "link",
-                "label": "Asset Service",
-                "href": "/new-docs/docs/service-list/asset-service"
-              },
-              {
-                "type": "link",
-                "label": "Authorization Service",
-                "href": "/new-docs/docs/service-list/auth-service"
-              },
-              {
-                "type": "link",
-                "label": "Multi-signature Service",
-                "href": "/new-docs/docs/service-list/multi-sig-service"
-              },
-              {
-                "type": "link",
-                "label": "Governance Service",
-                "href": "/new-docs/docs/service-list/gov-service"
-              },
-              {
-                "type": "link",
-                "label": "RISC-V Service",
-                "href": "/new-docs/docs/service-list/riscv-service"
-              },
-              {
-                "type": "link",
-                "label": "Admission Control Service",
-                "href": "/new-docs/docs/service-list/admission-service"
-              },
-              {
-                "type": "link",
-                "label": "KYC Service",
-                "href": "/new-docs/docs/service-list/kyc-service"
-              }
-            ]
+            "type": "link",
+            "label": "Service List",
+            "href": "/new-docs/docs/dev/service-list"
           },
           {
             "type": "link",
@@ -156,7 +110,7 @@
               },
               {
                 "type": "link",
-                "label": "Network",
+                "label": "P2P Network",
                 "href": "/new-docs/docs/advanced/core/network"
               },
               {
@@ -275,7 +229,7 @@
           },
           {
             "type": "link",
-            "label": "Deployment",
+            "label": "多节点部署指南",
             "href": "/new-docs/docs/docs_zh/setup/deploy"
           }
         ]
@@ -291,59 +245,13 @@
           },
           {
             "type": "link",
-            "label": "Service Development Guide",
+            "label": "Service Dev Guide",
             "href": "/new-docs/docs/docs_zh/dev/service-dev"
           },
           {
-            "type": "category",
-            "label": "Service  List",
-            "items": [
-              {
-                "type": "link",
-                "label": "Overview",
-                "href": "/new-docs/docs/docs_zh/service-list/service-overview"
-              },
-              {
-                "type": "link",
-                "label": "Metadata Service",
-                "href": "/new-docs/docs/docs_zh/service-list/metadata-service"
-              },
-              {
-                "type": "link",
-                "label": "Asset Service",
-                "href": "/new-docs/docs/docs_zh/service-list/asset-service"
-              },
-              {
-                "type": "link",
-                "label": "Authorization Service",
-                "href": "/new-docs/docs/docs_zh/service-list/auth-service"
-              },
-              {
-                "type": "link",
-                "label": "Multi-signature Service",
-                "href": "/new-docs/docs/docs_zh/service-list/multi-sig-service"
-              },
-              {
-                "type": "link",
-                "label": "Governance Service",
-                "href": "/new-docs/docs/docs_zh/service-list/gov-service"
-              },
-              {
-                "type": "link",
-                "label": "RISC-V Service",
-                "href": "/new-docs/docs/docs_zh/service-list/riscv-service"
-              },
-              {
-                "type": "link",
-                "label": "Admission Control Service",
-                "href": "/new-docs/docs/docs_zh/service-list/admission-service"
-              },
-              {
-                "type": "link",
-                "label": "KYC Service",
-                "href": "/new-docs/docs/docs_zh/service-list/kyc-service"
-              }
-            ]
+            "type": "link",
+            "label": "Service List",
+            "href": "/new-docs/docs/docs_zh/dev/service-list"
           },
           {
             "type": "link",
@@ -373,7 +281,7 @@
           },
           {
             "type": "link",
-            "label": "Network",
+            "label": "P2P Network",
             "href": "/new-docs/docs/docs_zh/advanced/core/network"
           },
           {
@@ -414,17 +322,12 @@
           },
           {
             "type": "link",
-            "label": "Muta Explorer",
-            "href": "/new-docs/docs/docs_zh/toolchain/explorer"
-          },
-          {
-            "type": "link",
             "label": "Muta Benchmark Tool",
             "href": "/new-docs/docs/docs_zh/toolchain/benchmark-tool"
           },
           {
             "type": "link",
-            "label": "Keypair",
+            "label": "Muta Keypair Tool",
             "href": "/new-docs/docs/docs_zh/toolchain/keypair"
           }
         ]
@@ -461,6 +364,7 @@
     "/new-docs/docs/dev/dex": "docs",
     "/new-docs/docs/dev/poe-chain": "docs",
     "/new-docs/docs/dev/service-dev": "docs",
+    "/new-docs/docs/dev/service-list": "docs",
     "/new-docs/docs/docs_zh/about/concepts": "docs_zh",
     "/new-docs/docs/docs_zh/about/what-is-muta": "docs_zh",
     "/new-docs/docs/docs_zh/advanced/arch": "docs_zh",
@@ -473,37 +377,19 @@
     "/new-docs/docs/docs_zh/dev/dex": "docs_zh",
     "/new-docs/docs/docs_zh/dev/poe-chain": "docs_zh",
     "/new-docs/docs/docs_zh/dev/service-dev": "docs_zh",
+    "/new-docs/docs/docs_zh/dev/service-list": "docs_zh",
     "/new-docs/docs/docs_zh/ref/faq": "docs_zh",
-    "/new-docs/docs/docs_zh/service-list/admission-service": "docs_zh",
-    "/new-docs/docs/docs_zh/service-list/asset-service": "docs_zh",
-    "/new-docs/docs/docs_zh/service-list/auth-service": "docs_zh",
-    "/new-docs/docs/docs_zh/service-list/gov-service": "docs_zh",
-    "/new-docs/docs/docs_zh/service-list/kyc-service": "docs_zh",
-    "/new-docs/docs/docs_zh/service-list/metadata-service": "docs_zh",
-    "/new-docs/docs/docs_zh/service-list/multi-sig-service": "docs_zh",
-    "/new-docs/docs/docs_zh/service-list/riscv-service": "docs_zh",
-    "/new-docs/docs/docs_zh/service-list/service-overview": "docs_zh",
     "/new-docs/docs/docs_zh/setup/config": "docs_zh",
     "/new-docs/docs/docs_zh/setup/deploy": "docs_zh",
     "/new-docs/docs/docs_zh/setup/genesis-config": "docs_zh",
     "/new-docs/docs/docs_zh/setup/getting-started": "docs_zh",
     "/new-docs/docs/docs_zh/setup/node-config": "docs_zh",
     "/new-docs/docs/docs_zh/toolchain/benchmark-tool": "docs_zh",
-    "/new-docs/docs/docs_zh/toolchain/explorer": "docs_zh",
     "/new-docs/docs/docs_zh/toolchain/keypair": "docs_zh",
     "/new-docs/docs/docs_zh/toolchain/muta-cli": "docs_zh",
     "/new-docs/docs/docs_zh/toolchain/sdk-java": "docs_zh",
     "/new-docs/docs/docs_zh/toolchain/sdk-js": "docs_zh",
     "/new-docs/docs/ref/faq": "docs",
-    "/new-docs/docs/service-list/admission-service": "docs",
-    "/new-docs/docs/service-list/asset-service": "docs",
-    "/new-docs/docs/service-list/auth-service": "docs",
-    "/new-docs/docs/service-list/gov-service": "docs",
-    "/new-docs/docs/service-list/kyc-service": "docs",
-    "/new-docs/docs/service-list/metadata-service": "docs",
-    "/new-docs/docs/service-list/multi-sig-service": "docs",
-    "/new-docs/docs/service-list/riscv-service": "docs",
-    "/new-docs/docs/service-list/service-overview": "docs",
     "/new-docs/docs/setup/config": "docs",
     "/new-docs/docs/setup/deploy": "docs",
     "/new-docs/docs/setup/genesis-config": "docs",

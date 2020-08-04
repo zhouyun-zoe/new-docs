@@ -274,6 +274,12 @@ export default [
   
 },
 {
+  path: '/new-docs/docs/dev/service-list',
+  component: ComponentCreator('/new-docs/docs/dev/service-list'),
+  exact: true,
+  
+},
+{
   path: '/new-docs/docs/docs_zh/about/concepts',
   component: ComponentCreator('/new-docs/docs/docs_zh/about/concepts'),
   exact: true,
@@ -328,20 +334,14 @@ export default [
   
 },
 {
-  path: '/new-docs/docs/docs_zh/advanced/data-structure',
-  component: ComponentCreator('/new-docs/docs/docs_zh/advanced/data-structure'),
-  exact: true,
-  
-},
-{
   path: '/new-docs/docs/docs_zh/advanced/multisignature',
   component: ComponentCreator('/new-docs/docs/docs_zh/advanced/multisignature'),
   exact: true,
   
 },
 {
-  path: '/new-docs/docs/docs_zh/config/multi_node_deploy',
-  component: ComponentCreator('/new-docs/docs/docs_zh/config/multi_node_deploy'),
+  path: '/new-docs/docs/docs_zh/advanced/transaction-block',
+  component: ComponentCreator('/new-docs/docs/docs_zh/advanced/transaction-block'),
   exact: true,
   
 },
@@ -370,62 +370,14 @@ export default [
   
 },
 {
+  path: '/new-docs/docs/docs_zh/dev/service-list',
+  component: ComponentCreator('/new-docs/docs/docs_zh/dev/service-list'),
+  exact: true,
+  
+},
+{
   path: '/new-docs/docs/docs_zh/ref/faq',
   component: ComponentCreator('/new-docs/docs/docs_zh/ref/faq'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/docs_zh/service-list/admission-service',
-  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/admission-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/docs_zh/service-list/asset-service',
-  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/asset-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/docs_zh/service-list/auth-service',
-  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/auth-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/docs_zh/service-list/gov-service',
-  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/gov-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/docs_zh/service-list/kyc-service',
-  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/kyc-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/docs_zh/service-list/metadata-service',
-  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/metadata-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/docs_zh/service-list/multi-sig-service',
-  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/multi-sig-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/docs_zh/service-list/riscv-service',
-  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/riscv-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/docs_zh/service-list/service-overview',
-  component: ComponentCreator('/new-docs/docs/docs_zh/service-list/service-overview'),
   exact: true,
   
 },
@@ -498,60 +450,6 @@ export default [
 {
   path: '/new-docs/docs/ref/faq',
   component: ComponentCreator('/new-docs/docs/ref/faq'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/service-list/admission-service',
-  component: ComponentCreator('/new-docs/docs/service-list/admission-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/service-list/asset-service',
-  component: ComponentCreator('/new-docs/docs/service-list/asset-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/service-list/auth-service',
-  component: ComponentCreator('/new-docs/docs/service-list/auth-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/service-list/gov-service',
-  component: ComponentCreator('/new-docs/docs/service-list/gov-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/service-list/kyc-service',
-  component: ComponentCreator('/new-docs/docs/service-list/kyc-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/service-list/metadata-service',
-  component: ComponentCreator('/new-docs/docs/service-list/metadata-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/service-list/multi-sig-service',
-  component: ComponentCreator('/new-docs/docs/service-list/multi-sig-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/service-list/riscv-service',
-  component: ComponentCreator('/new-docs/docs/service-list/riscv-service'),
-  exact: true,
-  
-},
-{
-  path: '/new-docs/docs/service-list/service-overview',
-  component: ComponentCreator('/new-docs/docs/service-list/service-overview'),
   exact: true,
   
 },

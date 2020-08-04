@@ -8,11 +8,11 @@
   "sidebar_label": "Overview",
   "sidebar": "docs_zh",
   "previous": {
-    "title": "Deployment",
+    "title": "多节点部署指南",
     "permalink": "/new-docs/docs/docs_zh/setup/deploy"
   },
   "next": {
-    "title": "Service Development Guide",
+    "title": "Service Dev Guide",
     "permalink": "/new-docs/docs/docs_zh/dev/service-dev"
   }
 }

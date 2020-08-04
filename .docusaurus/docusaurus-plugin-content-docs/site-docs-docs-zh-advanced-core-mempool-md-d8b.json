@@ -7,7 +7,7 @@
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/advanced/core/mempool.md",
   "sidebar": "docs_zh",
   "previous": {
-    "title": "Network",
+    "title": "P2P Network",
     "permalink": "/new-docs/docs/docs_zh/advanced/core/network"
   },
   "next": {

@@ -1,4 +1,0 @@
----
-title: Admission Control Service
----
-

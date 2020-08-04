@@ -1,0 +1,17 @@
+{
+  "id": "dev/service-list",
+  "title": "Service List",
+  "description": "In this document, some examples of implemented services will be listed. These include:",
+  "source": "@site/docs/dev/service-list.md",
+  "permalink": "/new-docs/docs/dev/service-list",
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/dev/service-list.md",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Service Dev Guide",
+    "permalink": "/new-docs/docs/dev/service-dev"
+  },
+  "next": {
+    "title": "Develop an attestation service and build a POE chain",
+    "permalink": "/new-docs/docs/dev/poe-chain"
+  }
+}

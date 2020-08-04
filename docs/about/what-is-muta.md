@@ -136,16 +136,7 @@ As an entrepreneurial team, we are still recruiting excellent developers :heart:
 [service-dev]: ../dev/service-dev.md
 [poe-chain]: ../dev/poe-chain.md
 [dex]: ../dev/dex.md
-
-
-[service-list]: ../service-list/service-overview.md
-[metadata-service]: ../service-list/metadata-service.md
-[asset-service]: ../service-list/asset-service.md
-[auth-service]: ../service-list/auth-service.md
-[multi-sig-service]: ../service-list/multi-sig-service.md
-[gov-service]: ../service-list/gov-service.md
-[riscv-service]: ../service-list/riscv-service.md
-[admission-service]: ../service-list/admission-service.md
+[service-list]: ../dev/service-list.md
 
 [arch]: ../advanced/arch.md
 [overlord]: ../advanced/core/overlord.md

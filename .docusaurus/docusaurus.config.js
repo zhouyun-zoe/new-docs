@@ -151,12 +151,12 @@ export default {
           "position": "right"
         },
         {
-          "label": "translate",
+          "label": "Translate",
           "position": "right",
           "items": [
             {
               "label": "中文",
-              "to": "docs-zh/what-is-muta"
+              "to": "docs/docs_zh/about/what-is-muta"
             },
             {
               "label": "English",

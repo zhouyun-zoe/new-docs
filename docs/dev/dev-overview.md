@@ -6,42 +6,42 @@ title: Development Overview
 import Step from '@site/src/components/Step';
 import Jump from '@site/src/components/Jump';
 
-在该章节，我们将为你详细介绍如何通过开发 Service 对链的功能进行定制。Service 是 Muta 框架中用于扩展的抽象层，每个 Service 完成一个相对独立的功能，单独维护自己的存储和操作接口，类似一个运行在沙盒里的小型状态机，这些 Service 共同组成了链的状态机部分，通过框架接口将状态机接入区块链底层组件，一条专属你的全新链就开发完成了！
+In this section, we'll show you how to customize the chain's functionality by developing a Service. Service is the abstraction layer in the Muta framework for extensions, where each Service performs a relatively independent function, maintaining its own storage and operational interfaces, similar to a Small state machine. These services together form the state machine part of the chain and after being connected to the underlying components of the blockchain through the framework interface, a brand new chain exclusive to you is developed!
 
-## 学习路径
+## Learning Path
 
 <Step headingDepth={3}>
 <ol>
 <li>
 
-### 阅读 Service 开发指南
+### Read the Service Development Guide
    
-该文档主要介绍了 Service 的组成和开发指南
+This document describes service components and development guidelines.
 
 <Jump to="../service-dev/">View Service Dev Guide</Jump>
 
 </li>
 <li>
 
-### 参考目前已有的 Service，进一步学习如何开发 Service
+### Learn more about developing services with reference to existing services.
 
-我们提供了许多通用的 Service 可供参考和使用，涉及治理，资产，多签等等。
+We provide a number of generic services for reference and use, covering governance, assets, multi-signature and more.
 
-<Jump to="../../service-list/service-overview">View Service List</Jump>
+<Jump to="../../dev/service-list/">View Service List</Jump>
 
 </li>
 <li>
 
-### 尝试开发一个简单 attestation（存证）Service，搭建一条存证链
+### Try to develop a simple attestation service to build a POE chain.
 
-在该教程中，我们将带你从头开发一个简单的存证 Service，并且接入 Muta，进而搭建一条存证链。
+In this tutorial, we will take you through the development of a simple certificate of deposit service from scratch and connect to Muta to build a POE chain.
 
 <Jump to="../poe-chain/">Develop A attestation Service</Jump>
 
 </li>
 <li>
 
-### 学习开发更为复杂的应用 - 去中心化交易所
+### Learn to develop more complex applications - decentralized exchanges
 
 <Jump to="../dex/">Build a DEX</Jump>
 
@@ -49,17 +49,17 @@ import Jump from '@site/src/components/Jump';
 </ol>
 </Step>
 
-## 内置 Service 说明
+## Built-in Service Declaration
 
-目前 Muta 框架源代码目前内置了四个 built-in Service：Metadata Service、Asset Service、Authorization service 和 Multi-signature service。编译完成，起链之前，对链进行配置的时候。Metadata Service 相关的配置项为起链所必须的配置项。 其他 Service 为可选配置，开发者可以根据实际需求决定是否要在创世块中进行配置。
+The Muta framework source code currently has four built-in built-in services: Metadata Service, Asset Service, Authorization service and Multi-signature service. The configuration items related to the Metadata Service are necessary to start the chain. The other services are optional and can be configured in the Genesis block according to the developer's needs.
 
-<Jump to="../../service-list/metadata-service/">Metadata Service</Jump>
+<Jump to="../service-list/">Metadata Service</Jump>
 
-<Jump to="../../service-list/asset-service/">Asset Service</Jump>
+<Jump to="../service-list/">Asset Service</Jump>
 
-<Jump to="../../service-list/auth-service/">Authorization Service</Jump>
+<Jump to="../service-list/">Authorization Service</Jump>
 
-<Jump to="../../service-list/multi-sig-service/">Multi-signature Service</Jump>
+<Jump to="../service-list/">Multi-signature Service</Jump>
 
 
 

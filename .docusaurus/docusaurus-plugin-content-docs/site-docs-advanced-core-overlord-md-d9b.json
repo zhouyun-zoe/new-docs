@@ -1,7 +1,7 @@
 {
   "id": "advanced/core/overlord",
   "title": "Overlord",
-  "description": "- [目标](#目标)",
+  "description": "## 目标",
   "source": "@site/docs/advanced/core/overlord.md",
   "permalink": "/new-docs/docs/advanced/core/overlord",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/advanced/core/overlord.md",
@@ -11,7 +11,7 @@
     "permalink": "/new-docs/docs/advanced/transaction-block"
   },
   "next": {
-    "title": "Network",
+    "title": "P2P Network",
     "permalink": "/new-docs/docs/advanced/core/network"
   }
 }

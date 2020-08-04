@@ -285,18 +285,15 @@ $ muta-cli repl
 $ muta-cli repl
 > const asset_id = MT.response.response.succeedData.id
 
-# 发行者即为发交易的账户地址
 > account.address
 '0x9d1d1bb11c44500603971a245f55a23f65148eee'
 
-# 查询发行者余额
 > await client.queryService({serviceName: 'asset', method: 'get_balance', payload: JSON.stringify({asset_id: asset_id, user: account.address})})
 { 
   isError: false,
   ret: '{"asset_id":"0xe8c2c6606030bc93da018cec5e6400845489b471527d507357b3316ae884a3f3","user":"0x9d1d1bb11c44500603971a245f55a23f65148eee","balance":1000000000}' 
 }
 
-# 转账
 > const to = accounts[1].address;
 
 > await as.write.transfer({asset_id: asset_id, to, value: 100});
@@ -318,7 +315,6 @@ $ muta-cli repl
   }
 }
 
-# 查看转账结果
 > await client.queryService({ serviceName: 'asset', method: 'get_balance', payload: JSON.stringify({asset_id: asset_id, user: account.address})})
 {
   code: '0x0000000000000000',

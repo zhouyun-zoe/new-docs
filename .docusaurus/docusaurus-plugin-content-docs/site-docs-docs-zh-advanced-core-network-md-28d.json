@@ -1,7 +1,7 @@
 {
   "id": "docs_zh/advanced/core/network",
-  "title": "Network",
-  "description": "## 当前目标",
+  "title": "P2P Network",
+  "description": "网络模块是为共识和交易池两个模块提供消息收发的能力。",
   "source": "@site/docs/docs_zh/advanced/core/network.md",
   "permalink": "/new-docs/docs/docs_zh/advanced/core/network",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/advanced/core/network.md",

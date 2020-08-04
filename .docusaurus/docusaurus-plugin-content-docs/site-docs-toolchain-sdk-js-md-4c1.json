@@ -1,7 +1,7 @@
 {
   "id": "toolchain/sdk-js",
   "title": "JS SDK",
-  "description": "What is Muta？",
+  "description": "JS-SDK 是官方推出的基于 JavaScript 的 SDK。",
   "source": "@site/docs/toolchain/sdk-js.md",
   "permalink": "/new-docs/docs/toolchain/sdk-js",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/toolchain/sdk-js.md",

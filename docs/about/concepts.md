@@ -15,9 +15,6 @@ proceed and is also cool to brag about amongst friends.
 
 @yejiayu
 
-什么是区块链框架？
-为什么我们要做要做区块链框架Muta？
-
 ### Account
 
 An account represents a entity that is able to perform specified set of actions. It can be used to identify individual users and each user can have as many accounts as they would like. 

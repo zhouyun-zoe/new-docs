@@ -1,7 +1,7 @@
 {
   "id": "toolchain/benchmark-tool",
   "title": "Muta Benchmark Tool",
-  "description": "What is Muta？",
+  "description": "[Muta Benchmark Tool](https://github.com/nervosnetwork/muta-benchmark) can be used to benchmark muta-based blockchain performance.",
   "source": "@site/docs/toolchain/benchmark-tool.md",
   "permalink": "/new-docs/docs/toolchain/benchmark-tool",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/toolchain/benchmark-tool.md",

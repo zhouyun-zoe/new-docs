@@ -27,7 +27,7 @@ import Jump from '@site/src/components/Jump';
 
 我们提供了许多通用的 Service 可供参考和使用，涉及治理，资产，多签等等。
 
-<Jump to="../../service-list/service-overview">View Service List</Jump>
+<Jump to="../../dev/service-list/">View Service List</Jump>
 
 </li>
 <li>

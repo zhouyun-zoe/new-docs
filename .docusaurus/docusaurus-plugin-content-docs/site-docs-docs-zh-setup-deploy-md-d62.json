@@ -1,7 +1,7 @@
 {
   "id": "docs_zh/setup/deploy",
-  "title": "Deployment",
-  "description": "The fundamental Muta concepts. A great place to start learning about Muta.",
+  "title": "多节点部署指南",
+  "description": "## 生成公私钥",
   "source": "@site/docs/docs_zh/setup/deploy.md",
   "permalink": "/new-docs/docs/docs_zh/setup/deploy",
   "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/setup/deploy.md",

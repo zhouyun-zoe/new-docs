@@ -1,17 +1,8 @@
 {
   "id": "docs_zh/toolchain/explorer",
   "title": "Muta Explorer",
-  "description": "What is Muta？",
+  "description": "",
   "source": "@site/docs/docs_zh/toolchain/explorer.md",
   "permalink": "/new-docs/docs/docs_zh/toolchain/explorer",
-  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/toolchain/explorer.md",
-  "sidebar": "docs_zh",
-  "previous": {
-    "title": "Muta CLI",
-    "permalink": "/new-docs/docs/docs_zh/toolchain/muta-cli"
-  },
-  "next": {
-    "title": "Muta Benchmark Tool",
-    "permalink": "/new-docs/docs/docs_zh/toolchain/benchmark-tool"
-  }
+  "editUrl": "https://github.com/nervosnetwork/muta/edit/master/website/docs/docs_zh/toolchain/explorer.md"
 }
