@@ -15,11 +15,6 @@ In this document, some examples of implemented services will be listed. These in
 
 The Huobichain Service is also open source on GitHub, so please follow Huobichain's open source license for reference.
 
-* [RISC-V Service](https://github.com/HuobiGroup/huobi-chain/tree/master/services/riscv)：支持用户用 c 语言进行合约的开发。
-* [Governance Service](https://github.com/HuobiGroup/huobi-chain/tree/master/services/governance)：支持动态添加、删除节点，以及一些专有的业务逻辑。
-* [AdmissionControl Service](https://github.com/HuobiGroup/huobi-chain/tree/master/services/admission_control)：一个接入authorization的实现，提供了一些额外的校验逻辑。
-* [kyc Service](https://github.com/HuobiGroup/huobi-chain/tree/master/services/kyc)：一个简单的KYC服务。
-
 * [RISC-V Service](https://github.com/HuobiGroup/huobi-chain/tree/master/services/riscv): Supports the development of contracts in c.
 * [Governance Service](https://github.com/HuobiGroup/huobi-chain/tree/master/services/governance): supports dynamic addition and deletion of nodes, as well as some proprietary business logic.
 * [AdmissionControl Service](https://github.com/HuobiGroup/huobi-chain/tree/master/services/admission_control): an access authorization Implementation that provides some additional checking logic.
