@@ -2,8 +2,6 @@
 title: Architecture
 ---
 
-/// [demo]
-
 ## System Architecture
 ![](../../../../static/docs-img/arch/arch.png)
 
@@ -53,5 +51,3 @@ title: Architecture
 ## Execution Block
 
 ![](../../../../static/docs-img/arch/execution-block.png)
-
-/// [demo]
