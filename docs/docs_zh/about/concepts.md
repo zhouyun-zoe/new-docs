@@ -1,5 +1,5 @@
 ---
-title: Basic Concepts
+title: 基本概念
 description: The fundamental Muta concepts. A great place to start learning about Muta.
 ---
 

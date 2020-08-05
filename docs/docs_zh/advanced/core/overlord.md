@@ -1,6 +1,5 @@
 ---
-id: overlord
-title: Overlord
+title: Overlord 共识
 ---
 
 import Alert from '@site/src/components/Alert';

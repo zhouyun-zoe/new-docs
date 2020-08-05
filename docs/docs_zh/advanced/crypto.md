@@ -1,9 +1,6 @@
 ---
-id: crypto
-title: Cryptography
+title: 密码学
 ---
-
-## Muta 中使用到的密码学算法
 
 Muta 使用 secp256k1 参数以实现椭圆曲线数字签名算法(ECDSA) 的功能
 

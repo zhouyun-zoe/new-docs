@@ -1,5 +1,5 @@
 ---
-title: Configuration
+title: 配置介绍
 sidebar_label: hidden
 description: Configuring a blockchain
 ---

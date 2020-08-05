@@ -1,6 +1,5 @@
 ---
-id: network
-title: P2P Network
+title: P2P 网络
 ---
 
 网络模块是为共识和交易池两个模块提供消息收发的能力。

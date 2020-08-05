@@ -1,6 +1,5 @@
 ---
-sidebar_label: Overview
-title: Development Overview
+title: 开发概览
 ---
 
 import Step from '@site/src/components/Step';

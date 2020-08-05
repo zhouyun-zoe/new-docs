@@ -1,5 +1,5 @@
 ---
-title: Genesis Configuration
+title: 创世块配置
 description: The fundamental Muta concepts. A great place to start learning about Muta.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Node Configuration
+title: 节点运行配置
 description: The fundamental Muta concepts. A great place to start learning about Muta.
 ---
 

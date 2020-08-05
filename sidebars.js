@@ -84,7 +84,7 @@ module.exports = {
   docs_zh: [
     {
       type: 'category',
-      label: 'About',
+      label: '介绍',
       items: [
         "docs_zh/about/what-is-muta",
         "docs_zh/about/concepts",
@@ -92,12 +92,12 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Setup',
+      label: '开始',
       items: [
         "docs_zh/setup/getting-started",
         {
           type: 'category',
-          label: 'Configuration',
+          label: '配置',
           items: [
             "docs_zh/setup/config",
             "docs_zh/setup/genesis-config",
@@ -109,7 +109,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Development',
+      label: '开发',
       items: [
         "docs_zh/dev/dev-overview",
         "docs_zh/dev/service-dev",
@@ -120,7 +120,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Advanced',
+      label: '深入 Muta',
       items: [
         "docs_zh/advanced/arch",
         "docs_zh/advanced/core/overlord",
@@ -132,7 +132,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Toolchain',
+      label: '工具链',
       items: [
         "docs_zh/toolchain/sdk-js",
         "docs_zh/toolchain/sdk-java",
@@ -143,7 +143,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Reference',
+      label: '参考',
       items: [
         "docs_zh/ref/faq",
         {

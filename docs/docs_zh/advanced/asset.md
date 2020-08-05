@@ -1,6 +1,5 @@
 ---
-title: Asset
-description: Native Asset in Muta
+title: 资产
 ---
 
 on the way

@@ -149,6 +149,7 @@ As an entrepreneurial team, we are still recruiting excellent developers :heart:
 [sdk-js]: ../toolchain/sdk-js.md
 [benchmark-tool]: ../toolchain/benchmark-tool
 [keypair]: ../toolchain/keypair.md
+[muta-cli]: ../toolchain//muta-cli.md
 
 [benchmark-muta]: ../../../guides/getting-started/benchmark
 [monitor]: ../../../guides/getting-started/monitor

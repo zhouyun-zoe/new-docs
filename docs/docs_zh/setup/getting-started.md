@@ -1,5 +1,5 @@
 ---
-title: Getting Started
+title: 快速开始
 description: Building your own blockchain with Muta, the "Hello World" of Muta tutorials.
 ---
 

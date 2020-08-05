@@ -1,4 +1,5 @@
 ---
+sidebar_label: 部署
 title:  多节点部署指南
 ---
 

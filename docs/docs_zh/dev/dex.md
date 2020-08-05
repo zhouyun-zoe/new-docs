@@ -1,6 +1,6 @@
 ---
-sidebar_label: Develop a Dapp Chain
-title: Tutorial：使用 Muta 框架从零开发一条 Dex 专有链
+sidebar_label: Dapp 开发
+title: 使用 Muta 框架从零开发一条 Dex 专有链
 ---
 
 我们的目标是开发一条链上挂单、链上撮合、链上成交的简易 dex 专有链，旨在通过 step by step 的流程，帮助开发者熟悉 Muta 框架，学会如何使用框架开发自己的区块链。
