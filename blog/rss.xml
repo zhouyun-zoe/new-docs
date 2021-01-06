@@ -7,7 +7,7 @@
         <lastBuildDate>Mon, 11 May 2020 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <copyright>Copyright © 2020 Timber, Inc.</copyright>
+        <copyright>Copyright © 2021 Timber, Inc.</copyright>
         <item>
             <title><![CDATA[共识算法发展历程（从 Paxos 聊起...)]]></title>
             <link>https://zhouyun-zoe.github.io/new-docs/blog/consensus-cangshu</link>

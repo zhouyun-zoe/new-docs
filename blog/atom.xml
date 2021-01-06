@@ -7,7 +7,7 @@
     <link rel="alternate" href="https://zhouyun-zoe.github.io/blog"/>
     <subtitle>Muta Blog</subtitle>
     <icon>https://zhouyun-zoe.github.io/img/muta-logo.png</icon>
-    <rights>Copyright © 2020 Timber, Inc.</rights>
+    <rights>Copyright © 2021 Timber, Inc.</rights>
     <entry>
         <title type="html"><![CDATA[共识算法发展历程（从 Paxos 聊起...)]]></title>
         <id>consensus-cangshu</id>
